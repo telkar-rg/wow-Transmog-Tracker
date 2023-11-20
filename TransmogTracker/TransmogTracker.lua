@@ -5,6 +5,8 @@ local addon = TransmogTracker
 
 
 local db
+local playerName = "PLAYER"
+local TmogNpcGuid = "0xF1300F6D19"
 
 
 local ADDON_NAME_SHORT = "TMT"
@@ -22,9 +24,11 @@ function addon:OnInitialize()
 	print("OnInitialize")
 	
 	db = LibStub("AceDB-3.0"):New(ADDON_NAME.."_DB")
-	db.global = db.global or {}
+	-- db.char.CHAT_MSG_SYSTEM = db.char.CHAT_MSG_SYSTEM or {}
+	db.char.item_ids = db.char.item_ids or {}
 	
 	addon:RegisterEvent("PLAYER_ENTERING_WORLD")
+	addon:RegisterEvent("CHAT_MSG_SYSTEM")
 end
 
 function addon:OnEnable()
@@ -52,6 +56,26 @@ end
 
 
 function addon:PLAYER_ENTERING_WORLD()
-	
+	print( "PLAYER_ENTERING_WORLD" )
+	playerName = UnitName("player")
 end
+
+local pattern_long  = "^Freigeschaltetes Aussehen zur Transmogrifizierung: \124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r$"
+-- local pattern_short  = "^\124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r$"
+
+function addon:CHAT_MSG_SYSTEM( event, msg )
+	-- print(msg)
+    local itemId, itemName = strmatch( msg, pattern_long )
+	if not itemId then return end
+	
+	itemId = tonumber(itemId)
+	if not itemId then return end
+	
+	-- if not db.char.item_ids[itemId] then
+		-- print(format("Transmog Tracking: %s", itemName))
+	-- end
+	db.char.item_ids[itemId] = 1
+end
+
+-- CHAT_MSG_SYSTEM Freigeschaltetes Aussehen zur Transmogrifizierung: !cffffffff!Hitem:2901:0:0:0:0:0:0:0:0!h[Spitzhacke]!h!r
 
