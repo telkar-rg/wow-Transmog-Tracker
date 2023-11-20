@@ -1,0 +1,11 @@
+## Author: Telkar (Rising Gods)
+## Interface: 30300
+## Title: Transmog-Tracker for RG
+## SavedVariables: TransmogTracker_DB
+
+embeds.xml
+
+Locale/enUS.lua
+Locale/deDE.lua
+
+TransmogTracker.lua
