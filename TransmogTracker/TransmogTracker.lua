@@ -27,8 +27,9 @@ function addon:OnInitialize()
 	-- db.char.CHAT_MSG_SYSTEM = db.char.CHAT_MSG_SYSTEM or {}
 	db.char.item_ids = db.char.item_ids or {}
 	
-	addon:RegisterEvent("PLAYER_ENTERING_WORLD")
+	-- addon:RegisterEvent("PLAYER_ENTERING_WORLD")
 	addon:RegisterEvent("CHAT_MSG_SYSTEM")
+	addon:RegisterEvent("GOSSIP_SHOW")
 end
 
 function addon:OnEnable()
@@ -60,8 +61,10 @@ function addon:PLAYER_ENTERING_WORLD()
 	playerName = UnitName("player")
 end
 
+
+-- CHAT_MSG_SYSTEM Freigeschaltetes Aussehen zur Transmogrifizierung: !cffffffff!Hitem:2901:0:0:0:0:0:0:0:0!h[Spitzhacke]!h!r
 local pattern_long  = "^Freigeschaltetes Aussehen zur Transmogrifizierung: \124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r$"
--- local pattern_short  = "^\124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r$"
+local pattern_short  = "(\124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r)"
 
 function addon:CHAT_MSG_SYSTEM( event, msg )
 	-- print(msg)
@@ -77,5 +80,26 @@ function addon:CHAT_MSG_SYSTEM( event, msg )
 	db.char.item_ids[itemId] = 1
 end
 
--- CHAT_MSG_SYSTEM Freigeschaltetes Aussehen zur Transmogrifizierung: !cffffffff!Hitem:2901:0:0:0:0:0:0:0:0!h[Spitzhacke]!h!r
+
+function addon:GOSSIP_SHOW()
+	local GossipText = GetGossipText()
+
+	if strfind(GossipText, "Splitter der Illusion") then
+		local GossipOptions = { GetGossipOptions() }
+		local itemId, itemName
+		
+		for k,line in pairs(GossipOptions) do
+			itemLink, itemId, itemName = strmatch( line, pattern_short )
+			if itemId then
+				itemId = tonumber(itemId)
+			end
+			if itemId then
+				if not db.char.item_ids[itemId] then
+					print(format("Tracking: %s", itemLink))
+				end
+				db.char.item_ids[itemId] = 1
+			end
+		end
+	end
+end
 
