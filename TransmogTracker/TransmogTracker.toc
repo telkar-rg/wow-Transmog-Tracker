@@ -8,4 +8,6 @@ embeds.xml
 Locale/enUS.lua
 Locale/deDE.lua
 
+UniqueDisplay.lua
+
 TransmogTracker.lua
