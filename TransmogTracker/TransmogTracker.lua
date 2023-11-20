@@ -7,6 +7,7 @@ local addon = TransmogTracker
 local db
 local playerName = "PLAYER"
 local TmogNpcGuid = "0xF1300F6D19"
+local UniqueDisplay = ADDON_TABLE["UniqueDisplay"]
 
 
 local ADDON_NAME_SHORT = "TMT"
@@ -77,7 +78,7 @@ function addon:CHAT_MSG_SYSTEM( event, msg )
 	-- if not db.char.item_ids[itemId] then
 		-- print(format("Transmog Tracking: %s", itemName))
 	-- end
-	db.char.item_ids[itemId] = 1
+	addon:setDisplayId(itemId)
 end
 
 
@@ -97,9 +98,18 @@ function addon:GOSSIP_SHOW()
 				if not db.char.item_ids[itemId] then
 					print(format("Tracking: %s", itemLink))
 				end
-				db.char.item_ids[itemId] = 1
+				
+				addon:setDisplayId(itemId)
 			end
 		end
+	end
+end
+
+
+function addon:setDisplayId(itemId)
+	db.char.item_ids[itemId] = 1
+	if UniqueDisplay[itemId] then
+		db.char.item_ids[ UniqueDisplay[itemId] ] = 1
 	end
 end
 
