@@ -3,6 +3,7 @@
 local addon = LibStub("AceAddon-3.0"):NewAddon(ADDON_NAME, "AceConsole-3.0", "AceHook-3.0", "AceEvent-3.0", "AceTimer-3.0")
 _G[ADDON_NAME] = addon
 
+local L = LibStub("AceLocale-3.0"):GetLocale(ADDON_NAME)
 
 local db
 -- local playerName = "PLAYER"
@@ -88,12 +89,12 @@ end
 
 
 -- CHAT_MSG_SYSTEM Freigeschaltetes Aussehen zur Transmogrifizierung: !cffffffff!Hitem:2901:0:0:0:0:0:0:0:0!h[Spitzhacke]!h!r
-local pattern_long  = "^Freigeschaltetes Aussehen zur Transmogrifizierung: \124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r$"
+-- local pattern_long  = "^Freigeschaltetes Aussehen zur Transmogrifizierung: \124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r$"
 local pattern_short  = "(\124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r)"
 
 function addon:CHAT_MSG_SYSTEM( event, msg )
 	-- print(msg)
-    local itemId, itemName = strmatch( msg, pattern_long )
+    local itemId, itemName = strmatch( msg, L["CHAT_MSG_SYSTEM_PATTERN"] )
 	if not itemId then return end
 	
 	itemId = tonumber(itemId)
@@ -109,7 +110,7 @@ end
 function addon:GOSSIP_SHOW()
 	local GossipText = GetGossipText()
 
-	if strfind(GossipText, "Splitter der Illusion") then
+	if strfind(GossipText, L["SHARDS_NAME"]) then
 		local GossipOptions = { GetGossipOptions() }
 		local itemId, itemName
 		
