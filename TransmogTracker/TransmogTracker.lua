@@ -5,9 +5,10 @@ _G[ADDON_NAME] = addon
 
 
 local db
-local playerName = "PLAYER"
-local TmogNpcGuid = "0xF1300F6D19"
+-- local playerName = "PLAYER"
+-- local TmogNpcGuid = "0xF1300F6D19"
 local UniqueDisplay = ADDON_TABLE["UniqueDisplay"]
+local DB_Version = 1
 
 
 local ADDON_NAME_SHORT = "TMT"
@@ -31,14 +32,30 @@ function addon:OnInitialize()
 		return
 	end
 	
-	db = LibStub("AceDB-3.0"):New(ADDON_NAME.."_DB")
-	-- db.char.CHAT_MSG_SYSTEM = db.char.CHAT_MSG_SYSTEM or {}
-	db.char.item_ids = db.char.item_ids or {}
+	addon:setupDB()
 	
 	-- addon:RegisterEvent("PLAYER_ENTERING_WORLD")
 	addon:RegisterEvent("CHAT_MSG_SYSTEM")
 	addon:RegisterEvent("GOSSIP_SHOW")
 end
+
+
+function addon:setupDB()
+	-- db = LibStub("AceDB-3.0"):New(ADDON_NAME.."_DB") 
+	db = _G[ADDON_NAME.."_CharDB"] or {}
+	
+	
+	if not db.DB_Version or db.DB_Version ~= DB_Version then
+		wipe(db)
+		db.DB_Version = DB_Version
+	end
+	db.ItemIds = db.ItemIds or {}
+	db.UniqueDisplayIds = db.UniqueDisplayIds or {}
+	
+	
+	_G[ADDON_NAME.."_CharDB"] = db
+end
+
 
 function addon:OnEnable()
     -- Called when the addon is enabled
@@ -66,7 +83,7 @@ end
 
 function addon:PLAYER_ENTERING_WORLD()
 	-- print( "PLAYER_ENTERING_WORLD" )
-	playerName = UnitName("player")
+	-- playerName = UnitName("player")
 end
 
 
@@ -102,7 +119,7 @@ function addon:GOSSIP_SHOW()
 				itemId = tonumber(itemId)
 			end
 			if itemId then
-				if not db.char.item_ids[itemId] then
+				if not addon:checkItemId(itemId) then
 					print(format("Tracking %s", itemLink))
 				end
 				
@@ -114,14 +131,14 @@ end
 
 
 function addon:setDisplayId(itemId)
-	db.char.item_ids[itemId] = 1
+	db.ItemIds[itemId] = 1
 	if UniqueDisplay[itemId] then
-		db.char.item_ids[ UniqueDisplay[itemId] ] = 1
+		db.UniqueDisplayIds[ UniqueDisplay[itemId] ] = 1
 	end
 end
 
 
 function addon:checkItemId(itemId)
-	return db.char.item_ids[itemId]
+	return db.ItemIds[itemId]
 end
 
