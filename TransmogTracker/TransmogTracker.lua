@@ -1,7 +1,7 @@
 ﻿local ADDON_NAME, ADDON_TABLE = ...
 
-TransmogTracker = LibStub("AceAddon-3.0"):NewAddon(ADDON_NAME, "AceConsole-3.0", "AceHook-3.0", "AceEvent-3.0", "AceTimer-3.0")
-local addon = TransmogTracker
+local addon = LibStub("AceAddon-3.0"):NewAddon(ADDON_NAME, "AceConsole-3.0", "AceHook-3.0", "AceEvent-3.0", "AceTimer-3.0")
+_G[ADDON_NAME] = addon
 
 
 local db
@@ -111,5 +111,10 @@ function addon:setDisplayId(itemId)
 	if UniqueDisplay[itemId] then
 		db.char.item_ids[ UniqueDisplay[itemId] ] = 1
 	end
+end
+
+
+function addon:checkItemId(itemId)
+	return db.char.item_ids[itemId]
 end
 
