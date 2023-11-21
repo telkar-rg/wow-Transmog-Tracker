@@ -1,6 +1,8 @@
 ## Author: Telkar (Rising Gods)
 ## Interface: 30300
-## Title: Transmog-Tracker for RG
+## Title: Transmog-Tracker (0.1)
+## Notes: Tracks unlocked Transmog visuals on the Rising-Gods realm.|n|cff66bbffMake sure to visit the Transmog NPC (|cFFFFFFFFSublime Illusionist|cff66bbff) to track already known visuals!|r
+## Notes-deDE: Zeichnet freigeschaltene Transmog Aussehen am Rising-Gods Realm auf.|n|cff66bbffBesucht den Transmog NPC (|cFFFFFFFFErhabener Illusionist|cff66bbff) um bereits bekannte Aussehen aufzuzeichnen!|r
 ## SavedVariables: TransmogTracker_DB
 
 embeds.xml

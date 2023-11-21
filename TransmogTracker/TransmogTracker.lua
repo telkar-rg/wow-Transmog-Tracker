@@ -22,7 +22,14 @@ local print=DPrint
 
 function addon:OnInitialize()
 	-- Code that you want to run when the addon is first loaded goes here.
-	print("OnInitialize")
+	-- print("OnInitialize")
+	
+	if GetRealmName() ~= "Rising-Gods" then
+		if IsAddOnLoaded(ADDON_NAME) then
+			DisableAddOn(ADDON_NAME)
+		end
+		return
+	end
 	
 	db = LibStub("AceDB-3.0"):New(ADDON_NAME.."_DB")
 	-- db.char.CHAT_MSG_SYSTEM = db.char.CHAT_MSG_SYSTEM or {}
@@ -58,7 +65,7 @@ end
 
 
 function addon:PLAYER_ENTERING_WORLD()
-	print( "PLAYER_ENTERING_WORLD" )
+	-- print( "PLAYER_ENTERING_WORLD" )
 	playerName = UnitName("player")
 end
 
@@ -96,7 +103,7 @@ function addon:GOSSIP_SHOW()
 			end
 			if itemId then
 				if not db.char.item_ids[itemId] then
-					print(format("Tracking: %s", itemLink))
+					print(format("Tracking %s", itemLink))
 				end
 				
 				addon:setDisplayId(itemId)
