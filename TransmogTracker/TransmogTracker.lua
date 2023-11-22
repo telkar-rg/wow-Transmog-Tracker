@@ -47,6 +47,11 @@ function addon:setupDB()
 	
 	
 	if not db.DB_Version or db.DB_Version ~= DB_Version then
+		if not db.DB_Version then
+			self:ScheduleTimer("notifyResetDB", 60, 1)
+		elseif db.DB_Version ~= DB_Version then
+			self:ScheduleTimer("notifyResetDB", 60, 2)
+		end
 		wipe(db)
 		db.DB_Version = DB_Version
 	end
@@ -55,6 +60,19 @@ function addon:setupDB()
 	
 	
 	_G[ADDON_NAME.."_CharDB"] = db
+end
+
+
+function addon:notifyResetDB(reason)
+	if reason==1 then
+		print( L["NOTIFY_DB_RESET_FIRST_TIME"] )
+	elseif reason==2 then
+		print( L["NOTIFY_DB_RESET_VERSION_MISMATCH"] )
+	else
+		print( L["NOTIFY_DB_RESET_CMD"] )
+	end
+	
+	print( L["NOTIFY_DB_EMPTY"] )
 end
 
 
