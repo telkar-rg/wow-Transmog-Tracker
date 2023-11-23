@@ -58,14 +58,25 @@ function addon:setupDB()
 		elseif db.DB_Version ~= DB_Version then
 			self:ScheduleTimer("notifyResetDB", 20, 2)
 		end
-		wipe(db)
-		db.DB_Version = DB_Version
+		addon:resetDB(true)
 	end
 	db.ItemIds = db.ItemIds or {}
 	db.UniqueDisplayIds = db.UniqueDisplayIds or {}
 	
 	
 	_G[ADDON_NAME.."_CharDB"] = db
+end
+
+function addon:resetDB(silent)
+	wipe(db)
+	
+	db.DB_Version = DB_Version
+	db.ItemIds = db.ItemIds or {}
+	db.UniqueDisplayIds = db.UniqueDisplayIds or {}
+	
+	if not silent then
+		print(L["cmd_clear_db"])
+	end
 end
 
 
@@ -97,6 +108,8 @@ local cmd_list = {
 	howto	= "howto",
 	item	= "item",
 	link	= "item",
+	-- clear	= "reset",
+	reset	= "reset",
 }
 local function searchCmdList(checkCmd)
 	checkCmd = format("^%s", checkCmd)
@@ -113,6 +126,7 @@ local cmd_list_help = {
 	L["cmd_help_howto"],
 	L["cmd_help_item_id"],
 	L["cmd_help_item_link"],
+	L["cmd_help_reset"],
 }
 
 function addon:OnSlashCommand(input)
@@ -167,6 +181,9 @@ function addon:OnSlashCommand(input)
 		return
 	elseif arg1 == "item" then
 		addon:cmdCheckItemParse(arg2)
+		return
+	elseif arg1 == "reset" then
+		addon:resetDB()
 		return
 	else
 		if #cmdResults>1 then

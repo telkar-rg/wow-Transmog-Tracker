@@ -16,6 +16,7 @@ L["cmd_help_commands"]	= format("|c%s%s|r\n", "FFffff00", "/tmt help") .. "-- ze
 L["cmd_help_howto"]	= format("|c%s%s|r\n", "FFffff00", "/tmt howto") .. "-- erklärt wie man dieses Addon benutzt."
 L["cmd_help_item_id"]	= format("|c%s%s |c%s%s|r\n", "FFffff00", "/tmt item", "ff66bbff", "ITEMID") .. "-- überprüft via Item-ID, ob dieses Item freigeschalten ist."
 L["cmd_help_item_link"]	= format("|c%s%s |c%s%s|r\n", "FFffff00", "/tmt item", "ff1eff00", "[Itemlink]") .. "-- überprüft via Item-Link, ob dieses Item freigeschalten ist."
+L["cmd_help_reset"]	= format("|c%s%s|r\n", "FFffff00", "/tmt reset") .. "-- setzt die Datenbank der erfassten Transmog-Aussehen zurück."
 
 L["cmd_howto"]	= "Das Addon zeichnet freigeschaltene Transmog-Aussehen auf.\n    Besuche den |cff66bbffErhabener Illusionist|r NPC und blättere durch alle Seiten, um bereits bekannte Aussehen zu erfassen."
 
@@ -23,6 +24,8 @@ L["cmd_item_error_input"]	= "Eingabe <|cFFffff00%s|r> ist nicht kompatibel für 
 L["cmd_item_known_item"]	= "%s ist |cFF00dd00freigeschalten|r."
 L["cmd_item_known_visual"]	= "%s ist |cFFffff00unbekannt|r, ist jedoch für %d |4Item:Items des gleichen Aussehens freigeschalten."
 L["cmd_item_unknown"]	= "Das Transmog-Aussehen von %s ist |cFFffff00unbekannt|r."
+
+L["cmd_clear_db"]	= "Datenbank wurde zurückgesetzt."
 
 L["cmd_unknown_none"]	= "Eingabe <|cFFffff00%s|r> ist kein bekannter Befehl."
 L["cmd_unknown_multiple"]	= "Eingabe <|cFFffff00%s|r> entspricht mehreren Befehlen: |cFFffff00%s|r"
