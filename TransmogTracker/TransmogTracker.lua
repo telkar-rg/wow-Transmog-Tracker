@@ -13,9 +13,11 @@ local db
 -- local TmogNpcGuid = "0xF1300F6D19"
 local UniqueDisplay = ADDON_TABLE["UniqueDisplay"]
 
-local pattern_item  = "(\124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r)"
-local pattern_link  = "(\124c%x+\124H.-\124h\124r)"
+local pattern_item = "(\124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r)"
+local pattern_link = "(\124c%x+\124H.-\124h\124r)"
 local check_gear_flag = true
+
+local TMT_OnShowTooltip -- forward-declaration
 
 local function DPrint(...)
 	-- DEFAULT_CHAT_FRAME:AddMessage( chatprefix..tostring(msg) )
@@ -40,6 +42,12 @@ function addon:OnInitialize()
 	
 	addon:RegisterChatCommand("transmogtracker", "OnSlashCommand")
 	addon:RegisterChatCommand("tmt", "OnSlashCommand")
+
+	GameTooltip:HookScript("OnTooltipSetItem", TMT_OnShowTooltip)
+	ItemRefTooltip:HookScript("OnTooltipSetItem", TMT_OnShowTooltip)
+	if IsAddOnLoaded("AtlasLoot") then
+		AtlasLootTooltip:HookScript("OnTooltipSetItem", TMT_OnShowTooltip)
+	end
 	
 	-- addon:RegisterEvent("PLAYER_ENTERING_WORLD")
 	addon:RegisterEvent("CHAT_MSG_SYSTEM")
@@ -94,11 +102,11 @@ end
 
 
 function addon:OnEnable()
-    -- Called when the addon is enabled
+	-- Called when the addon is enabled
 end
 
 function addon:OnDisable()
-    -- Called when the addon is disabled
+	-- Called when the addon is disabled
 end
 
 
@@ -261,12 +269,12 @@ end
 
 
 -- CHAT_MSG_SYSTEM Freigeschaltetes Aussehen zur Transmogrifizierung: !cffffffff!Hitem:2901:0:0:0:0:0:0:0:0!h[Spitzhacke]!h!r
--- local pattern_long  = "^Freigeschaltetes Aussehen zur Transmogrifizierung: \124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r$"
+-- local pattern_long = "^Freigeschaltetes Aussehen zur Transmogrifizierung: \124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r$"
 
 
 function addon:CHAT_MSG_SYSTEM( event, msg )
 	-- print(msg)
-    local itemLink, itemId, itemName = strmatch( msg, L["CHAT_MSG_SYSTEM_PATTERN"] )
+	local itemLink, itemId, itemName = strmatch( msg, L["CHAT_MSG_SYSTEM_PATTERN"] )
 	if not itemId then return end
 	print(itemLink, itemId, itemName)
 	
@@ -391,33 +399,30 @@ function addon:checkUniqueId(itemId)
 end
 
 
-local function GameTooltip_OnTooltipSetItem(tooltip)
-  local itemLink, itemId, itemEquipLoc
+TMT_OnShowTooltip = function(tooltip) -- has been declared local
+	local itemLink, itemId, itemEquipLoc
 
-  _, itemLink = tooltip:GetItem()
-  if not itemLink then
-    return
-  end
+	_, itemLink = tooltip:GetItem()
+	if not itemLink then
+		return
+	end
 
-  _, itemId = strsplit(":", strmatch(itemLink, "item[%-?%d:]+"))
-  itemId = tonumber(itemId)
-  _, _, _, _, _, _, _, _, itemEquipLoc = GetItemInfo(itemId)
+	_, itemId = strsplit(":", strmatch(itemLink, "item[%-?%d:]+"))
+	itemId = tonumber(itemId)
+	_, _, _, _, _, _, _, _, itemEquipLoc = GetItemInfo(itemId)
 
-  if itemEquipLoc and tmog_locations[itemEquipLoc] then
-    local tooltipText
-    if addon:checkItemId(itemId) then
-      tooltipText = L["tooltip_item_known_item"]
-    else
-      local tmogOther = addon:checkUniqueId(itemId)
-      if tmogOther and next(tmogOther) then
-        tooltipText = L["tooltip_item_known_visual"]
-      else
-        tooltipText = L["tooltip_item_unknown"]
-      end
-    end
-    tooltip:AddLine(tooltipText)
-  end
+	if itemEquipLoc and tmog_locations[itemEquipLoc] then
+		local tooltipText
+		if addon:checkItemId(itemId) then
+			tooltipText = L["tooltip_item_known_item"]
+		else
+			local tmogOther = addon:checkUniqueId(itemId)
+			if tmogOther and next(tmogOther) then
+				tooltipText = L["tooltip_item_known_visual"]
+			else
+				tooltipText = L["tooltip_item_unknown"]
+			end
+		end
+		tooltip:AddLine(tooltipText)
+	end
 end
-
-GameTooltip:HookScript("OnTooltipSetItem", GameTooltip_OnTooltipSetItem)
-ItemRefTooltip:HookScript("OnTooltipSetItem", GameTooltip_OnTooltipSetItem)
