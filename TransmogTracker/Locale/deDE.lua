@@ -29,3 +29,7 @@ L["cmd_clear_db"]	= "Datenbank wurde zurückgesetzt."
 
 L["cmd_unknown_none"]	= "Eingabe <|cFFffff00%s|r> ist kein bekannter Befehl."
 L["cmd_unknown_multiple"]	= "Eingabe <|cFFffff00%s|r> entspricht mehreren Befehlen: |cFFffff00%s|r"
+
+L["tooltip_item_known_item"]	= "TMT: |cFF00dd00freigeschalten|r"
+L["tooltip_item_known_visual"]	= "TMT: |cFFffff00unbekannt|r, jedoch Item(s) des gleichen Aussehens freigeschalten"
+L["tooltip_item_unknown"]	= "TMT: |cFFffff00unbekannt|r"

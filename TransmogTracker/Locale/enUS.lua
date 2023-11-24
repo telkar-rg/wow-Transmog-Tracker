@@ -29,3 +29,7 @@ L["cmd_clear_db"]	= "Database has been reset."
 
 L["cmd_unknown_none"]	= "Input <|cFFffff00%s|r> is not a known command."
 L["cmd_unknown_multiple"]	= "Input <|cFFffff00%s|r> matches multiple commands: |cFFffff00%s|r"
+
+L["tooltip_item_known_item"]	= "TMT: |cFF00dd00unlocked|r"
+L["tooltip_item_known_visual"]	= "TMT: |cFFffff00not known|r, but unlocked for item(s) of the same appearance"
+L["tooltip_item_unknown"]	= "TMT: |cFFffff00not known|r"

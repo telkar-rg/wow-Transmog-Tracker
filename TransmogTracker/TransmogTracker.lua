@@ -390,3 +390,34 @@ function addon:checkUniqueId(itemId)
 	return
 end
 
+
+local function GameTooltip_OnTooltipSetItem(tooltip)
+  local itemLink, itemId, itemEquipLoc
+
+  _, itemLink = tooltip:GetItem()
+  if not itemLink then
+    return
+  end
+
+  _, itemId = strsplit(":", strmatch(itemLink, "item[%-?%d:]+"))
+  itemId = tonumber(itemId)
+  _, _, _, _, _, _, _, _, itemEquipLoc = GetItemInfo(itemId)
+
+  if itemEquipLoc and tmog_locations[itemEquipLoc] then
+    local tooltipText
+    if addon:checkItemId(itemId) then
+      tooltipText = L["tooltip_item_known_item"]
+    else
+      local tmogOther = addon:checkUniqueId(itemId)
+      if tmogOther and next(tmogOther) then
+        tooltipText = L["tooltip_item_known_visual"]
+      else
+        tooltipText = L["tooltip_item_unknown"]
+      end
+    end
+    tooltip:AddLine(tooltipText)
+  end
+end
+
+GameTooltip:HookScript("OnTooltipSetItem", GameTooltip_OnTooltipSetItem)
+ItemRefTooltip:HookScript("OnTooltipSetItem", GameTooltip_OnTooltipSetItem)
