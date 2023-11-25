@@ -8,9 +8,8 @@ local L = LibStub("AceLocale-3.0"):GetLocale(ADDON_NAME)
 local ADDON_NAME_SHORT = "TMT"
 
 local DB_Version = 2
-local db
--- local playerName = "PLAYER"
--- local TmogNpcGuid = "0xF1300F6D19"
+local db, dbOptions, dbGlobal
+
 local UniqueDisplay = ADDON_TABLE["UniqueDisplay"]
 
 local pattern_item = "(\124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r)"
@@ -56,9 +55,8 @@ end
 
 
 function addon:setupDB()
-	-- db = LibStub("AceDB-3.0"):New(ADDON_NAME.."_DB") 
+	-- SavedVariablesPerCharacter
 	db = _G[ADDON_NAME.."_CharDB"] or {}
-	
 	
 	if not db.DB_Version or db.DB_Version ~= DB_Version then
 		if not db.DB_Version then
@@ -71,8 +69,19 @@ function addon:setupDB()
 	db.ItemIds = db.ItemIds or {}
 	db.UniqueDisplayIds = db.UniqueDisplayIds or {}
 	
-	
 	_G[ADDON_NAME.."_CharDB"] = db
+	
+	
+	-- SavedVariables
+	local defaults = {
+		global = {
+			options = {
+				showTooltip = true,
+			},
+		},
+	}
+	dbGlobal = LibStub("AceDB-3.0"):New(ADDON_NAME.."_DB", defaults)
+	dbOptions = dbGlobal.global.options
 end
 
 function addon:resetDB(silent)
@@ -117,6 +126,7 @@ local cmd_list = {
 	item	= "item",
 	link	= "item",
 	-- clear	= "reset",
+	tooltip	= "tooltip",
 	reset	= "reset",
 }
 local function searchCmdList(checkCmd)
@@ -134,6 +144,7 @@ local cmd_list_help = {
 	L["cmd_help_howto"],
 	L["cmd_help_item_id"],
 	L["cmd_help_item_link"],
+	L["cmd_help_tooltip"],
 	L["cmd_help_reset"],
 }
 
@@ -193,6 +204,9 @@ function addon:OnSlashCommand(input)
 	elseif arg1 == "reset" then
 		addon:resetDB()
 		return
+	elseif arg1 == "tooltip" then
+		addon:cmdTooltipToggle()
+		return
 	else
 		if #cmdResults>1 then
 			print( format(L["cmd_unknown_multiple"], arg1, strjoin(", ",unpack(cmdResults)) ) )
@@ -202,6 +216,15 @@ function addon:OnSlashCommand(input)
 	end
 end
 
+
+function addon:cmdTooltipToggle()
+	dbOptions.showTooltip = not dbOptions.showTooltip
+	if dbOptions.showTooltip then
+		print( L["tooltip_cmd_show"] )
+	else
+		print( L["tooltip_cmd_hide"] )
+	end
+end
 
 function addon:cmdCheckItemParse(input)
 	if not input then
@@ -423,6 +446,9 @@ TMT_OnShowTooltip = function(tooltip) -- has been declared local
 				tooltipText = L["tooltip_item_unknown"]
 			end
 		end
-		tooltip:AddLine(tooltipText)
+		if dbOptions.showTooltip then
+			tooltipText = format("|cFF66BBFFTMT|r: %s", tooltipText)
+			tooltip:AddLine(tooltipText,1,1,1,1)	-- turned on line wrap
+		end
 	end
 end

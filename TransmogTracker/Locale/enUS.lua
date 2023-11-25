@@ -16,6 +16,7 @@ L["cmd_help_commands"]	= format("|c%s%s|r\n", "FFffff00", "/tmt help") .. "-- sh
 L["cmd_help_howto"]	= format("|c%s%s|r\n", "FFffff00", "/tmt howto") .. "-- explains how to use this addon."
 L["cmd_help_item_id"]	= format("|c%s%s |c%s%s|r\n", "FFffff00", "/tmt item", "ff66bbff", "ITEMID") .. "-- check if you have unlocked an item by its ID."
 L["cmd_help_item_link"]	= format("|c%s%s |c%s%s|r\n", "FFffff00", "/tmt item", "ff1eff00", "[Itemlink]") .. "-- check if you have unlocked an item by its Item-Link."
+L["cmd_help_tooltip"]	= format("|c%s%s|r\n", "FFffff00", "/tmt tooltip") .. "-- toggles tooltip display."
 L["cmd_help_reset"]	= format("|c%s%s|r\n", "FFffff00", "/tmt reset") .. "-- clears the database of tracked transmogrification appearances."
 
 L["cmd_howto"]	= "The addon keeps track of unlocks of transmogrification appearances.\n    Visit the |cff66bbffSublime Illusionist|r NPC and browse through all pages, in order to track previously unlocked appearances."
@@ -25,11 +26,13 @@ L["cmd_item_known_item"]	= "%s is |cFF00dd00unlocked|r."
 L["cmd_item_known_visual"]	= "%s is |cFFffff00not known|r, but is unlocked for %d |4item:items of the same appearance."
 L["cmd_item_unknown"]	= "The transmogrification appearance of %s is |cFFffff00not known|r."
 
-L["cmd_clear_db"]	= "Database has been reset."
+L["cmd_clear_db"]	= "Database of this character has been reset."
 
 L["cmd_unknown_none"]	= "Input <|cFFffff00%s|r> is not a known command."
 L["cmd_unknown_multiple"]	= "Input <|cFFffff00%s|r> matches multiple commands: |cFFffff00%s|r"
 
-L["tooltip_item_known_item"]	= "|cff66bbffTMT|r: |cFF00dd00unlocked|r"
-L["tooltip_item_known_visual"]	= "|cff66bbffTMT|r: |cFFffff00not known|r, but unlocked for item(s) of the same appearance"
-L["tooltip_item_unknown"]	= "|cff66bbffTMT|r: |cFFffff00not known|r"
+L["tooltip_item_known_item"]	= "|cff1eff00unlocked|r"
+L["tooltip_item_known_visual"]	= "|c0cffd200unlocked for item(s) of same appearance|r"
+L["tooltip_item_unknown"]	= "|cffff2020unknown|r"
+L["tooltip_cmd_show"]	= "Tooltip information is now shown."
+L["tooltip_cmd_hide"]	= "Tooltip information is now hidden."
