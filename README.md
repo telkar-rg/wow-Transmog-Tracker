@@ -11,6 +11,8 @@ WotLK 3.3.5 Addon to track known Transmog appearances on the Rising-Gods server.
 > `/transmogtracker`
 
 ## Changes
+### [Transmog-Tracker 0.3](https://github.com/telkar-rg/wow-Transmog-Tracker/releases/tag/v0.3)
+- added tooltips (thanks to [Mat2095](https://github.com/telkar-rg/wow-Transmog-Tracker/pull/1))
 ### [Transmog-Tracker 0.2](https://github.com/telkar-rg/wow-Transmog-Tracker/releases/tag/v0.2)
 - added chat-commands
 ### [Transmog-Tracker 0.1](https://github.com/telkar-rg/wow-Transmog-Tracker/releases/tag/v0.1)
