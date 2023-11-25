@@ -1,4 +1,16 @@
-﻿local ADDON_NAME, ADDON_TABLE = ...
+﻿----------------------------------------
+-- Created by
+	-- Telkar
+--
+-- Tested by
+	-- Phint
+--
+-- Contributions by
+	-- Mat2095
+----------------------------------------
+
+
+local ADDON_NAME, ADDON_TABLE = ...
 
 local addon = LibStub("AceAddon-3.0"):NewAddon(ADDON_NAME, "AceConsole-3.0", "AceHook-3.0", "AceEvent-3.0", "AceTimer-3.0")
 _G[ADDON_NAME] = addon
