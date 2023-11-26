@@ -97,8 +97,10 @@ function addon:setupDB()
 end
 
 function addon:resetDB(silent)
+	local hideTooltip = db.hideTooltip
 	wipe(db)
 	
+	db.hideTooltip = hideTooltip
 	db.DB_Version = DB_Version
 	db.ItemIds = db.ItemIds or {}
 	db.UniqueDisplayIds = db.UniqueDisplayIds or {}
@@ -230,8 +232,8 @@ end
 
 
 function addon:cmdTooltipToggle()
-	dbOptions.showTooltip = not dbOptions.showTooltip
-	if dbOptions.showTooltip then
+	db.hideTooltip = not db.hideTooltip
+	if not db.hideTooltip then
 		print( L["tooltip_cmd_show"] )
 	else
 		print( L["tooltip_cmd_hide"] )
@@ -311,7 +313,7 @@ function addon:CHAT_MSG_SYSTEM( event, msg )
 	-- print(msg)
 	local itemLink, itemId, itemName = strmatch( msg, L["CHAT_MSG_SYSTEM_PATTERN"] )
 	if not itemId then return end
-	print(itemLink, itemId, itemName)
+	-- print(itemLink, itemId, itemName)
 	
 	itemId = tonumber(itemId)
 	if not itemId then return end
@@ -319,7 +321,9 @@ function addon:CHAT_MSG_SYSTEM( event, msg )
 	-- if not db.char.item_ids[itemId] then
 		-- print(format("Transmog Tracking: %s", itemName))
 	-- end
-	addon:setDisplayId(itemId, itemLink)
+	
+	self:ScheduleTimer( function() addon:setDisplayId(itemId, itemLink) end, 0.25)
+	-- addon:setDisplayId(itemId, itemLink)
 end
 
 
@@ -435,6 +439,7 @@ end
 
 
 TMT_OnShowTooltip = function(tooltip) -- has been declared local
+	if db.hideTooltip then return end
 	local itemLink, itemId, itemEquipLoc
 
 	_, itemLink = tooltip:GetItem()
@@ -455,10 +460,10 @@ TMT_OnShowTooltip = function(tooltip) -- has been declared local
 			if tmogOther and next(tmogOther) then
 				tooltipText = L["tooltip_item_known_visual"]
 			else
-				tooltipText = L["tooltip_item_unknown"]
+				-- tooltipText = L["tooltip_item_unknown"] -- dont spam
 			end
 		end
-		if dbOptions.showTooltip then
+		if tooltipText then
 			tooltipText = format("|cFF66BBFFTMT|r: %s", tooltipText)
 			tooltip:AddLine(tooltipText,1,1,1,1)	-- turned on line wrap
 		end
