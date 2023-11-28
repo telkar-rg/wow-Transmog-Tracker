@@ -314,6 +314,10 @@ function addon:CHAT_MSG_SYSTEM( event, msg )
 	local itemLink, itemId, itemName = strmatch( msg, L["CHAT_MSG_SYSTEM_PATTERN"] )
 	if not itemId then return end
 	-- print(itemLink, itemId, itemName)
+	local _, itemLink2 = GetItemInfo(itemId)
+	if itemLink2 then
+		itemLink = itemLink2
+	end
 	
 	itemId = tonumber(itemId)
 	if not itemId then return end
@@ -322,7 +326,8 @@ function addon:CHAT_MSG_SYSTEM( event, msg )
 		-- print(format("Transmog Tracking: %s", itemName))
 	-- end
 	
-	self:ScheduleTimer( function() addon:setDisplayId(itemId, itemLink) end, 0.25)
+	addon:setDisplayId(itemId, itemLink, true)
+	-- self:ScheduleTimer( function() addon:setDisplayId(itemId, itemLink) end, 0.25)
 	-- addon:setDisplayId(itemId, itemLink)
 end
 
@@ -409,12 +414,19 @@ function addon:checkGearWorn()
 end
 
 
-function addon:setDisplayId(itemId, itemLink)
+function addon:setDisplayId(itemId, itemLink, delay)
 	if not db.ItemIds[itemId] then
+		if not itemLink then
+			local _, itemLink = GetItemInfo(itemId)
+		end
 		if not itemLink then
 			itemLink = format("|cff66bbff|Hitem:%d:0:0:0:0:0:0:0:0|h[Item: %d]|h|r", itemId, itemId)
 		end
-		print(format(L["MSG_PATTERN_TRACKING"], itemLink))
+		if delay then
+			self:ScheduleTimer( function() print(format(L["MSG_PATTERN_TRACKING"], itemLink)) end, 0.1)
+		else
+			print(format(L["MSG_PATTERN_TRACKING"], itemLink))
+		end
 	end
 	
 	db.ItemIds[itemId] = 1
