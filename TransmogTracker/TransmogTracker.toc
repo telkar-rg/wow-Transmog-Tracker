@@ -1,4 +1,4 @@
-## Title: Transmog-Tracker (0.3a)
+## Title: Transmog-Tracker (0.3b)
 ## Interface: 30300
 ## Author: Telkar-RG
 ## Notes: Tracks unlocked Transmog appearances on the Rising-Gods realm.|n|cff66bbffVisit the Transmog NPC (|cFFFFFFFFSublime Illusionist|cff66bbff) to track already known appearances!|r
