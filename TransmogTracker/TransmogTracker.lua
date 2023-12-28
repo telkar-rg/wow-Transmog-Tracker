@@ -42,12 +42,6 @@ function addon:OnInitialize()
 	-- Code that you want to run when the addon is first loaded goes here.
 	-- print("OnInitialize")
 	
-	if GetRealmName() ~= "Rising-Gods" then
-		if IsAddOnLoaded(ADDON_NAME) then
-			DisableAddOn(ADDON_NAME)
-		end
-		return
-	end
 	
 	addon:setupDB()
 	
@@ -423,7 +417,7 @@ function addon:setDisplayId(itemId, itemLink, delay)
 			itemLink = format("|cff66bbff|Hitem:%d:0:0:0:0:0:0:0:0|h[Item: %d]|h|r", itemId, itemId)
 		end
 		if delay then
-			self:ScheduleTimer( function() print(format(L["MSG_PATTERN_TRACKING"], itemLink)) end, 0.1)
+			self:ScheduleTimer( function() print(format(L["MSG_PATTERN_TRACKING"], itemLink)) end, 0)
 		else
 			print(format(L["MSG_PATTERN_TRACKING"], itemLink))
 		end
