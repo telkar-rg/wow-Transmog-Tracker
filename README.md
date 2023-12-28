@@ -11,6 +11,10 @@ WotLK 3.3.5 Addon to track known Transmog appearances on the Rising-Gods server.
 > `/transmogtracker`
 
 ## Changes
+### [Transmog-Tracker 0.3b](https://github.com/telkar-rg/wow-Transmog-Tracker/releases/tag/v0.3b)
+- Removed code that deactivated the addon, if not on the RG realm (was not reliable enough)
+- Tries to use item quality colors whenever possible in addon messages
+- Fixed issue where unlocked items on logout where missed
 ### [Transmog-Tracker 0.3a](https://github.com/telkar-rg/wow-Transmog-Tracker/releases/tag/v0.3a)
 - Fixed remaining debug message
 - Tooltips toggle option is now stored per character
