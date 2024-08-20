@@ -302,10 +302,20 @@ end
 -- CHAT_MSG_SYSTEM Freigeschaltetes Aussehen zur Transmogrifizierung: !cffffffff!Hitem:2901:0:0:0:0:0:0:0:0!h[Spitzhacke]!h!r
 -- local pattern_long = "^Freigeschaltetes Aussehen zur Transmogrifizierung: \124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r$"
 
+-- Freigeschaltetes Aussehen zur Transmogrifizierung, sobald die entsprechende Stufe erreicht wurde: |cffffffff|Hitem:44644:0:0:0:0:0:0:0:0|h[Dalaran Dart]|h|r
+-- Unlocked visual for transmogrification once the corresponding level has been reached: |cffffffff|Hitem:44644:0:0:0:0:0:0:0:0|h[Dalaran Dart]|h|r
 
 function addon:CHAT_MSG_SYSTEM( event, msg )
 	-- print(msg)
+	
+	-- Check if MSG is "visual unlocked"
 	local itemLink, itemId, itemName = strmatch( msg, L["CHAT_MSG_SYSTEM_PATTERN"] )
+	
+	if not itemId then
+		-- Check if MSG is "visual unlocked soon"
+		itemLink, itemId, itemName = strmatch( msg, L["CHAT_MSG_SYSTEM_PATTERN_SOON"] )
+	end
+	
 	if not itemId then return end
 	-- print(itemLink, itemId, itemName)
 	local _, itemLink2 = GetItemInfo(itemId)

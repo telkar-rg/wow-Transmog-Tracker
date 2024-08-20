@@ -5,6 +5,7 @@ if not L then return end
 
 L["SHARDS_NAME"] = "Splitter der Illusion"
 L["CHAT_MSG_SYSTEM_PATTERN"] = "^Freigeschaltetes Aussehen zur Transmogrifizierung: (\124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r)$"
+L["CHAT_MSG_SYSTEM_PATTERN_SOON"] = "^Freigeschaltetes Aussehen zur Transmogrifizierung, sobald die entsprechende Stufe erreicht wurde: (\124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r)$"
 L["MSG_PATTERN_TRACKING"] = "Erfasse %s"
 
 L["NOTIFY_DB_RESET_CMD"] = "Die Addon-Datenbank wurde zurückgesetzt."

@@ -5,6 +5,7 @@ if not L then return end
 
 L["SHARDS_NAME"] = "Shards of Illusion"
 L["CHAT_MSG_SYSTEM_PATTERN"] = "^Unlocked appearance for transmogrification: (\124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r)$"
+L["CHAT_MSG_SYSTEM_PATTERN_SOON"] = "^Unlocked visual for transmogrification once the corresponding level has been reached: (\124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r)$"
 L["MSG_PATTERN_TRACKING"] = "Tracking %s"
 
 L["NOTIFY_DB_RESET_CMD"] = "The addon database has been reset."
