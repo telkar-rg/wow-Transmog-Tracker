@@ -284,6 +284,7 @@ function addon:cmdScanStart()
 			scan_in_progress = true 	-- set Scan flag to true
 			-- TIMER_SCAN_TIMEOUT
 			
+			self:CancelTimer( TIMER_SCAN_TIMEOUT ) 	-- Cancel timeout timer
 			TIMER_SCAN_TIMEOUT = self:ScheduleTimer( "cmdScanTimeout", SCAN_TIMEOUT_TIME) 	-- 2 second timeout timer
 			-- self:ScheduleTimer("notifyResetDB", 20, 1)
 			
@@ -489,6 +490,9 @@ function addon:GOSSIP_SHOW()
 		
 		-- we are scanning right now
 		if scan_in_progress then
+			self:CancelTimer( TIMER_SCAN_TIMEOUT ) 	-- Cancel timeout timer
+			TIMER_SCAN_TIMEOUT = self:ScheduleTimer( "cmdScanTimeout", SCAN_TIMEOUT_TIME) 	-- 2 second timeout timer
+			
 			local idx_next, idx_return
 			
 			-- check all Labels in GossipOptions of "Slot menu"
