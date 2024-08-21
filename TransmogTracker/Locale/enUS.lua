@@ -30,8 +30,12 @@ L["cmd_item_unknown"]	= "The transmogrification appearance of %s is |cFFffff00no
 
 L["cmd_clear_db"]	= "Database of this character has been reset."
 
-L["cmd_unknown_none"]	= "Input <|cFFffff00%s|r> is not a known command."
-L["cmd_unknown_multiple"]	= "Input <|cFFffff00%s|r> matches multiple commands: |cFFffff00%s|r"
+L["cmd_unknown_none"]	= "ERROR: Input <|cFFffff00%s|r> is not a known command."
+L["cmd_unknown_multiple"]	= "ERROR: Input <|cFFffff00%s|r> matches multiple commands: |cFFffff00%s|r"
+
+L["cmd_scan_err_gossip_open"]	= "ERROR: " .. format("|c%s%s|r\n", "FFffff00", "/tmt scan") .. "-- Scans all known appearances at the |cff66bbffSublime Illusionist|r NPC. " .. format("You must be in the |c%s%s|r of the NPC.", "ff66bbff", "Main Menu")
+L["cmd_scan_err_timeout"]	= "ERROR: Scan cancelled after %s timeout."
+L["cmd_scan_finish"]	= "Scan completed.  " .. "For the most reliable scan results, follow these steps before scanning:" .. "\n1) reset the DB (" .. format("|c%s%s|r", "FFffff00", "/tmt reset") .. ")" .. "\n2) unequip all items that are " .. format("|c%s%s|r", "FFffff00", "currently transmogrified") .. "\n3) remove all " .. format("|c%s%s|r", "FFffff00", "BoE items") .. " (" .. ITEM_BIND_ON_EQUIP .. ") from bags (e.g. to bank)"
 
 L["tooltip_item_known_item"]	= "|cff1eff00unlocked|r"
 L["tooltip_item_known_visual"]	= "|c0cffd200unlocked for item(s) of same appearance|r"
@@ -39,11 +43,12 @@ L["tooltip_item_unknown"]	= "|cffff2020unknown|r"
 L["tooltip_cmd_show"]	= "Tooltip information is now shown."
 L["tooltip_cmd_hide"]	= "Tooltip information is now hidden."
 
-L["GOSSIP_TEXT_MAINMENU"] 	= "^%s+%-%- Main Menu %-%-\n\n%*%* Total Shards of Illusion %*%*.+"
-L["GOSSIP_TEXT_THISSLOT"] 	= "^%s+%-%- Transmogrify: (.+) %-%-\n\nShards of Illusion:"
+L["GOSSIP_TEXT_MAINMENU"] 	= "^%s-%-%- Main Menu %-%-\n\n%*%* Total Shards of Illusion %*%*.+"
+L["GOSSIP_TEXT_THISSLOT"] 	= "^%s-%-%- Transmogrify: (.-) %-%-\n\nShards of Illusion:"
 L["GOSSIP_OPTION_PAGE_PREV"] = "Previous page"
 L["GOSSIP_OPTION_PAGE_NEXT"] = "Next page"
 L["GOSSIP_OPTION_RETURN"] 	= "Back..."
+L["GOSSIP_OPTION_UPDATE"] 	= "Update menu"
 
 L["SLOT_NAME_HEAD"] 		= "Head"
 L["SLOT_NAME_SHOULDERS"] 	= "Shoulders"

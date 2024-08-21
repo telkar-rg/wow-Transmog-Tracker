@@ -26,7 +26,15 @@ local UniqueDisplay = ADDON_TABLE["UniqueDisplay"]
 
 local pattern_item = "(\124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r)"
 local pattern_link = "(\124c%x+\124H.-\124h\124r)"
-local check_gear_flag = true
+local pattern_icon = "\124T.-\124t(.+)"
+-- local check_gear_flag = true
+local GossipOpen = false
+local scan_in_progress = false
+local TIMER_SCAN_TIMEOUT
+local SCAN_TIMEOUT_TIME = 2
+local scan_last
+local scan_table_slots = {}
+local scan_table_slots_template = { L["SLOT_NAME_HEAD"], L["SLOT_NAME_SHOULDERS"], L["SLOT_NAME_SHIRT"], L["SLOT_NAME_CHEST"], L["SLOT_NAME_WAIST"], L["SLOT_NAME_LEGS"], L["SLOT_NAME_FEET"], L["SLOT_NAME_WRISTS"], L["SLOT_NAME_HANDS"], L["SLOT_NAME_BACK"], L["SLOT_NAME_MAIN_HAND"], L["SLOT_NAME_OFF_HAND"], L["SLOT_NAME_RANGED"], L["SLOT_NAME_TABARD"] }
 
 local TMT_OnShowTooltip -- forward-declaration
 
@@ -57,6 +65,7 @@ function addon:OnInitialize()
 	-- addon:RegisterEvent("PLAYER_ENTERING_WORLD")
 	addon:RegisterEvent("CHAT_MSG_SYSTEM")
 	addon:RegisterEvent("GOSSIP_SHOW")
+	addon:RegisterEvent("GOSSIP_CLOSED")
 end
 
 
@@ -136,6 +145,7 @@ local cmd_list = {
 	-- clear	= "reset",
 	tooltip	= "tooltip",
 	reset	= "reset",
+	scan	= "scan",
 }
 local function searchCmdList(checkCmd)
 	checkCmd = format("^%s", checkCmd)
@@ -154,6 +164,7 @@ local cmd_list_help = {
 	L["cmd_help_item_link"],
 	L["cmd_help_tooltip"],
 	L["cmd_help_reset"],
+	L["cmd_help_scan"],
 }
 
 function addon:OnSlashCommand(input)
@@ -215,6 +226,9 @@ function addon:OnSlashCommand(input)
 	elseif arg1 == "tooltip" then
 		addon:cmdTooltipToggle()
 		return
+	elseif arg1 == "scan" then
+		addon:cmdScanStart()
+		return
 	else
 		if #cmdResults>1 then
 			print( format(L["cmd_unknown_multiple"], arg1, strjoin(", ",unpack(cmdResults)) ) )
@@ -224,6 +238,76 @@ function addon:OnSlashCommand(input)
 	end
 end
 
+
+function addon:cmdScanTimeout()
+	print( format( L["cmd_scan_err_timeout"], SecondsToTime(SCAN_TIMEOUT_TIME) ) )
+	addon:cmdScanStop()
+end
+
+
+function addon:cmdScanStopNormal()
+	print( L["cmd_scan_finish"] )
+	addon:cmdScanStop()
+end
+
+
+function addon:cmdScanStop()
+	scan_in_progress = nil
+	scan_last = nil
+	self:CancelTimer( TIMER_SCAN_TIMEOUT ) 	-- Cancel timeout timer
+	TIMER_SCAN_TIMEOUT = nil
+end
+
+
+function addon:cmdScanStart()
+	if scan_in_progress then
+		print("ERROR: Scan in progress!")
+		return
+	end
+	
+	local GossipOptions = { GetGossipOptions() } 
+	
+	if not GossipOpen then
+		-- ERROR gossip menu MUST be open
+		print(L["cmd_scan_err_gossip_open"])
+		return
+	else
+		-- check if in main menu
+		local GossipText = GetGossipText()
+		local isMain = strfind(GossipText,  L["GOSSIP_TEXT_MAINMENU"])
+		
+		if not isMain then
+			-- ERROR gossip menu MUST be at the Transmog NPC and in main menu
+			print(L["cmd_scan_err_gossip_open"])
+			return
+		else
+			scan_in_progress = true 	-- set Scan flag to true
+			-- TIMER_SCAN_TIMEOUT
+			
+			TIMER_SCAN_TIMEOUT = self:ScheduleTimer( "cmdScanTimeout", SCAN_TIMEOUT_TIME) 	-- 2 second timeout timer
+			-- self:ScheduleTimer("notifyResetDB", 20, 1)
+			
+			
+			-- check all Labels in GossipOptions of "main menu"
+			for k,v in pairs(GossipOptions) do
+				local optionText
+				
+				if k%2==1 then 	-- only check the odd entries (those are the "labels")
+					optionText = strmatch(v, pattern_icon) 	-- fetch option text without the Icon in front
+					
+					-- we try to "Update menu"
+					if optionText and optionText==L["GOSSIP_OPTION_UPDATE"] then
+						
+						-- "true" GossipOption index is half of the "bankier" option (which is k+1)
+						SelectGossipOption( (k+1)/2 )
+						return
+					end
+				end
+				
+			end
+		end
+	end
+end
 
 function addon:cmdTooltipToggle()
 	db.hideTooltip = not db.hideTooltip
@@ -299,12 +383,6 @@ function addon:PLAYER_ENTERING_WORLD()
 end
 
 
--- CHAT_MSG_SYSTEM Freigeschaltetes Aussehen zur Transmogrifizierung: !cffffffff!Hitem:2901:0:0:0:0:0:0:0:0!h[Spitzhacke]!h!r
--- local pattern_long = "^Freigeschaltetes Aussehen zur Transmogrifizierung: \124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r$"
-
--- Freigeschaltetes Aussehen zur Transmogrifizierung, sobald die entsprechende Stufe erreicht wurde: |cffffffff|Hitem:44644:0:0:0:0:0:0:0:0|h[Dalaran Dart]|h|r
--- Unlocked visual for transmogrification once the corresponding level has been reached: |cffffffff|Hitem:44644:0:0:0:0:0:0:0:0|h[Dalaran Dart]|h|r
-
 function addon:CHAT_MSG_SYSTEM( event, msg )
 	-- print(msg)
 	
@@ -336,13 +414,69 @@ function addon:CHAT_MSG_SYSTEM( event, msg )
 end
 
 
-function addon:GOSSIP_SHOW()
-	local GossipText = GetGossipText()
+function addon:GOSSIP_CLOSED()
+	GossipOpen = false
+end
 
-	if strfind(GossipText, L["SHARDS_NAME"]) then
+
+function addon:GOSSIP_SHOW()
+	GossipOpen = true
+	
+	local GossipText = GetGossipText()
+	local isMain = strfind(GossipText,  L["GOSSIP_TEXT_MAINMENU"])
+	local isSlot = strmatch(GossipText, L["GOSSIP_TEXT_THISSLOT"])
+
+	if isMain then 	-- if gossip == main menu
+		
+		-- we are scanning right now
+		if scan_in_progress then
+			self:CancelTimer( TIMER_SCAN_TIMEOUT ) 	-- Cancel timeout timer
+			TIMER_SCAN_TIMEOUT = self:ScheduleTimer( "cmdScanTimeout", SCAN_TIMEOUT_TIME) 	-- 2 second timeout timer
+			
+			local GossipOptions = { GetGossipOptions() }
+			
+			if not scan_last then 	-- this is our first call of the scan!
+				-- generate fresh table of item slots to check for
+				wipe(scan_table_slots)
+				for k,v in pairs(scan_table_slots_template) do
+					scan_table_slots[v] = 1
+				end
+			end
+			
+			-- check all Labels in GossipOptions of "main menu"
+			for k,v in pairs(GossipOptions) do
+				local optionText
+				
+				if k%2==1 then 	-- only check the odd entries (those are the "labels")
+					optionText = strmatch(v, pattern_icon) 	-- fetch option text without the Icon in front
+					
+					-- if we detect that "option text" is one of the scan_table_slots
+					if optionText and scan_table_slots[optionText] then
+						scan_last = optionText
+						scan_table_slots[optionText] = nil
+						
+						-- "true" GossipOption index is half of the "bankier" option (which is k+1)
+						SelectGossipOption( (k+1)/2 )
+						return
+					end
+				end
+				
+			end
+			
+			-- if we get here: STOP SCANNING
+			addon:cmdScanStopNormal()
+			return
+			
+		else 	-- we are NOT scanning
+			-- check worn gear on enter of main menu
+			addon:checkGearWorn()
+		end
+	
+	elseif isSlot then
 		local GossipOptions = { GetGossipOptions() }
 		local itemLink, itemId, itemName
 		
+		-- check shown items (whether we are in scan mode or not)
 		for k,line in pairs(GossipOptions) do
 			itemLink, itemId, itemName = strmatch( line, pattern_item )
 			if itemId then
@@ -353,10 +487,39 @@ function addon:GOSSIP_SHOW()
 			end
 		end
 		
-		if check_gear_flag then
-			-- check_gear_flag = false
-			addon:checkGearWorn()
+		-- we are scanning right now
+		if scan_in_progress then
+			local idx_next, idx_return
+			
+			-- check all Labels in GossipOptions of "Slot menu"
+			for k,v in pairs(GossipOptions) do
+				local optionText
+				
+				if k%2==1 then 	-- only check the odd entries (those are the "labels")
+					optionText = strmatch(v, pattern_icon) 	-- fetch option text without the Icon in front
+					
+					-- if we detect "Next Page" in the optionText, then fetch next page
+					if optionText and optionText == L["GOSSIP_OPTION_PAGE_NEXT"] then
+						idx_next = (k+1)/2 	-- "true" GossipOption index is half of the "bankier" option (which is k+1)
+					end
+					-- else: we try return
+					if optionText and optionText == L["GOSSIP_OPTION_RETURN"] then
+						idx_return = (k+1)/2 
+					end
+				end
+			end
+			
+			if idx_next then 	-- if we can go to next page
+				SelectGossipOption(idx_next)
+				return
+			end
+			if idx_return then 	-- if we can return
+				SelectGossipOption(idx_return)
+				return
+			end
+			-- if we get here: we have failed to get to "next page" or to "return"!
 		end
+		
 	end
 end
 
