@@ -11,6 +11,9 @@ WotLK 3.3.5 Addon to track known Transmog appearances on the Rising-Gods server.
 > `/transmogtracker`
 
 ## Changes
+### [Transmog-Tracker 0.4](https://github.com/telkar-rg/wow-Transmog-Tracker/releases/tag/v0.4)
+- Added detection of unlock of item visuals which will be available to transmog at a higher level
+- Added scan command to automatically browse and track all available unlocked item visuals at the transmog npcs
 ### [Transmog-Tracker 0.3c](https://github.com/telkar-rg/wow-Transmog-Tracker/releases/tag/v0.3c)
 - fixed dependencies
 ### [Transmog-Tracker 0.3b](https://github.com/telkar-rg/wow-Transmog-Tracker/releases/tag/v0.3b)
