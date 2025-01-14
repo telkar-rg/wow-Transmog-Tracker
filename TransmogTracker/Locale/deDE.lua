@@ -42,6 +42,7 @@ L["tooltip_item_known_visual"]	= "|c0cffd200für Item(s) gleichen Aussehens frei
 L["tooltip_item_unknown"]	= "|cffff2020unbekannt|r"
 L["tooltip_cmd_show"]	= "Tooltip-Info wird nun angezeigt."
 L["tooltip_cmd_hide"]	= "Tooltip-Info wird nicht mehr angezeigt."
+L["tooltip_token_known"]	= "%d |4Item:Items; freigeschaltet: "
 
 L["GOSSIP_TEXT_MAINMENU"] 	= "^%s-%-%- Hauptmenü %-%-\n\n%*%* Gesamte Splitter der Illusion %*%*.+"
 L["GOSSIP_TEXT_THISSLOT"] 	= "^%s-%-%- Transmogrifizieren: (.-) %-%-\n\nSplitter der Illusion:"

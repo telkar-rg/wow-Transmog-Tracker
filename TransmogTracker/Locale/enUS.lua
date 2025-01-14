@@ -42,6 +42,7 @@ L["tooltip_item_known_visual"]	= "|c0cffd200unlocked for item(s) of same appeara
 L["tooltip_item_unknown"]	= "|cffff2020unknown|r"
 L["tooltip_cmd_show"]	= "Tooltip information is now shown."
 L["tooltip_cmd_hide"]	= "Tooltip information is now hidden."
+L["tooltip_token_known"]	= "%d |4item:items; unlocked: "
 
 L["GOSSIP_TEXT_MAINMENU"] 	= "^%s-%-%- Main Menu %-%-\n\n%*%* Total Shards of Illusion %*%*.+"
 L["GOSSIP_TEXT_THISSLOT"] 	= "^%s-%-%- Transmogrify: (.-) %-%-\n\nShards of Illusion:"
