@@ -1,0 +1,1657 @@
+"id";"Name";"Class";"Faction";"src"
+51279;"Sanctified Lightsworn Shoulderplates";"Paladin";"both";52030
+51278;"Sanctified Lightsworn Legplates";"Paladin";"both";52030
+51277;"Sanctified Lightsworn Helmet";"Paladin";"both";52030
+51276;"Sanctified Lightsworn Gauntlets";"Paladin";"both";52030
+51275;"Sanctified Lightsworn Battleplate";"Paladin";"both";52030
+51274;"Sanctified Lightsworn Tunic";"Paladin";"both";52030
+51273;"Sanctified Lightsworn Spaulders";"Paladin";"both";52030
+51272;"Sanctified Lightsworn Headpiece";"Paladin";"both";52030
+51271;"Sanctified Lightsworn Greaves";"Paladin";"both";52030
+51270;"Sanctified Lightsworn Gloves";"Paladin";"both";52030
+51269;"Sanctified Lightsworn Shoulderguards";"Paladin";"both";52030
+51268;"Sanctified Lightsworn Legguards";"Paladin";"both";52030
+51267;"Sanctified Lightsworn Handguards";"Paladin";"both";52030
+51266;"Sanctified Lightsworn Faceguard";"Paladin";"both";52030
+51265;"Sanctified Lightsworn Chestguard";"Paladin";"both";52030
+51264;"Sanctified Crimson Acolyte Shoulderpads";"Priest";"both";52030
+51263;"Sanctified Crimson Acolyte Robe";"Priest";"both";52030
+51262;"Sanctified Crimson Acolyte Leggings";"Priest";"both";52030
+51261;"Sanctified Crimson Acolyte Hood";"Priest";"both";52030
+51260;"Sanctified Crimson Acolyte Gloves";"Priest";"both";52030
+51259;"Sanctified Crimson Acolyte Raiments";"Priest";"both";52030
+51258;"Sanctified Crimson Acolyte Pants";"Priest";"both";52030
+51257;"Sanctified Crimson Acolyte Mantle";"Priest";"both";52030
+51256;"Sanctified Crimson Acolyte Handwraps";"Priest";"both";52030
+51255;"Sanctified Crimson Acolyte Cowl";"Priest";"both";52030
+51234;"Sanctified Dark Coven Shoulderpads";"Warlock";"both";52030
+51233;"Sanctified Dark Coven Robe";"Warlock";"both";52030
+51232;"Sanctified Dark Coven Leggings";"Warlock";"both";52030
+51231;"Sanctified Dark Coven Hood";"Warlock";"both";52030
+51230;"Sanctified Dark Coven Gloves";"Warlock";"both";52030
+51289;"Sanctified Ahn'Kahar Blood Hunter's Tunic";"Hunter";"both";52029
+51288;"Sanctified Ahn'Kahar Blood Hunter's Spaulders";"Hunter";"both";52029
+51287;"Sanctified Ahn'Kahar Blood Hunter's Legguards";"Hunter";"both";52029
+51286;"Sanctified Ahn'Kahar Blood Hunter's Headpiece";"Hunter";"both";52029
+51285;"Sanctified Ahn'Kahar Blood Hunter's Handguards";"Hunter";"both";52029
+51249;"Sanctified Frost Witch's Tunic";"Shaman";"both";52029
+51248;"Sanctified Frost Witch's Handguards";"Shaman";"both";52029
+51247;"Sanctified Frost Witch's Headpiece";"Shaman";"both";52029
+51246;"Sanctified Frost Witch's Legguards";"Shaman";"both";52029
+51245;"Sanctified Frost Witch's Spaulders";"Shaman";"both";52029
+51244;"Sanctified Frost Witch's Chestguard";"Shaman";"both";52029
+51243;"Sanctified Frost Witch's Grips";"Shaman";"both";52029
+51242;"Sanctified Frost Witch's Faceguard";"Shaman";"both";52029
+51241;"Sanctified Frost Witch's War-Kilt";"Shaman";"both";52029
+51240;"Sanctified Frost Witch's Shoulderguards";"Shaman";"both";52029
+51239;"Sanctified Frost Witch's Hauberk";"Shaman";"both";52029
+51238;"Sanctified Frost Witch's Gloves";"Shaman";"both";52029
+51237;"Sanctified Frost Witch's Helm";"Shaman";"both";52029
+51236;"Sanctified Frost Witch's Kilt";"Shaman";"both";52029
+51235;"Sanctified Frost Witch's Shoulderpads";"Shaman";"both";52029
+51229;"Sanctified Ymirjar Lord's Shoulderplates";"Warrior";"both";52029
+51228;"Sanctified Ymirjar Lord's Legplates";"Warrior";"both";52029
+51227;"Sanctified Ymirjar Lord's Helmet";"Warrior";"both";52029
+51226;"Sanctified Ymirjar Lord's Gauntlets";"Warrior";"both";52029
+51225;"Sanctified Ymirjar Lord's Battleplate";"Warrior";"both";52029
+51224;"Sanctified Ymirjar Lord's Pauldrons";"Warrior";"both";52029
+51223;"Sanctified Ymirjar Lord's Legguards";"Warrior";"both";52029
+51222;"Sanctified Ymirjar Lord's Handguards";"Warrior";"both";52029
+51221;"Sanctified Ymirjar Lord's Greathelm";"Warrior";"both";52029
+51220;"Sanctified Ymirjar Lord's Breastplate";"Warrior";"both";52029
+51314;"Sanctified Scourgelord Shoulderplates";"Death Knight";"both";52028
+51313;"Sanctified Scourgelord Legplates";"Death Knight";"both";52028
+51312;"Sanctified Scourgelord Helmet";"Death Knight";"both";52028
+51311;"Sanctified Scourgelord Gauntlets";"Death Knight";"both";52028
+51310;"Sanctified Scourgelord Battleplate";"Death Knight";"both";52028
+51309;"Sanctified Scourgelord Pauldrons";"Death Knight";"both";52028
+51308;"Sanctified Scourgelord Legguards";"Death Knight";"both";52028
+51307;"Sanctified Scourgelord Handguards";"Death Knight";"both";52028
+51306;"Sanctified Scourgelord Faceguard";"Death Knight";"both";52028
+51305;"Sanctified Scourgelord Chestguard";"Death Knight";"both";52028
+51304;"Sanctified Lasherweave Pauldrons";"Druid";"both";52028
+51303;"Sanctified Lasherweave Legplates";"Druid";"both";52028
+51302;"Sanctified Lasherweave Helmet";"Druid";"both";52028
+51301;"Sanctified Lasherweave Gauntlets";"Druid";"both";52028
+51300;"Sanctified Lasherweave Robes";"Druid";"both";52028
+51299;"Sanctified Lasherweave Shoulderpads";"Druid";"both";52028
+51298;"Sanctified Lasherweave Raiment";"Druid";"both";52028
+51297;"Sanctified Lasherweave Legguards";"Druid";"both";52028
+51296;"Sanctified Lasherweave Headguard";"Druid";"both";52028
+51295;"Sanctified Lasherweave Handgrips";"Druid";"both";52028
+51294;"Sanctified Lasherweave Vestment";"Druid";"both";52028
+51293;"Sanctified Lasherweave Trousers";"Druid";"both";52028
+51292;"Sanctified Lasherweave Mantle";"Druid";"both";52028
+51291;"Sanctified Lasherweave Gloves";"Druid";"both";52028
+51290;"Sanctified Lasherweave Cover";"Druid";"both";52028
+51284;"Sanctified Bloodmage Shoulderpads";"Mage";"both";52028
+51283;"Sanctified Bloodmage Robe";"Mage";"both";52028
+51282;"Sanctified Bloodmage Leggings";"Mage";"both";52028
+51281;"Sanctified Bloodmage Hood";"Mage";"both";52028
+51280;"Sanctified Bloodmage Gloves";"Mage";"both";52028
+51254;"Sanctified Shadowblade Pauldrons";"Rogue";"both";52028
+51253;"Sanctified Shadowblade Legplates";"Rogue";"both";52028
+51252;"Sanctified Shadowblade Helmet";"Rogue";"both";52028
+51251;"Sanctified Shadowblade Gauntlets";"Rogue";"both";52028
+51250;"Sanctified Shadowblade Breastplate";"Rogue";"both";52028
+51174;"Sanctified Lightsworn Chestguard";"Paladin";"both";52027
+51173;"Sanctified Lightsworn Faceguard";"Paladin";"both";52027
+51172;"Sanctified Lightsworn Handguards";"Paladin";"both";52027
+51171;"Sanctified Lightsworn Legguards";"Paladin";"both";52027
+51170;"Sanctified Lightsworn Shoulderguards";"Paladin";"both";52027
+51169;"Sanctified Lightsworn Gloves";"Paladin";"both";52027
+51168;"Sanctified Lightsworn Greaves";"Paladin";"both";52027
+51167;"Sanctified Lightsworn Headpiece";"Paladin";"both";52027
+51166;"Sanctified Lightsworn Spaulders";"Paladin";"both";52027
+51165;"Sanctified Lightsworn Tunic";"Paladin";"both";52027
+51164;"Sanctified Lightsworn Battleplate";"Paladin";"both";52027
+51163;"Sanctified Lightsworn Gauntlets";"Paladin";"both";52027
+51162;"Sanctified Lightsworn Helmet";"Paladin";"both";52027
+51161;"Sanctified Lightsworn Legplates";"Paladin";"both";52027
+51160;"Sanctified Lightsworn Shoulderplates";"Paladin";"both";52027
+51184;"Sanctified Crimson Acolyte Cowl";"Priest";"both";52027
+51183;"Sanctified Crimson Acolyte Handwraps";"Priest";"both";52027
+51182;"Sanctified Crimson Acolyte Mantle";"Priest";"both";52027
+51181;"Sanctified Crimson Acolyte Pants";"Priest";"both";52027
+51180;"Sanctified Crimson Acolyte Raiments";"Priest";"both";52027
+51179;"Sanctified Crimson Acolyte Gloves";"Priest";"both";52027
+51178;"Sanctified Crimson Acolyte Hood";"Priest";"both";52027
+51177;"Sanctified Crimson Acolyte Leggings";"Priest";"both";52027
+51176;"Sanctified Crimson Acolyte Robe";"Priest";"both";52027
+51175;"Sanctified Crimson Acolyte Shoulderpads";"Priest";"both";52027
+51209;"Sanctified Dark Coven Gloves";"Warlock";"both";52027
+51208;"Sanctified Dark Coven Hood";"Warlock";"both";52027
+51207;"Sanctified Dark Coven Leggings";"Warlock";"both";52027
+51206;"Sanctified Dark Coven Robe";"Warlock";"both";52027
+51205;"Sanctified Dark Coven Shoulderpads";"Warlock";"both";52027
+51154;"Sanctified Ahn'Kahar Blood Hunter's Handguards";"Hunter";"both";52026
+51153;"Sanctified Ahn'Kahar Blood Hunter's Headpiece";"Hunter";"both";52026
+51152;"Sanctified Ahn'Kahar Blood Hunter's Legguards";"Hunter";"both";52026
+51151;"Sanctified Ahn'Kahar Blood Hunter's Spaulders";"Hunter";"both";52026
+51150;"Sanctified Ahn'Kahar Blood Hunter's Tunic";"Hunter";"both";52026
+51204;"Sanctified Frost Witch's Shoulderpads";"Shaman";"both";52026
+51203;"Sanctified Frost Witch's Kilt";"Shaman";"both";52026
+51202;"Sanctified Frost Witch's Helm";"Shaman";"both";52026
+51201;"Sanctified Frost Witch's Gloves";"Shaman";"both";52026
+51200;"Sanctified Frost Witch's Hauberk";"Shaman";"both";52026
+51199;"Sanctified Frost Witch's Shoulderguards";"Shaman";"both";52026
+51198;"Sanctified Frost Witch's War-Kilt";"Shaman";"both";52026
+51197;"Sanctified Frost Witch's Faceguard";"Shaman";"both";52026
+51196;"Sanctified Frost Witch's Grips";"Shaman";"both";52026
+51195;"Sanctified Frost Witch's Chestguard";"Shaman";"both";52026
+51194;"Sanctified Frost Witch's Spaulders";"Shaman";"both";52026
+51193;"Sanctified Frost Witch's Legguards";"Shaman";"both";52026
+51192;"Sanctified Frost Witch's Headpiece";"Shaman";"both";52026
+51191;"Sanctified Frost Witch's Handguards";"Shaman";"both";52026
+51190;"Sanctified Frost Witch's Tunic";"Shaman";"both";52026
+51219;"Sanctified Ymirjar Lord's Breastplate";"Warrior";"both";52026
+51218;"Sanctified Ymirjar Lord's Greathelm";"Warrior";"both";52026
+51217;"Sanctified Ymirjar Lord's Handguards";"Warrior";"both";52026
+51216;"Sanctified Ymirjar Lord's Legguards";"Warrior";"both";52026
+51215;"Sanctified Ymirjar Lord's Pauldrons";"Warrior";"both";52026
+51214;"Sanctified Ymirjar Lord's Battleplate";"Warrior";"both";52026
+51213;"Sanctified Ymirjar Lord's Gauntlets";"Warrior";"both";52026
+51212;"Sanctified Ymirjar Lord's Helmet";"Warrior";"both";52026
+51211;"Sanctified Ymirjar Lord's Legplates";"Warrior";"both";52026
+51210;"Sanctified Ymirjar Lord's Shoulderplates";"Warrior";"both";52026
+51134;"Sanctified Scourgelord Chestguard";"Death Knight";"both";52025
+51133;"Sanctified Scourgelord Faceguard";"Death Knight";"both";52025
+51132;"Sanctified Scourgelord Handguards";"Death Knight";"both";52025
+51131;"Sanctified Scourgelord Legguards";"Death Knight";"both";52025
+51130;"Sanctified Scourgelord Pauldrons";"Death Knight";"both";52025
+51129;"Sanctified Scourgelord Battleplate";"Death Knight";"both";52025
+51128;"Sanctified Scourgelord Gauntlets";"Death Knight";"both";52025
+51127;"Sanctified Scourgelord Helmet";"Death Knight";"both";52025
+51126;"Sanctified Scourgelord Legplates";"Death Knight";"both";52025
+51125;"Sanctified Scourgelord Shoulderplates";"Death Knight";"both";52025
+51149;"Sanctified Lasherweave Cover";"Druid";"both";52025
+51148;"Sanctified Lasherweave Gloves";"Druid";"both";52025
+51147;"Sanctified Lasherweave Mantle";"Druid";"both";52025
+51146;"Sanctified Lasherweave Trousers";"Druid";"both";52025
+51145;"Sanctified Lasherweave Vestment";"Druid";"both";52025
+51144;"Sanctified Lasherweave Handgrips";"Druid";"both";52025
+51143;"Sanctified Lasherweave Headguard";"Druid";"both";52025
+51142;"Sanctified Lasherweave Legguards";"Druid";"both";52025
+51141;"Sanctified Lasherweave Raiment";"Druid";"both";52025
+51140;"Sanctified Lasherweave Shoulderpads";"Druid";"both";52025
+51139;"Sanctified Lasherweave Robes";"Druid";"both";52025
+51138;"Sanctified Lasherweave Gauntlets";"Druid";"both";52025
+51137;"Sanctified Lasherweave Helmet";"Druid";"both";52025
+51136;"Sanctified Lasherweave Legplates";"Druid";"both";52025
+51135;"Sanctified Lasherweave Pauldrons";"Druid";"both";52025
+51159;"Sanctified Bloodmage Gloves";"Mage";"both";52025
+51158;"Sanctified Bloodmage Hood";"Mage";"both";52025
+51157;"Sanctified Bloodmage Leggings";"Mage";"both";52025
+51156;"Sanctified Bloodmage Robe";"Mage";"both";52025
+51155;"Sanctified Bloodmage Shoulderpads";"Mage";"both";52025
+51189;"Sanctified Shadowblade Breastplate";"Rogue";"both";52025
+51188;"Sanctified Shadowblade Gauntlets";"Rogue";"both";52025
+51187;"Sanctified Shadowblade Helmet";"Rogue";"both";52025
+51186;"Sanctified Shadowblade Legplates";"Rogue";"both";52025
+51185;"Sanctified Shadowblade Pauldrons";"Rogue";"both";52025
+48547;"Thassarian's Chestguard of Triumph";"Death Knight";"alliance";47559
+48546;"Thassarian's Handguards of Triumph";"Death Knight";"alliance";47559
+48545;"Thassarian's Faceguard of Triumph";"Death Knight";"alliance";47559
+48544;"Thassarian's Legguards of Triumph";"Death Knight";"alliance";47559
+48543;"Thassarian's Pauldrons of Triumph";"Death Knight";"alliance";47559
+48490;"Thassarian's Battleplate of Triumph";"Death Knight";"alliance";47559
+48489;"Thassarian's Gauntlets of Triumph";"Death Knight";"alliance";47559
+48488;"Thassarian's Helmet of Triumph";"Death Knight";"alliance";47559
+48487;"Thassarian's Legplates of Triumph";"Death Knight";"alliance";47559
+48486;"Thassarian's Shoulderplates of Triumph";"Death Knight";"alliance";47559
+48207;"Malfurion's Shoulderpads of Triumph";"Druid";"alliance";47559
+48206;"Malfurion's Raiments of Triumph";"Druid";"alliance";47559
+48205;"Malfurion's Legguards of Triumph";"Druid";"alliance";47559
+48204;"Malfurion's Headguard of Triumph";"Druid";"alliance";47559
+48203;"Malfurion's Handgrips of Triumph";"Druid";"alliance";47559
+48172;"Malfurion's Gloves of Triumph";"Druid";"alliance";47559
+48171;"Malfurion's Cover of Triumph";"Druid";"alliance";47559
+48170;"Malfurion's Trousers of Triumph";"Druid";"alliance";47559
+48169;"Malfurion's Vestments of Triumph";"Druid";"alliance";47559
+48168;"Malfurion's Mantle of Triumph";"Druid";"alliance";47559
+48142;"Malfurion's Handguards of Triumph";"Druid";"alliance";47559
+48141;"Malfurion's Headpiece of Triumph";"Druid";"alliance";47559
+48140;"Malfurion's Leggings of Triumph";"Druid";"alliance";47559
+48139;"Malfurion's Robe of Triumph";"Druid";"alliance";47559
+48138;"Malfurion's Spaulders of Triumph";"Druid";"alliance";47559
+47762;"Khadgar's Gauntlets of Triumph";"Mage";"alliance";47559
+47761;"Khadgar's Hood of Triumph";"Mage";"alliance";47559
+47760;"Khadgar's Leggings of Triumph";"Mage";"alliance";47559
+47759;"Khadgar's Robe of Triumph";"Mage";"alliance";47559
+47758;"Khadgar's Shoulderpads of Triumph";"Mage";"alliance";47559
+48232;"VanCleef's Breastplate of Triumph";"Rogue";"alliance";47559
+48231;"VanCleef's Gauntlets of Triumph";"Rogue";"alliance";47559
+48230;"VanCleef's Helmet of Triumph";"Rogue";"alliance";47559
+48229;"VanCleef's Legplates of Triumph";"Rogue";"alliance";47559
+48228;"VanCleef's Pauldrons of Triumph";"Rogue";"alliance";47559
+48552;"Koltira's Pauldrons of Triumph";"Death Knight";"horde";47559
+48551;"Koltira's Legguards of Triumph";"Death Knight";"horde";47559
+48550;"Koltira's Faceguard of Triumph";"Death Knight";"horde";47559
+48549;"Koltira's Handguards of Triumph";"Death Knight";"horde";47559
+48548;"Koltira's Chestguard of Triumph";"Death Knight";"horde";47559
+48495;"Koltira's Shoulderplates of Triumph";"Death Knight";"horde";47559
+48494;"Koltira's Legplates of Triumph";"Death Knight";"horde";47559
+48493;"Koltira's Helmet of Triumph";"Death Knight";"horde";47559
+48492;"Koltira's Gauntlets of Triumph";"Death Knight";"horde";47559
+48491;"Koltira's Battleplate of Triumph";"Death Knight";"horde";47559
+48202;"Runetotem's Handgrips of Triumph";"Druid";"horde";47559
+48201;"Runetotem's Headguard of Triumph";"Druid";"horde";47559
+48200;"Runetotem's Legguards of Triumph";"Druid";"horde";47559
+48199;"Runetotem's Raiments of Triumph";"Druid";"horde";47559
+48198;"Runetotem's Shoulderpads of Triumph";"Druid";"horde";47559
+48177;"Runetotem's Mantle of Triumph";"Druid";"horde";47559
+48176;"Runetotem's Vestments of Triumph";"Druid";"horde";47559
+48175;"Runetotem's Trousers of Triumph";"Druid";"horde";47559
+48174;"Runetotem's Cover of Triumph";"Druid";"horde";47559
+48173;"Runetotem's Gloves of Triumph";"Druid";"horde";47559
+48147;"Runetotem's Spaulders of Triumph";"Druid";"horde";47559
+48146;"Runetotem's Robe of Triumph";"Druid";"horde";47559
+48145;"Runetotem's Leggings of Triumph";"Druid";"horde";47559
+48144;"Runetotem's Headpiece of Triumph";"Druid";"horde";47559
+48143;"Runetotem's Handguards of Triumph";"Druid";"horde";47559
+47767;"Sunstrider's Shoulderpads of Triumph";"Mage";"horde";47559
+47766;"Sunstrider's Robe of Triumph";"Mage";"horde";47559
+47765;"Sunstrider's Leggings of Triumph";"Mage";"horde";47559
+47764;"Sunstrider's Hood of Triumph";"Mage";"horde";47559
+47763;"Sunstrider's Gauntlets of Triumph";"Mage";"horde";47559
+48237;"Garona's Pauldrons of Triumph";"Rogue";"horde";47559
+48236;"Garona's Legplates of Triumph";"Rogue";"horde";47559
+48235;"Garona's Helmet of Triumph";"Rogue";"horde";47559
+48234;"Garona's Gauntlets of Triumph";"Rogue";"horde";47559
+48233;"Garona's Breastplate of Triumph";"Rogue";"horde";47559
+48264;"Windrunner's Tunic of Triumph";"Hunter";"alliance";47558
+48263;"Windrunner's Handguards of Triumph";"Hunter";"alliance";47558
+48262;"Windrunner's Headpiece of Triumph";"Hunter";"alliance";47558
+48261;"Windrunner's Legguards of Triumph";"Hunter";"alliance";47558
+48260;"Windrunner's Spaulders of Triumph";"Hunter";"alliance";47558
+48355;"Nobundo's Chestguard of Triumph";"Shaman";"alliance";47558
+48354;"Nobundo's Grips of Triumph";"Shaman";"alliance";47558
+48353;"Nobundo's Faceguard of Triumph";"Shaman";"alliance";47558
+48352;"Nobundo's War-Kilt of Triumph";"Shaman";"alliance";47558
+48351;"Nobundo's Shoulderguards of Triumph";"Shaman";"alliance";47558
+48325;"Nobundo's Hauberk of Triumph";"Shaman";"alliance";47558
+48324;"Nobundo's Gloves of Triumph";"Shaman";"alliance";47558
+48323;"Nobundo's Helm of Triumph";"Shaman";"alliance";47558
+48322;"Nobundo's Kilt of Triumph";"Shaman";"alliance";47558
+48321;"Nobundo's Shoulderpads of Triumph";"Shaman";"alliance";47558
+48294;"Nobundo's Tunic of Triumph";"Shaman";"alliance";47558
+48293;"Nobundo's Handguards of Triumph";"Shaman";"alliance";47558
+48292;"Nobundo's Headpiece of Triumph";"Shaman";"alliance";47558
+48291;"Nobundo's Legguards of Triumph";"Shaman";"alliance";47558
+48290;"Nobundo's Spaulders of Triumph";"Shaman";"alliance";47558
+48455;"Wrynn's Pauldrons of Triumph";"Warrior";"alliance";47558
+48453;"Wrynn's Handguards of Triumph";"Warrior";"alliance";47558
+48451;"Wrynn's Breastplate of Triumph";"Warrior";"alliance";47558
+48447;"Wrynn's Legguards of Triumph";"Warrior";"alliance";47558
+48433;"Wrynn's Greathelm of Triumph";"Warrior";"alliance";47558
+48385;"Wrynn's Battleplate of Triumph";"Warrior";"alliance";47558
+48384;"Wrynn's Gauntlets of Triumph";"Warrior";"alliance";47558
+48383;"Wrynn's Helmet of Triumph";"Warrior";"alliance";47558
+48382;"Wrynn's Legplates of Triumph";"Warrior";"alliance";47558
+48381;"Wrynn's Shoulderplates of Triumph";"Warrior";"alliance";47558
+48269;"Windrunner's Spaulders of Triumph";"Hunter";"horde";47558
+48268;"Windrunner's Legguards of Triumph";"Hunter";"horde";47558
+48267;"Windrunner's Headpiece of Triumph";"Hunter";"horde";47558
+48266;"Windrunner's Handguards of Triumph";"Hunter";"horde";47558
+48265;"Windrunner's Tunic of Triumph";"Hunter";"horde";47558
+48360;"Thrall's Shoulderguards of Triumph";"Shaman";"horde";47558
+48359;"Thrall's War-Kilt of Triumph";"Shaman";"horde";47558
+48358;"Thrall's Faceguard of Triumph";"Shaman";"horde";47558
+48357;"Thrall's Grips of Triumph";"Shaman";"horde";47558
+48356;"Thrall's Chestguard of Triumph";"Shaman";"horde";47558
+48330;"Thrall's Shoulderpads of Triumph";"Shaman";"horde";47558
+48329;"Thrall's Kilt of Triumph";"Shaman";"horde";47558
+48328;"Thrall's Helm of Triumph";"Shaman";"horde";47558
+48327;"Thrall's Gloves of Triumph";"Shaman";"horde";47558
+48326;"Thrall's Hauberk of Triumph";"Shaman";"horde";47558
+48309;"Thrall's Spaulders of Triumph";"Shaman";"horde";47558
+48308;"Thrall's Legguards of Triumph";"Shaman";"horde";47558
+48307;"Thrall's Headpiece of Triumph";"Shaman";"horde";47558
+48306;"Thrall's Handguards of Triumph";"Shaman";"horde";47558
+48305;"Thrall's Tunic of Triumph";"Shaman";"horde";47558
+48470;"Hellscream's Pauldrons of Triumph";"Warrior";"horde";47558
+48469;"Hellscream's Legguards of Triumph";"Warrior";"horde";47558
+48468;"Hellscream's Greathelm of Triumph";"Warrior";"horde";47558
+48467;"Hellscream's Handguards of Triumph";"Warrior";"horde";47558
+48466;"Hellscream's Breastplate of Triumph";"Warrior";"horde";47558
+48400;"Hellscream's Shoulderplates of Triumph";"Warrior";"horde";47558
+48399;"Hellscream's Legplates of Triumph";"Warrior";"horde";47558
+48398;"Hellscream's Helmet of Triumph";"Warrior";"horde";47558
+48397;"Hellscream's Gauntlets of Triumph";"Warrior";"horde";47558
+48396;"Hellscream's Battleplate of Triumph";"Warrior";"horde";47558
+48646;"Turalyon's Shoulderguards of Triumph";"Paladin";"alliance";47557
+48645;"Turalyon's Legguards of Triumph";"Paladin";"alliance";47557
+48644;"Turalyon's Faceguard of Triumph";"Paladin";"alliance";47557
+48643;"Turalyon's Handguards of Triumph";"Paladin";"alliance";47557
+48642;"Turalyon's Breastplate of Triumph";"Paladin";"alliance";47557
+48616;"Turalyon's Battleplate of Triumph";"Paladin";"alliance";47557
+48615;"Turalyon's Gauntlets of Triumph";"Paladin";"alliance";47557
+48614;"Turalyon's Helm of Triumph";"Paladin";"alliance";47557
+48613;"Turalyon's Legplates of Triumph";"Paladin";"alliance";47557
+48612;"Turalyon's Shoulderplates of Triumph";"Paladin";"alliance";47557
+48584;"Turalyon's Tunic of Triumph";"Paladin";"alliance";47557
+48583;"Turalyon's Gloves of Triumph";"Paladin";"alliance";47557
+48582;"Turalyon's Headpiece of Triumph";"Paladin";"alliance";47557
+48581;"Turalyon's Greaves of Triumph";"Paladin";"alliance";47557
+48580;"Turalyon's Spaulders of Triumph";"Paladin";"alliance";47557
+48086;"Velen's Handwraps of Triumph";"Priest";"alliance";47557
+48085;"Velen's Circlet of Triumph";"Priest";"alliance";47557
+48084;"Velen's Pants of Triumph";"Priest";"alliance";47557
+48083;"Velen's Raiments of Triumph";"Priest";"alliance";47557
+48082;"Velen's Mantle of Triumph";"Priest";"alliance";47557
+48037;"Velen's Gloves of Triumph";"Priest";"alliance";47557
+48035;"Velen's Cowl of Triumph";"Priest";"alliance";47557
+48033;"Velen's Leggings of Triumph";"Priest";"alliance";47557
+48031;"Velen's Robe of Triumph";"Priest";"alliance";47557
+48029;"Velen's Shoulderpads of Triumph";"Priest";"alliance";47557
+47792;"Kel'Thuzad's Shoulderpads of Triumph";"Warlock";"alliance";47557
+47791;"Kel'Thuzad's Robe of Triumph";"Warlock";"alliance";47557
+47790;"Kel'Thuzad's Leggings of Triumph";"Warlock";"alliance";47557
+47789;"Kel'Thuzad's Hood of Triumph";"Warlock";"alliance";47557
+47788;"Kel'Thuzad's Gloves of Triumph";"Warlock";"alliance";47557
+48651;"Liadrin's Breastplate of Triumph";"Paladin";"horde";47557
+48650;"Liadrin's Handguards of Triumph";"Paladin";"horde";47557
+48649;"Liadrin's Faceguard of Triumph";"Paladin";"horde";47557
+48648;"Liadrin's Legguards of Triumph";"Paladin";"horde";47557
+48647;"Liadrin's Shoulderguards of Triumph";"Paladin";"horde";47557
+48621;"Liadrin's Shoulderplates of Triumph";"Paladin";"horde";47557
+48620;"Liadrin's Legplates of Triumph";"Paladin";"horde";47557
+48619;"Liadrin's Helm of Triumph";"Paladin";"horde";47557
+48618;"Liadrin's Gauntlets of Triumph";"Paladin";"horde";47557
+48617;"Liadrin's Battleplate of Triumph";"Paladin";"horde";47557
+48589;"Liadrin's Tunic of Triumph";"Paladin";"horde";47557
+48588;"Liadrin's Gloves of Triumph";"Paladin";"horde";47557
+48587;"Liadrin's Headpiece of Triumph";"Paladin";"horde";47557
+48586;"Liadrin's Greaves of Triumph";"Paladin";"horde";47557
+48585;"Liadrin's Spaulders of Triumph";"Paladin";"horde";47557
+48091;"Zabra's Mantle of Triumph";"Priest";"horde";47557
+48090;"Zabra's Raiments of Triumph";"Priest";"horde";47557
+48089;"Zabra's Pants of Triumph";"Priest";"horde";47557
+48088;"Zabra's Circlet of Triumph";"Priest";"horde";47557
+48087;"Zabra's Handwraps of Triumph";"Priest";"horde";47557
+48061;"Zabra's Shoulderpads of Triumph";"Priest";"horde";47557
+48060;"Zabra's Robe of Triumph";"Priest";"horde";47557
+48059;"Zabra's Leggings of Triumph";"Priest";"horde";47557
+48058;"Zabra's Cowl of Triumph";"Priest";"horde";47557
+48057;"Zabra's Gloves of Triumph";"Priest";"horde";47557
+47797;"Gul'dan's Gloves of Triumph";"Warlock";"horde";47557
+47796;"Gul'dan's Hood of Triumph";"Warlock";"horde";47557
+47795;"Gul'dan's Leggings of Triumph";"Warlock";"horde";47557
+47794;"Gul'dan's Robe of Triumph";"Warlock";"horde";47557
+47793;"Gul'dan's Shoulderpads of Triumph";"Warlock";"horde";47557
+48542;"Thassarian's Pauldrons of Triumph";"Death Knight";"alliance";47242
+48541;"Thassarian's Legguards of Triumph";"Death Knight";"alliance";47242
+48540;"Thassarian's Faceguard of Triumph";"Death Knight";"alliance";47242
+48539;"Thassarian's Handguards of Triumph";"Death Knight";"alliance";47242
+48538;"Thassarian's Chestguard of Triumph";"Death Knight";"alliance";47242
+48485;"Thassarian's Shoulderplates of Triumph";"Death Knight";"alliance";47242
+48484;"Thassarian's Legplates of Triumph";"Death Knight";"alliance";47242
+48483;"Thassarian's Helmet of Triumph";"Death Knight";"alliance";47242
+48482;"Thassarian's Gauntlets of Triumph";"Death Knight";"alliance";47242
+48481;"Thassarian's Battleplate of Triumph";"Death Knight";"alliance";47242
+48212;"Malfurion's Handgrips of Triumph";"Druid";"alliance";47242
+48211;"Malfurion's Headguard of Triumph";"Druid";"alliance";47242
+48210;"Malfurion's Legguards of Triumph";"Druid";"alliance";47242
+48209;"Malfurion's Raiments of Triumph";"Druid";"alliance";47242
+48208;"Malfurion's Shoulderpads of Triumph";"Druid";"alliance";47242
+48167;"Malfurion's Mantle of Triumph";"Druid";"alliance";47242
+48166;"Malfurion's Vestments of Triumph";"Druid";"alliance";47242
+48165;"Malfurion's Trousers of Triumph";"Druid";"alliance";47242
+48164;"Malfurion's Cover of Triumph";"Druid";"alliance";47242
+48163;"Malfurion's Gloves of Triumph";"Druid";"alliance";47242
+48137;"Malfurion's Spaulders of Triumph";"Druid";"alliance";47242
+48136;"Malfurion's Robe of Triumph";"Druid";"alliance";47242
+48135;"Malfurion's Leggings of Triumph";"Druid";"alliance";47242
+48134;"Malfurion's Headpiece of Triumph";"Druid";"alliance";47242
+48133;"Malfurion's Handguards of Triumph";"Druid";"alliance";47242
+48259;"Windrunner's Spaulders of Triumph";"Hunter";"alliance";47242
+48258;"Windrunner's Legguards of Triumph";"Hunter";"alliance";47242
+48257;"Windrunner's Headpiece of Triumph";"Hunter";"alliance";47242
+48256;"Windrunner's Handguards of Triumph";"Hunter";"alliance";47242
+48255;"Windrunner's Tunic of Triumph";"Hunter";"alliance";47242
+47757;"Khadgar's Shoulderpads of Triumph";"Mage";"alliance";47242
+47756;"Khadgar's Robe of Triumph";"Mage";"alliance";47242
+47755;"Khadgar's Leggings of Triumph";"Mage";"alliance";47242
+47754;"Khadgar's Hood of Triumph";"Mage";"alliance";47242
+47753;"Khadgar's Gauntlets of Triumph";"Mage";"alliance";47242
+48641;"Turalyon's Breastplate of Triumph";"Paladin";"alliance";47242
+48640;"Turalyon's Handguards of Triumph";"Paladin";"alliance";47242
+48639;"Turalyon's Faceguard of Triumph";"Paladin";"alliance";47242
+48638;"Turalyon's Legguards of Triumph";"Paladin";"alliance";47242
+48637;"Turalyon's Shoulderguards of Triumph";"Paladin";"alliance";47242
+48611;"Turalyon's Shoulderplates of Triumph";"Paladin";"alliance";47242
+48610;"Turalyon's Legplates of Triumph";"Paladin";"alliance";47242
+48609;"Turalyon's Helm of Triumph";"Paladin";"alliance";47242
+48608;"Turalyon's Gauntlets of Triumph";"Paladin";"alliance";47242
+48607;"Turalyon's Battleplate of Triumph";"Paladin";"alliance";47242
+48579;"Turalyon's Spaulders of Triumph";"Paladin";"alliance";47242
+48578;"Turalyon's Greaves of Triumph";"Paladin";"alliance";47242
+48577;"Turalyon's Headpiece of Triumph";"Paladin";"alliance";47242
+48576;"Turalyon's Gloves of Triumph";"Paladin";"alliance";47242
+48575;"Turalyon's Tunic of Triumph";"Paladin";"alliance";47242
+48081;"Velen's Mantle of Triumph";"Priest";"alliance";47242
+48080;"Velen's Raiments of Triumph";"Priest";"alliance";47242
+48079;"Velen's Pants of Triumph";"Priest";"alliance";47242
+48078;"Velen's Circlet of Triumph";"Priest";"alliance";47242
+48077;"Velen's Handwraps of Triumph";"Priest";"alliance";47242
+47987;"Velen's Shoulderpads of Triumph";"Priest";"alliance";47242
+47986;"Velen's Robe of Triumph";"Priest";"alliance";47242
+47985;"Velen's Leggings of Triumph";"Priest";"alliance";47242
+47984;"Velen's Cowl of Triumph";"Priest";"alliance";47242
+47983;"Velen's Gloves of Triumph";"Priest";"alliance";47242
+48227;"VanCleef's Pauldrons of Triumph";"Rogue";"alliance";47242
+48226;"VanCleef's Legplates of Triumph";"Rogue";"alliance";47242
+48225;"VanCleef's Helmet of Triumph";"Rogue";"alliance";47242
+48224;"VanCleef's Gauntlets of Triumph";"Rogue";"alliance";47242
+48223;"VanCleef's Breastplate of Triumph";"Rogue";"alliance";47242
+48350;"Nobundo's Shoulderguards of Triumph";"Shaman";"alliance";47242
+48349;"Nobundo's War-Kilt of Triumph";"Shaman";"alliance";47242
+48348;"Nobundo's Faceguard of Triumph";"Shaman";"alliance";47242
+48347;"Nobundo's Grips of Triumph";"Shaman";"alliance";47242
+48346;"Nobundo's Chestguard of Triumph";"Shaman";"alliance";47242
+48320;"Nobundo's Shoulderpads of Triumph";"Shaman";"alliance";47242
+48319;"Nobundo's Kilt of Triumph";"Shaman";"alliance";47242
+48318;"Nobundo's Helm of Triumph";"Shaman";"alliance";47242
+48317;"Nobundo's Gloves of Triumph";"Shaman";"alliance";47242
+48316;"Nobundo's Hauberk of Triumph";"Shaman";"alliance";47242
+48289;"Nobundo's Spaulders of Triumph";"Shaman";"alliance";47242
+48288;"Nobundo's Legguards of Triumph";"Shaman";"alliance";47242
+48287;"Nobundo's Headpiece of Triumph";"Shaman";"alliance";47242
+48286;"Nobundo's Handguards of Triumph";"Shaman";"alliance";47242
+48285;"Nobundo's Tunic of Triumph";"Shaman";"alliance";47242
+47782;"Kel'Thuzad's Gloves of Triumph";"Warlock";"alliance";47242
+47781;"Kel'Thuzad's Shoulderpads of Triumph";"Warlock";"alliance";47242
+47780;"Kel'Thuzad's Leggings of Triumph";"Warlock";"alliance";47242
+47779;"Kel'Thuzad's Robe of Triumph";"Warlock";"alliance";47242
+47778;"Kel'Thuzad's Hood of Triumph";"Warlock";"alliance";47242
+48454;"Wrynn's Pauldrons of Triumph";"Warrior";"alliance";47242
+48452;"Wrynn's Handguards of Triumph";"Warrior";"alliance";47242
+48450;"Wrynn's Breastplate of Triumph";"Warrior";"alliance";47242
+48446;"Wrynn's Legguards of Triumph";"Warrior";"alliance";47242
+48430;"Wrynn's Greathelm of Triumph";"Warrior";"alliance";47242
+48380;"Wrynn's Shoulderplates of Triumph";"Warrior";"alliance";47242
+48379;"Wrynn's Legplates of Triumph";"Warrior";"alliance";47242
+48378;"Wrynn's Helmet of Triumph";"Warrior";"alliance";47242
+48377;"Wrynn's Gauntlets of Triumph";"Warrior";"alliance";47242
+48376;"Wrynn's Battleplate of Triumph";"Warrior";"alliance";47242
+48557;"Koltira's Chestguard of Triumph";"Death Knight";"horde";47242
+48556;"Koltira's Handguards of Triumph";"Death Knight";"horde";47242
+48555;"Koltira's Faceguard of Triumph";"Death Knight";"horde";47242
+48554;"Koltira's Legguards of Triumph";"Death Knight";"horde";47242
+48553;"Koltira's Pauldrons of Triumph";"Death Knight";"horde";47242
+48500;"Koltira's Battleplate of Triumph";"Death Knight";"horde";47242
+48499;"Koltira's Gauntlets of Triumph";"Death Knight";"horde";47242
+48498;"Koltira's Helmet of Triumph";"Death Knight";"horde";47242
+48497;"Koltira's Legplates of Triumph";"Death Knight";"horde";47242
+48496;"Koltira's Shoulderplates of Triumph";"Death Knight";"horde";47242
+48197;"Runetotem's Shoulderpads of Triumph";"Druid";"horde";47242
+48196;"Runetotem's Raiments of Triumph";"Druid";"horde";47242
+48195;"Runetotem's Legguards of Triumph";"Druid";"horde";47242
+48194;"Runetotem's Headguard of Triumph";"Druid";"horde";47242
+48193;"Runetotem's Handgrips of Triumph";"Druid";"horde";47242
+48182;"Runetotem's Gloves of Triumph";"Druid";"horde";47242
+48181;"Runetotem's Cover of Triumph";"Druid";"horde";47242
+48180;"Runetotem's Trousers of Triumph";"Druid";"horde";47242
+48179;"Runetotem's Vestments of Triumph";"Druid";"horde";47242
+48178;"Runetotem's Mantle of Triumph";"Druid";"horde";47242
+48152;"Runetotem's Handguards of Triumph";"Druid";"horde";47242
+48151;"Runetotem's Headpiece of Triumph";"Druid";"horde";47242
+48150;"Runetotem's Leggings of Triumph";"Druid";"horde";47242
+48149;"Runetotem's Robe of Triumph";"Druid";"horde";47242
+48148;"Runetotem's Spaulders of Triumph";"Druid";"horde";47242
+48274;"Windrunner's Tunic of Triumph";"Hunter";"horde";47242
+48273;"Windrunner's Handguards of Triumph";"Hunter";"horde";47242
+48272;"Windrunner's Headpiece of Triumph";"Hunter";"horde";47242
+48271;"Windrunner's Legguards of Triumph";"Hunter";"horde";47242
+48270;"Windrunner's Spaulders of Triumph";"Hunter";"horde";47242
+47772;"Sunstrider's Gauntlets of Triumph";"Mage";"horde";47242
+47771;"Sunstrider's Hood of Triumph";"Mage";"horde";47242
+47770;"Sunstrider's Leggings of Triumph";"Mage";"horde";47242
+47769;"Sunstrider's Robe of Triumph";"Mage";"horde";47242
+47768;"Sunstrider's Shoulderpads of Triumph";"Mage";"horde";47242
+48661;"Liadrin's Shoulderguards of Triumph";"Paladin";"horde";47242
+48660;"Liadrin's Legguards of Triumph";"Paladin";"horde";47242
+48659;"Liadrin's Faceguard of Triumph";"Paladin";"horde";47242
+48658;"Liadrin's Handguards of Triumph";"Paladin";"horde";47242
+48657;"Liadrin's Breastplate of Triumph";"Paladin";"horde";47242
+48626;"Liadrin's Battleplate of Triumph";"Paladin";"horde";47242
+48625;"Liadrin's Gauntlets of Triumph";"Paladin";"horde";47242
+48624;"Liadrin's Helm of Triumph";"Paladin";"horde";47242
+48623;"Liadrin's Legplates of Triumph";"Paladin";"horde";47242
+48622;"Liadrin's Shoulderplates of Triumph";"Paladin";"horde";47242
+48594;"Liadrin's Tunic of Triumph";"Paladin";"horde";47242
+48593;"Liadrin's Gloves of Triumph";"Paladin";"horde";47242
+48592;"Liadrin's Headpiece of Triumph";"Paladin";"horde";47242
+48591;"Liadrin's Greaves of Triumph";"Paladin";"horde";47242
+48590;"Liadrin's Spaulders of Triumph";"Paladin";"horde";47242
+48096;"Zabra's Handwraps of Triumph";"Priest";"horde";47242
+48095;"Zabra's Circlet of Triumph";"Priest";"horde";47242
+48094;"Zabra's Pants of Triumph";"Priest";"horde";47242
+48093;"Zabra's Raiments of Triumph";"Priest";"horde";47242
+48092;"Zabra's Mantle of Triumph";"Priest";"horde";47242
+48066;"Zabra's Gloves of Triumph";"Priest";"horde";47242
+48065;"Zabra's Cowl of Triumph";"Priest";"horde";47242
+48064;"Zabra's Leggings of Triumph";"Priest";"horde";47242
+48063;"Zabra's Robe of Triumph";"Priest";"horde";47242
+48062;"Zabra's Shoulderpads of Triumph";"Priest";"horde";47242
+48242;"Garona's Breastplate of Triumph";"Rogue";"horde";47242
+48241;"Garona's Gauntlets of Triumph";"Rogue";"horde";47242
+48240;"Garona's Helmet of Triumph";"Rogue";"horde";47242
+48239;"Garona's Legplates of Triumph";"Rogue";"horde";47242
+48238;"Garona's Pauldrons of Triumph";"Rogue";"horde";47242
+48365;"Thrall's Chestguard of Triumph";"Shaman";"horde";47242
+48364;"Thrall's Grips of Triumph";"Shaman";"horde";47242
+48363;"Thrall's Faceguard of Triumph";"Shaman";"horde";47242
+48362;"Thrall's War-Kilt of Triumph";"Shaman";"horde";47242
+48361;"Thrall's Shoulderguards of Triumph";"Shaman";"horde";47242
+48335;"Thrall's Hauberk of Triumph";"Shaman";"horde";47242
+48334;"Thrall's Gloves of Triumph";"Shaman";"horde";47242
+48333;"Thrall's Helm of Triumph";"Shaman";"horde";47242
+48332;"Thrall's Kilt of Triumph";"Shaman";"horde";47242
+48331;"Thrall's Shoulderpads of Triumph";"Shaman";"horde";47242
+48304;"Thrall's Spaulders of Triumph";"Shaman";"horde";47242
+48303;"Thrall's Legguards of Triumph";"Shaman";"horde";47242
+48302;"Thrall's Headpiece of Triumph";"Shaman";"horde";47242
+48301;"Thrall's Handguards of Triumph";"Shaman";"horde";47242
+48300;"Thrall's Tunic of Triumph";"Shaman";"horde";47242
+47807;"Gul'dan's Shoulderpads of Triumph";"Warlock";"horde";47242
+47806;"Gul'dan's Robe of Triumph";"Warlock";"horde";47242
+47805;"Gul'dan's Leggings of Triumph";"Warlock";"horde";47242
+47804;"Gul'dan's Hood of Triumph";"Warlock";"horde";47242
+47803;"Gul'dan's Gloves of Triumph";"Warlock";"horde";47242
+48465;"Hellscream's Pauldrons of Triumph";"Warrior";"horde";47242
+48464;"Hellscream's Legguards of Triumph";"Warrior";"horde";47242
+48463;"Hellscream's Greathelm of Triumph";"Warrior";"horde";47242
+48462;"Hellscream's Handguards of Triumph";"Warrior";"horde";47242
+48461;"Hellscream's Breastplate of Triumph";"Warrior";"horde";47242
+48395;"Hellscream's Shoulderplates of Triumph";"Warrior";"horde";47242
+48394;"Hellscream's Legplates of Triumph";"Warrior";"horde";47242
+48393;"Hellscream's Helmet of Triumph";"Warrior";"horde";47242
+48392;"Hellscream's Gauntlets of Triumph";"Warrior";"horde";47242
+48391;"Hellscream's Battleplate of Triumph";"Warrior";"horde";47242
+45344;"Valorous Darkruned Shoulderplates";"Death Knight";"both";45661
+45339;"Valorous Darkruned Pauldrons";"Death Knight";"both";45661
+45359;"Valorous Nightsong Shoulderpads";"Druid";"both";45661
+45352;"Valorous Nightsong Mantle";"Druid";"both";45661
+45349;"Valorous Nightsong Spaulders";"Druid";"both";45661
+45369;"Valorous Kirin Tor Shoulderpads";"Mage";"both";45661
+45400;"Valorous Terrorblade Pauldrons";"Rogue";"both";45661
+45363;"Valorous Scourgestalker Spaulders";"Hunter";"both";45660
+45415;"Valorous Worldbreaker Shoulderguards";"Shaman";"both";45660
+45410;"Valorous Worldbreaker Shoulderpads";"Shaman";"both";45660
+45404;"Valorous Worldbreaker Spaulders";"Shaman";"both";45660
+45433;"Valorous Siegebreaker Shoulderplates";"Warrior";"both";45660
+45428;"Valorous Siegebreaker Pauldrons";"Warrior";"both";45660
+45385;"Valorous Aegis Shoulderguards";"Paladin";"both";45659
+45380;"Valorous Aegis Shoulderplates";"Paladin";"both";45659
+45373;"Valorous Aegis Spaulders";"Paladin";"both";45659
+45393;"Valorous Mantle of Sanctification";"Priest";"both";45659
+45390;"Valorous Shoulderpads of Sanctification";"Priest";"both";45659
+45422;"Valorous Deathbringer Shoulderpads";"Warlock";"both";45659
+46122;"Conqueror's Darkruned Pauldrons";"Death Knight";"both";45658
+46117;"Conqueror's Darkruned Shoulderplates";"Death Knight";"both";45658
+46196;"Conqueror's Nightsong Mantle";"Druid";"both";45658
+46187;"Conqueror's Nightsong Spaulders";"Druid";"both";45658
+46157;"Conqueror's Nightsong Shoulderpads";"Druid";"both";45658
+46134;"Conqueror's Kirin Tor Shoulderpads";"Mage";"both";45658
+46127;"Conqueror's Terrorblade Pauldrons";"Rogue";"both";45658
+46145;"Conqueror's Scourgestalker Spaulders";"Hunter";"both";45657
+46211;"Conqueror's Worldbreaker Shoulderpads";"Shaman";"both";45657
+46204;"Conqueror's Worldbreaker Spaulders";"Shaman";"both";45657
+46203;"Conqueror's Worldbreaker Shoulderguards";"Shaman";"both";45657
+46167;"Conqueror's Siegebreaker Pauldrons";"Warrior";"both";45657
+46149;"Conqueror's Siegebreaker Shoulderplates";"Warrior";"both";45657
+46182;"Conqueror's Aegis Spaulders";"Paladin";"both";45656
+46177;"Conqueror's Aegis Shoulderguards";"Paladin";"both";45656
+46152;"Conqueror's Aegis Shoulderplates";"Paladin";"both";45656
+46190;"Conqueror's Shoulderpads of Sanctification";"Priest";"both";45656
+46165;"Conqueror's Mantle of Sanctification";"Priest";"both";45656
+46136;"Conqueror's Deathbringer Shoulderpads";"Warlock";"both";45656
+46121;"Conqueror's Darkruned Legguards";"Death Knight";"both";45655
+46116;"Conqueror's Darkruned Legplates";"Death Knight";"both";45655
+46192;"Conqueror's Nightsong Trousers";"Druid";"both";45655
+46185;"Conqueror's Nightsong Leggings";"Druid";"both";45655
+46160;"Conqueror's Nightsong Legguards";"Druid";"both";45655
+46133;"Conqueror's Kirin Tor Leggings";"Mage";"both";45655
+46126;"Conqueror's Terrorblade Legplates";"Rogue";"both";45655
+46144;"Conqueror's Scourgestalker Legguards";"Hunter";"both";45654
+46210;"Conqueror's Worldbreaker Kilt";"Shaman";"both";45654
+46208;"Conqueror's Worldbreaker War-Kilt";"Shaman";"both";45654
+46202;"Conqueror's Worldbreaker Legguards";"Shaman";"both";45654
+46169;"Conqueror's Siegebreaker Legguards";"Warrior";"both";45654
+46150;"Conqueror's Siegebreaker Legplates";"Warrior";"both";45654
+46181;"Conqueror's Aegis Greaves";"Paladin";"both";45653
+46176;"Conqueror's Aegis Legguards";"Paladin";"both";45653
+46153;"Conqueror's Aegis Legplates";"Paladin";"both";45653
+46195;"Conqueror's Leggings of Sanctification";"Priest";"both";45653
+46170;"Conqueror's Pants of Sanctification";"Priest";"both";45653
+46139;"Conqueror's Deathbringer Leggings";"Warlock";"both";45653
+45343;"Valorous Darkruned Legplates";"Death Knight";"both";45652
+45338;"Valorous Darkruned Legguards";"Death Knight";"both";45652
+45357;"Valorous Nightsong Legguards";"Druid";"both";45652
+45353;"Valorous Nightsong Trousers";"Druid";"both";45652
+45347;"Valorous Nightsong Leggings";"Druid";"both";45652
+45367;"Valorous Kirin Tor Leggings";"Mage";"both";45652
+45399;"Valorous Terrorblade Legplates";"Rogue";"both";45652
+45362;"Valorous Scourgestalker Legguards";"Hunter";"both";45651
+45416;"Valorous Worldbreaker War-Kilt";"Shaman";"both";45651
+45409;"Valorous Worldbreaker Kilt";"Shaman";"both";45651
+45403;"Valorous Worldbreaker Legguards";"Shaman";"both";45651
+45432;"Valorous Siegebreaker Legplates";"Warrior";"both";45651
+45427;"Valorous Siegebreaker Legguards";"Warrior";"both";45651
+45384;"Valorous Aegis Legguards";"Paladin";"both";45650
+45379;"Valorous Aegis Legplates";"Paladin";"both";45650
+45371;"Valorous Aegis Greaves";"Paladin";"both";45650
+45394;"Valorous Pants of Sanctification";"Priest";"both";45650
+45388;"Valorous Leggings of Sanctification";"Priest";"both";45650
+45420;"Valorous Deathbringer Leggings";"Warlock";"both";45650
+45342;"Valorous Darkruned Helmet";"Death Knight";"both";45649
+45336;"Valorous Darkruned Faceguard";"Death Knight";"both";45649
+46313;"Valorous Nightsong Cover";"Druid";"both";45649
+45356;"Valorous Nightsong Headguard";"Druid";"both";45649
+45346;"Valorous Nightsong Headpiece";"Druid";"both";45649
+45365;"Valorous Kirin Tor Hood";"Mage";"both";45649
+45398;"Valorous Terrorblade Helmet";"Rogue";"both";45649
+45361;"Valorous Scourgestalker Headpiece";"Hunter";"both";45648
+45412;"Valorous Worldbreaker Faceguard";"Shaman";"both";45648
+45408;"Valorous Worldbreaker Helm";"Shaman";"both";45648
+45402;"Valorous Worldbreaker Headpiece";"Shaman";"both";45648
+45431;"Valorous Siegebreaker Helmet";"Warrior";"both";45648
+45425;"Valorous Siegebreaker Greathelm";"Warrior";"both";45648
+45382;"Valorous Aegis Faceguard";"Paladin";"both";45647
+45377;"Valorous Aegis Helm";"Paladin";"both";45647
+45372;"Valorous Aegis Headpiece";"Paladin";"both";45647
+45391;"Valorous Circlet of Sanctification";"Priest";"both";45647
+45386;"Valorous Cowl of Sanctification";"Priest";"both";45647
+45417;"Valorous Deathbringer Hood";"Warlock";"both";45647
+45341;"Valorous Darkruned Gauntlets";"Death Knight";"both";45646
+45337;"Valorous Darkruned Handguards";"Death Knight";"both";45646
+45355;"Valorous Nightsong Handgrips";"Druid";"both";45646
+45351;"Valorous Nightsong Gloves";"Druid";"both";45646
+45345;"Valorous Nightsong Handguards";"Druid";"both";45646
+46131;"Valorous Kirin Tor Gauntlets";"Mage";"both";45646
+45397;"Valorous Terrorblade Gauntlets";"Rogue";"both";45646
+45360;"Valorous Scourgestalker Handguards";"Hunter";"both";45645
+45414;"Valorous Worldbreaker Grips";"Shaman";"both";45645
+45406;"Valorous Worldbreaker Gloves";"Shaman";"both";45645
+45401;"Valorous Worldbreaker Handguards";"Shaman";"both";45645
+45430;"Valorous Siegebreaker Gauntlets";"Warrior";"both";45645
+45426;"Valorous Siegebreaker Handguards";"Warrior";"both";45645
+45383;"Valorous Aegis Handguards";"Paladin";"both";45644
+45376;"Valorous Aegis Gauntlets";"Paladin";"both";45644
+45370;"Valorous Aegis Gloves";"Paladin";"both";45644
+45392;"Valorous Handwraps of Sanctification";"Priest";"both";45644
+45387;"Valorous Gloves of Sanctification";"Priest";"both";45644
+45419;"Valorous Deathbringer Gloves";"Warlock";"both";45644
+46119;"Conqueror's Darkruned Handguards";"Death Knight";"both";45643
+46113;"Conqueror's Darkruned Gauntlets";"Death Knight";"both";45643
+46189;"Conqueror's Nightsong Gloves";"Druid";"both";45643
+46183;"Conqueror's Nightsong Handguards";"Druid";"both";45643
+46158;"Conqueror's Nightsong Handgrips";"Druid";"both";45643
+46132;"Conqueror's Kirin Tor Gauntlets";"Mage";"both";45643
+46124;"Conqueror's Terrorblade Gauntlets";"Rogue";"both";45643
+46142;"Conqueror's Scourgestalker Handguards";"Hunter";"both";45642
+46207;"Conqueror's Worldbreaker Gloves";"Shaman";"both";45642
+46200;"Conqueror's Worldbreaker Grips";"Shaman";"both";45642
+46199;"Conqueror's Worldbreaker Handguards";"Shaman";"both";45642
+46164;"Conqueror's Siegebreaker Handguards";"Warrior";"both";45642
+46148;"Conqueror's Siegebreaker Gauntlets";"Warrior";"both";45642
+46179;"Conqueror's Aegis Gloves";"Paladin";"both";45641
+46174;"Conqueror's Aegis Handguards";"Paladin";"both";45641
+46155;"Conqueror's Aegis Gauntlets";"Paladin";"both";45641
+46188;"Conqueror's Gloves of Sanctification";"Priest";"both";45641
+46163;"Conqueror's Handwraps of Sanctification";"Priest";"both";45641
+46135;"Conqueror's Deathbringer Gloves";"Warlock";"both";45641
+46120;"Conqueror's Darkruned Faceguard";"Death Knight";"both";45640
+46115;"Conqueror's Darkruned Helmet";"Death Knight";"both";45640
+46191;"Conqueror's Nightsong Cover";"Druid";"both";45640
+46184;"Conqueror's Nightsong Headpiece";"Druid";"both";45640
+46161;"Conqueror's Nightsong Headguard";"Druid";"both";45640
+46129;"Conqueror's Kirin Tor Hood";"Mage";"both";45640
+46125;"Conqueror's Terrorblade Helmet";"Rogue";"both";45640
+46143;"Conqueror's Scourgestalker Headpiece";"Hunter";"both";45639
+46212;"Conqueror's Worldbreaker Faceguard";"Shaman";"both";45639
+46209;"Conqueror's Worldbreaker Helm";"Shaman";"both";45639
+46201;"Conqueror's Worldbreaker Headpiece";"Shaman";"both";45639
+46166;"Conqueror's Siegebreaker Greathelm";"Warrior";"both";45639
+46151;"Conqueror's Siegebreaker Helmet";"Warrior";"both";45639
+46180;"Conqueror's Aegis Headpiece";"Paladin";"both";45638
+46175;"Conqueror's Aegis Faceguard";"Paladin";"both";45638
+46156;"Conqueror's Aegis Helm";"Paladin";"both";45638
+46197;"Conqueror's Cowl of Sanctification";"Priest";"both";45638
+46172;"Conqueror's Circlet of Sanctification";"Priest";"both";45638
+46140;"Conqueror's Deathbringer Hood";"Warlock";"both";45638
+45340;"Valorous Darkruned Battleplate";"Death Knight";"both";45637
+45335;"Valorous Darkruned Chestguard";"Death Knight";"both";45637
+45358;"Valorous Nightsong Raiments";"Druid";"both";45637
+45354;"Valorous Nightsong Vestments";"Druid";"both";45637
+45348;"Valorous Nightsong Robe";"Druid";"both";45637
+45368;"Valorous Kirin Tor Tunic";"Mage";"both";45637
+45396;"Valorous Terrorblade Breastplate";"Rogue";"both";45637
+45364;"Valorous Scourgestalker Tunic";"Hunter";"both";45636
+45413;"Valorous Worldbreaker Chestguard";"Shaman";"both";45636
+45411;"Valorous Worldbreaker Hauberk";"Shaman";"both";45636
+45405;"Valorous Worldbreaker Tunic";"Shaman";"both";45636
+45429;"Valorous Siegebreaker Battleplate";"Warrior";"both";45636
+45424;"Valorous Siegebreaker Breastplate";"Warrior";"both";45636
+45381;"Valorous Aegis Breastplate";"Paladin";"both";45635
+45375;"Valorous Aegis Battleplate";"Paladin";"both";45635
+45374;"Valorous Aegis Tunic";"Paladin";"both";45635
+45395;"Valorous Raiments of Sanctification";"Priest";"both";45635
+45389;"Valorous Robe of Sanctification";"Priest";"both";45635
+45421;"Valorous Deathbringer Robe";"Warlock";"both";45635
+46118;"Conqueror's Darkruned Chestguard";"Death Knight";"both";45634
+46111;"Conqueror's Darkruned Battleplate";"Death Knight";"both";45634
+46194;"Conqueror's Nightsong Vestments";"Druid";"both";45634
+46186;"Conqueror's Nightsong Robe";"Druid";"both";45634
+46159;"Conqueror's Nightsong Raiments";"Druid";"both";45634
+46130;"Conqueror's Kirin Tor Tunic";"Mage";"both";45634
+46123;"Conqueror's Terrorblade Breastplate";"Rogue";"both";45634
+46141;"Conqueror's Scourgestalker Tunic";"Hunter";"both";45633
+46206;"Conqueror's Worldbreaker Hauberk";"Shaman";"both";45633
+46205;"Conqueror's Worldbreaker Chestguard";"Shaman";"both";45633
+46198;"Conqueror's Worldbreaker Tunic";"Shaman";"both";45633
+46162;"Conqueror's Siegebreaker Breastplate";"Warrior";"both";45633
+46146;"Conqueror's Siegebreaker Battleplate";"Warrior";"both";45633
+46178;"Conqueror's Aegis Tunic";"Paladin";"both";45632
+46173;"Conqueror's Aegis Breastplate";"Paladin";"both";45632
+46154;"Conqueror's Aegis Battleplate";"Paladin";"both";45632
+46193;"Conqueror's Robe of Sanctification";"Priest";"both";45632
+46168;"Conqueror's Raiments of Sanctification";"Priest";"both";45632
+46137;"Conqueror's Deathbringer Robe";"Warlock";"both";45632
+40568;"Valorous Scourgeborne Pauldrons";"Death Knight";"both";40639
+40557;"Valorous Scourgeborne Shoulderplates";"Death Knight";"both";40639
+40494;"Valorous Dreamwalker Shoulderpads";"Druid";"both";40639
+40470;"Valorous Dreamwalker Mantle";"Druid";"both";40639
+40465;"Valorous Dreamwalker Spaulders";"Druid";"both";40639
+40419;"Valorous Frostfire Shoulderpads";"Mage";"both";40639
+40502;"Valorous Bonescythe Pauldrons";"Rogue";"both";40639
+40507;"Valorous Cryptstalker Spaulders";"Hunter";"both";40638
+40524;"Valorous Earthshatter Shoulderguards";"Shaman";"both";40638
+40518;"Valorous Earthshatter Shoulderpads";"Shaman";"both";40638
+40513;"Valorous Earthshatter Spaulders";"Shaman";"both";40638
+40548;"Valorous Dreadnaught Pauldrons";"Warrior";"both";40638
+40530;"Valorous Dreadnaught Shoulderplates";"Warrior";"both";40638
+40584;"Valorous Redemption Shoulderguards";"Paladin";"both";40637
+40578;"Valorous Redemption Shoulderplates";"Paladin";"both";40637
+40573;"Valorous Redemption Spaulders";"Paladin";"both";40637
+40459;"Valorous Mantle of Faith";"Priest";"both";40637
+40450;"Valorous Shoulderpads of Faith";"Priest";"both";40637
+40424;"Valorous Plagueheart Shoulderpads";"Warlock";"both";40637
+40567;"Valorous Scourgeborne Legguards";"Death Knight";"both";40636
+40556;"Valorous Scourgeborne Legplates";"Death Knight";"both";40636
+40493;"Valorous Dreamwalker Legguards";"Druid";"both";40636
+40468;"Valorous Dreamwalker Trousers";"Druid";"both";40636
+40462;"Valorous Dreamwalker Leggings";"Druid";"both";40636
+40417;"Valorous Frostfire Leggings";"Mage";"both";40636
+40500;"Valorous Bonescythe Legplates";"Rogue";"both";40636
+40506;"Valorous Cryptstalker Legguards";"Hunter";"both";40635
+40522;"Valorous Earthshatter War-Kilt";"Shaman";"both";40635
+40517;"Valorous Earthshatter Kilt";"Shaman";"both";40635
+40512;"Valorous Earthshatter Legguards";"Shaman";"both";40635
+40547;"Valorous Dreadnaught Legguards";"Warrior";"both";40635
+40529;"Valorous Dreadnaught Legplates";"Warrior";"both";40635
+40583;"Valorous Redemption Legguards";"Paladin";"both";40634
+40577;"Valorous Redemption Legplates";"Paladin";"both";40634
+40572;"Valorous Redemption Greaves";"Paladin";"both";40634
+40457;"Valorous Pants of Faith";"Priest";"both";40634
+40448;"Valorous Leggings of Faith";"Priest";"both";40634
+40422;"Valorous Plagueheart Leggings";"Warlock";"both";40634
+40565;"Valorous Scourgeborne Faceguard";"Death Knight";"both";40633
+40554;"Valorous Scourgeborne Helmet";"Death Knight";"both";40633
+40473;"Valorous Dreamwalker Headguard";"Druid";"both";40633
+40467;"Valorous Dreamwalker Cover";"Druid";"both";40633
+40461;"Valorous Dreamwalker Headpiece";"Druid";"both";40633
+40416;"Valorous Frostfire Circlet";"Mage";"both";40633
+40499;"Valorous Bonescythe Helmet";"Rogue";"both";40633
+40505;"Valorous Cryptstalker Headpiece";"Hunter";"both";40632
+40521;"Valorous Earthshatter Faceguard";"Shaman";"both";40632
+40516;"Valorous Earthshatter Helm";"Shaman";"both";40632
+40510;"Valorous Earthshatter Headpiece";"Shaman";"both";40632
+40546;"Valorous Dreadnaught Greathelm";"Warrior";"both";40632
+40528;"Valorous Dreadnaught Helmet";"Warrior";"both";40632
+40581;"Valorous Redemption Faceguard";"Paladin";"both";40631
+40576;"Valorous Redemption Helm";"Paladin";"both";40631
+40571;"Valorous Redemption Headpiece";"Paladin";"both";40631
+40456;"Valorous Circlet of Faith";"Priest";"both";40631
+40447;"Valorous Crown of Faith";"Priest";"both";40631
+40421;"Valorous Plagueheart Circlet";"Warlock";"both";40631
+40563;"Valorous Scourgeborne Handguards";"Death Knight";"both";40630
+40552;"Valorous Scourgeborne Gauntlets";"Death Knight";"both";40630
+40472;"Valorous Dreamwalker Handgrips";"Druid";"both";40630
+40466;"Valorous Dreamwalker Gloves";"Druid";"both";40630
+40460;"Valorous Dreamwalker Handguards";"Druid";"both";40630
+40415;"Valorous Frostfire Gloves";"Mage";"both";40630
+40496;"Valorous Bonescythe Gauntlets";"Rogue";"both";40630
+40504;"Valorous Cryptstalker Handguards";"Hunter";"both";40629
+40520;"Valorous Earthshatter Grips";"Shaman";"both";40629
+40515;"Valorous Earthshatter Gloves";"Shaman";"both";40629
+40509;"Valorous Earthshatter Handguards";"Shaman";"both";40629
+40545;"Valorous Dreadnaught Handguards";"Warrior";"both";40629
+40527;"Valorous Dreadnaught Gauntlets";"Warrior";"both";40629
+40580;"Valorous Redemption Handguards";"Paladin";"both";40628
+40575;"Valorous Redemption Gauntlets";"Paladin";"both";40628
+40570;"Valorous Redemption Gloves";"Paladin";"both";40628
+40454;"Valorous Handwraps of Faith";"Priest";"both";40628
+40445;"Valorous Gloves of Faith";"Priest";"both";40628
+40420;"Valorous Plagueheart Gloves";"Warlock";"both";40628
+40559;"Valorous Scourgeborne Chestguard";"Death Knight";"both";40627
+40550;"Valorous Scourgeborne Battleplate";"Death Knight";"both";40627
+40471;"Valorous Dreamwalker Raiments";"Druid";"both";40627
+40469;"Valorous Dreamwalker Vestments";"Druid";"both";40627
+40463;"Valorous Dreamwalker Robe";"Druid";"both";40627
+40418;"Valorous Frostfire Robe";"Mage";"both";40627
+40495;"Valorous Bonescythe Breastplate";"Rogue";"both";40627
+40503;"Valorous Cryptstalker Tunic";"Hunter";"both";40626
+40523;"Valorous Earthshatter Chestguard";"Shaman";"both";40626
+40514;"Valorous Earthshatter Hauberk";"Shaman";"both";40626
+40508;"Valorous Earthshatter Tunic";"Shaman";"both";40626
+40544;"Valorous Dreadnaught Breastplate";"Warrior";"both";40626
+40525;"Valorous Dreadnaught Battleplate";"Warrior";"both";40626
+40579;"Valorous Redemption Breastplate";"Paladin";"both";40625
+40574;"Valorous Redemption Chestpiece";"Paladin";"both";40625
+40569;"Valorous Redemption Tunic";"Paladin";"both";40625
+40458;"Valorous Raiments of Faith";"Priest";"both";40625
+40449;"Valorous Robe of Faith";"Priest";"both";40625
+40423;"Valorous Plagueheart Robe";"Warlock";"both";40625
+39627;"Heroes' Scourgeborne Pauldrons";"Death Knight";"both";40624
+39621;"Heroes' Scourgeborne Shoulderplates";"Death Knight";"both";40624
+39556;"Heroes' Dreamwalker Shoulderpads";"Druid";"both";40624
+39548;"Heroes' Dreamwalker Mantle";"Druid";"both";40624
+39542;"Heroes' Dreamwalker Spaulders";"Druid";"both";40624
+39494;"Heroes' Frostfire Shoulderpads";"Mage";"both";40624
+39565;"Heroes' Bonescythe Pauldrons";"Rogue";"both";40624
+39581;"Heroes' Cryptstalker Spaulders";"Hunter";"both";40623
+39604;"Heroes' Earthshatter Shoulderguards";"Shaman";"both";40623
+39596;"Heroes' Earthshatter Shoulderpads";"Shaman";"both";40623
+39590;"Heroes' Earthshatter Spaulders";"Shaman";"both";40623
+39613;"Heroes' Dreadnaught Pauldrons";"Warrior";"both";40623
+39608;"Heroes' Dreadnaught Shoulderplates";"Warrior";"both";40623
+39642;"Heroes' Redemption Shoulderguards";"Paladin";"both";40622
+39637;"Heroes' Redemption Shoulderplates";"Paladin";"both";40622
+39631;"Heroes' Redemption Spaulders";"Paladin";"both";40622
+39529;"Heroes' Mantle of Faith";"Priest";"both";40622
+39518;"Heroes' Shoulderpads of Faith";"Priest";"both";40622
+39499;"Heroes' Plagueheart Shoulderpads";"Warlock";"both";40622
+39626;"Heroes' Scourgeborne Legguards";"Death Knight";"both";40621
+39620;"Heroes' Scourgeborne Legplates";"Death Knight";"both";40621
+39555;"Heroes' Dreamwalker Legguards";"Druid";"both";40621
+39546;"Heroes' Dreamwalker Trousers";"Druid";"both";40621
+39539;"Heroes' Dreamwalker Leggings";"Druid";"both";40621
+39493;"Heroes' Frostfire Leggings";"Mage";"both";40621
+39564;"Heroes' Bonescythe Legplates";"Rogue";"both";40621
+39580;"Heroes' Cryptstalker Legguards";"Hunter";"both";40620
+39603;"Heroes' Earthshatter War-Kilt";"Shaman";"both";40620
+39595;"Heroes' Earthshatter Kilt";"Shaman";"both";40620
+39589;"Heroes' Earthshatter Legguards";"Shaman";"both";40620
+39612;"Heroes' Dreadnaught Legguards";"Warrior";"both";40620
+39607;"Heroes' Dreadnaught Legplates";"Warrior";"both";40620
+39641;"Heroes' Redemption Legguards";"Paladin";"both";40619
+39636;"Heroes' Redemption Legplates";"Paladin";"both";40619
+39630;"Heroes' Redemption Greaves";"Paladin";"both";40619
+39528;"Heroes' Pants of Faith";"Priest";"both";40619
+39517;"Heroes' Leggings of Faith";"Priest";"both";40619
+39498;"Heroes' Plagueheart Leggings";"Warlock";"both";40619
+39625;"Heroes' Scourgeborne Faceguard";"Death Knight";"both";40618
+39619;"Heroes' Scourgeborne Helmet";"Death Knight";"both";40618
+39553;"Heroes' Dreamwalker Headguard";"Druid";"both";40618
+39545;"Heroes' Dreamwalker Cover";"Druid";"both";40618
+39531;"Heroes' Dreamwalker Headpiece";"Druid";"both";40618
+39491;"Heroes' Frostfire Circlet";"Mage";"both";40618
+39561;"Heroes' Bonescythe Helmet";"Rogue";"both";40618
+39578;"Heroes' Cryptstalker Headpiece";"Hunter";"both";40617
+39602;"Heroes' Earthshatter Faceguard";"Shaman";"both";40617
+39594;"Heroes' Earthshatter Helm";"Shaman";"both";40617
+39583;"Heroes' Earthshatter Headpiece";"Shaman";"both";40617
+39610;"Heroes' Dreadnaught Greathelm";"Warrior";"both";40617
+39605;"Heroes' Dreadnaught Helmet";"Warrior";"both";40617
+39640;"Heroes' Redemption Faceguard";"Paladin";"both";40616
+39635;"Heroes' Redemption Helm";"Paladin";"both";40616
+39628;"Heroes' Redemption Headpiece";"Paladin";"both";40616
+39521;"Heroes' Circlet of Faith";"Priest";"both";40616
+39514;"Heroes' Crown of Faith";"Priest";"both";40616
+39496;"Heroes' Plagueheart Circlet";"Warlock";"both";40616
+39624;"Heroes' Scourgeborne Handguards";"Death Knight";"both";40615
+39618;"Heroes' Scourgeborne Gauntlets";"Death Knight";"both";40615
+39557;"Heroes' Dreamwalker Handgrips";"Druid";"both";40615
+39544;"Heroes' Dreamwalker Gloves";"Druid";"both";40615
+39543;"Heroes' Dreamwalker Handguards";"Druid";"both";40615
+39495;"Heroes' Frostfire Gloves";"Mage";"both";40615
+39560;"Heroes' Bonescythe Gauntlets";"Rogue";"both";40615
+39582;"Heroes' Cryptstalker Handguards";"Hunter";"both";40614
+39601;"Heroes' Earthshatter Grips";"Shaman";"both";40614
+39593;"Heroes' Earthshatter Gloves";"Shaman";"both";40614
+39591;"Heroes' Earthshatter Handguards";"Shaman";"both";40614
+39622;"Heroes' Dreadnaught Handguards";"Warrior";"both";40614
+39609;"Heroes' Dreadnaught Gauntlets";"Warrior";"both";40614
+39639;"Heroes' Redemption Handguards";"Paladin";"both";40613
+39634;"Heroes' Redemption Gauntlets";"Paladin";"both";40613
+39632;"Heroes' Redemption Gloves";"Paladin";"both";40613
+39530;"Heroes' Handwraps of Faith";"Priest";"both";40613
+39519;"Heroes' Gloves of Faith";"Priest";"both";40613
+39500;"Heroes' Plagueheart Gloves";"Warlock";"both";40613
+39623;"Heroes' Scourgeborne Chestguard";"Death Knight";"both";40612
+39617;"Heroes' Scourgeborne Battleplate";"Death Knight";"both";40612
+39554;"Heroes' Dreamwalker Raiments";"Druid";"both";40612
+39547;"Heroes' Dreamwalker Vestments";"Druid";"both";40612
+39538;"Heroes' Dreamwalker Robe";"Druid";"both";40612
+39492;"Heroes' Frostfire Robe";"Mage";"both";40612
+39558;"Heroes' Bonescythe Breastplate";"Rogue";"both";40612
+39579;"Heroes' Cryptstalker Tunic";"Hunter";"both";40611
+39597;"Heroes' Earthshatter Chestguard";"Shaman";"both";40611
+39592;"Heroes' Earthshatter Hauberk";"Shaman";"both";40611
+39588;"Heroes' Earthshatter Tunic";"Shaman";"both";40611
+39611;"Heroes' Dreadnaught Breastplate";"Warrior";"both";40611
+39606;"Heroes' Dreadnaught Battleplate";"Warrior";"both";40611
+39638;"Heroes' Redemption Breastplate";"Paladin";"both";40610
+39633;"Heroes' Redemption Chestpiece";"Paladin";"both";40610
+39629;"Heroes' Redemption Tunic";"Paladin";"both";40610
+39523;"Heroes' Raiments of Faith";"Priest";"both";40610
+39515;"Heroes' Robe of Faith";"Priest";"both";40610
+39497;"Heroes' Plagueheart Robe";"Warlock";"both";40610
+34573;"Thunderheart Treads";"Druid";"both";34858
+34572;"Thunderheart Footwraps";"Druid";"both";34858
+34571;"Thunderheart Boots";"Druid";"both";34858
+33916;"Vindicator's Wyrmhide Boots";"Druid, Rogue";"both";34858
+33892;"Vindicator's Leather Boots";"Druid, Rogue";"both";34858
+33886;"Vindicator's Kodohide Boots";"Druid, Rogue";"both";34858
+33880;"Vindicator's Dragonhide Boots";"Druid, Rogue";"both";34858
+34574;"Boots of the Tempest";"Mage";"both";34858
+33914;"Vindicator's Silk Footguards";"Mage, Priest, Warlock";"both";34858
+34575;"Slayer's Boots";"Rogue";"both";34858
+34570;"Gronnstalker's Boots";"Hunter";"both";34857
+33908;"Vindicator's Ringmail Sabatons";"Hunter, Shaman";"both";34857
+33899;"Vindicator's Mail Sabatons";"Hunter, Shaman";"both";34857
+33896;"Vindicator's Linked Sabatons";"Hunter, Shaman";"both";34857
+33878;"Vindicator's Chain Sabatons";"Hunter, Shaman";"both";34857
+33812;"Vindicator's Plate Greaves";"Paladin, Warrior";"both";34857
+34567;"Skyshatter Greaves";"Shaman";"both";34857
+34566;"Skyshatter Treads";"Shaman";"both";34857
+34565;"Skyshatter Boots";"Shaman";"both";34857
+34569;"Onslaught Treads";"Warrior";"both";34857
+34568;"Onslaught Boots";"Warrior";"both";34857
+33902;"Vindicator's Mooncloth Slippers";"Mage, Priest, Warlock";"both";34856
+33884;"Vindicator's Dreadweave Stalkers";"Mage, Priest, Warlock";"both";34856
+34561;"Lightbringer Boots";"Paladin";"both";34856
+34560;"Lightbringer Stompers";"Paladin";"both";34856
+34559;"Lightbringer Treads";"Paladin";"both";34856
+33911;"Vindicator's Scaled Greaves";"Paladin, Warrior";"both";34856
+33905;"Vindicator's Ornamented Greaves";"Paladin, Warrior";"both";34856
+33890;"Vindicator's Lamellar Greaves";"Paladin, Warrior";"both";34856
+34563;"Treads of Absolution";"Priest";"both";34856
+34562;"Boots of Absolution";"Priest";"both";34856
+34564;"Boots of the Malefic";"Warlock";"both";34856
+34556;"Thunderheart Waistguard";"Druid";"both";34855
+34555;"Thunderheart Cord";"Druid";"both";34855
+34554;"Thunderheart Belt";"Druid";"both";34855
+33915;"Vindicator's Wyrmhide Belt";"Druid, Rogue";"both";34855
+33891;"Vindicator's Leather Belt";"Druid, Rogue";"both";34855
+33885;"Vindicator's Kodohide Belt";"Druid, Rogue";"both";34855
+33879;"Vindicator's Dragonhide Belt";"Druid, Rogue";"both";34855
+34557;"Belt of the Tempest";"Mage";"both";34855
+33912;"Vindicator's Silk Belt";"Mage, Priest, Warlock";"both";34855
+34558;"Slayer's Belt";"Rogue";"both";34855
+34549;"Gronnstalker's Belt";"Hunter";"both";34854
+33907;"Vindicator's Ringmail Girdle";"Hunter, Shaman";"both";34854
+33898;"Vindicator's Mail Girdle";"Hunter, Shaman";"both";34854
+33895;"Vindicator's Linked Girdle";"Hunter, Shaman";"both";34854
+33877;"Vindicator's Chain Girdle";"Hunter, Shaman";"both";34854
+33811;"Vindicator's Plate Belt";"Paladin, Warrior";"both";34854
+34545;"Skyshatter Girdle";"Shaman";"both";34854
+34543;"Skyshatter Belt";"Shaman";"both";34854
+34542;"Skyshatter Cord";"Shaman";"both";34854
+34547;"Onslaught Waistguard";"Warrior";"both";34854
+34546;"Onslaught Belt";"Warrior";"both";34854
+33900;"Vindicator's Mooncloth Belt";"Mage, Priest, Warlock";"both";34853
+33882;"Vindicator's Dreadweave Belt";"Mage, Priest, Warlock";"both";34853
+34488;"Lightbringer Waistguard";"Paladin";"both";34853
+34487;"Lightbringer Belt";"Paladin";"both";34853
+34485;"Lightbringer Girdle";"Paladin";"both";34853
+33909;"Vindicator's Scaled Belt";"Paladin, Warrior";"both";34853
+33903;"Vindicator's Ornamented Belt";"Paladin, Warrior";"both";34853
+33888;"Vindicator's Lamellar Belt";"Paladin, Warrior";"both";34853
+34528;"Cord of Absolution";"Priest";"both";34853
+34527;"Belt of Absolution";"Priest";"both";34853
+34541;"Belt of the Malefic";"Warlock";"both";34853
+34446;"Thunderheart Bands";"Druid";"both";34852
+34445;"Thunderheart Bracers";"Druid";"both";34852
+34444;"Thunderheart Wristguards";"Druid";"both";34852
+33917;"Vindicator's Wyrmhide Bracers";"Druid, Rogue";"both";34852
+33893;"Vindicator's Leather Bracers";"Druid, Rogue";"both";34852
+33887;"Vindicator's Kodohide Bracers";"Druid, Rogue";"both";34852
+33881;"Vindicator's Dragonhide Bracers";"Druid, Rogue";"both";34852
+34447;"Bracers of the Tempest";"Mage";"both";34852
+33913;"Vindicator's Silk Cuffs";"Mage, Priest, Warlock";"both";34852
+34448;"Slayer's Bracers";"Rogue";"both";34852
+33876;"Vindicator's Chain Bracers";"Death Knight, Hunter, Shaman";"both";34851
+34443;"Gronnstalker's Bracers";"Hunter";"both";34851
+33906;"Vindicator's Ringmail Bracers";"Hunter, Shaman";"both";34851
+33897;"Vindicator's Mail Bracers";"Hunter, Shaman";"both";34851
+33894;"Vindicator's Linked Bracers";"Hunter, Shaman";"both";34851
+33813;"Vindicator's Plate Bracers";"Paladin, Warrior";"both";34851
+34439;"Skyshatter Wristguards";"Shaman";"both";34851
+34438;"Skyshatter Bracers";"Shaman";"both";34851
+34437;"Skyshatter Bands";"Shaman";"both";34851
+34442;"Onslaught Wristguards";"Warrior";"both";34851
+34441;"Onslaught Bracers";"Warrior";"both";34851
+33901;"Vindicator's Mooncloth Cuffs";"Mage, Priest, Warlock";"both";34848
+33883;"Vindicator's Dreadweave Cuffs";"Mage, Priest, Warlock";"both";34848
+34433;"Lightbringer Wristguards";"Paladin";"both";34848
+34432;"Lightbringer Bracers";"Paladin";"both";34848
+34431;"Lightbringer Bands";"Paladin";"both";34848
+33910;"Vindicator's Scaled Bracers";"Paladin, Warrior";"both";34848
+33904;"Vindicator's Ornamented Bracers";"Paladin, Warrior";"both";34848
+33889;"Vindicator's Lamellar Bracers";"Paladin, Warrior";"both";34848
+34435;"Cuffs of Absolution";"Priest";"both";34848
+34434;"Bracers of Absolution";"Priest";"both";34848
+34436;"Bracers of the Malefic";"Warlock";"both";34848
+31964;"Merciless Gladiator's Chain Spaulders";"Hunter";"both";31103
+31006;"Gronnstalker's Spaulders";"Hunter";"both";31103
+32033;"Merciless Gladiator's Ringmail Spaulders";"Shaman";"both";31103
+32013;"Merciless Gladiator's Mail Spaulders";"Shaman";"both";31103
+32008;"Merciless Gladiator's Linked Spaulders";"Shaman";"both";31103
+31024;"Skyshatter Pauldrons";"Shaman";"both";31103
+31023;"Skyshatter Mantle";"Shaman";"both";31103
+31022;"Skyshatter Shoulderpads";"Shaman";"both";31103
+30980;"Onslaught Shoulderguards";"Warrior";"both";31103
+30979;"Onslaught Shoulderblades";"Warrior";"both";31103
+30490;"Merciless Gladiator's Plate Shoulders";"Warrior";"both";31103
+32059;"Merciless Gladiator's Wyrmhide Spaulders";"Druid";"both";31102
+31990;"Merciless Gladiator's Kodohide Spaulders";"Druid";"both";31102
+31971;"Merciless Gladiator's Dragonhide Spaulders";"Druid";"both";31102
+31049;"Thunderheart Shoulderpads";"Druid";"both";31102
+31048;"Thunderheart Pauldrons";"Druid";"both";31102
+31047;"Thunderheart Spaulders";"Druid";"both";31102
+32047;"Merciless Gladiator's Silk Amice";"Mage";"both";31102
+31059;"Mantle of the Tempest";"Mage";"both";31102
+32001;"Merciless Gladiator's Leather Spaulders";"Rogue";"both";31102
+31030;"Slayer's Shoulderpads";"Rogue";"both";31102
+32043;"Merciless Gladiator's Scaled Shoulders";"Paladin";"both";31101
+32024;"Merciless Gladiator's Ornamented Spaulders";"Paladin";"both";31101
+31996;"Merciless Gladiator's Lamellar Shoulders";"Paladin";"both";31101
+30998;"Lightbringer Shoulderguards";"Paladin";"both";31101
+30997;"Lightbringer Shoulderbraces";"Paladin";"both";31101
+30996;"Lightbringer Pauldrons";"Paladin";"both";31101
+32037;"Merciless Gladiator's Satin Mantle";"Priest";"both";31101
+32018;"Merciless Gladiator's Mooncloth Mantle";"Priest";"both";31101
+31070;"Shoulderpads of Absolution";"Priest";"both";31101
+31069;"Mantle of Absolution";"Priest";"both";31101
+31979;"Merciless Gladiator's Felweave Amice";"Warlock";"both";31101
+31976;"Merciless Gladiator's Dreadweave Mantle";"Warlock";"both";31101
+31054;"Mantle of the Malefic";"Warlock";"both";31101
+31963;"Merciless Gladiator's Chain Leggings";"Hunter";"both";31100
+31005;"Gronnstalker's Leggings";"Hunter";"both";31100
+32032;"Merciless Gladiator's Ringmail Leggings";"Shaman";"both";31100
+32012;"Merciless Gladiator's Mail Leggings";"Shaman";"both";31100
+32007;"Merciless Gladiator's Linked Leggings";"Shaman";"both";31100
+31021;"Skyshatter Pants";"Shaman";"both";31100
+31020;"Skyshatter Legguards";"Shaman";"both";31100
+31019;"Skyshatter Leggings";"Shaman";"both";31100
+30978;"Onslaught Legguards";"Warrior";"both";31100
+30977;"Onslaught Greaves";"Warrior";"both";31100
+30489;"Merciless Gladiator's Plate Legguards";"Warrior";"both";31100
+32058;"Merciless Gladiator's Wyrmhide Legguards";"Druid";"both";31099
+31989;"Merciless Gladiator's Kodohide Legguards";"Druid";"both";31099
+31969;"Merciless Gladiator's Dragonhide Legguards";"Druid";"both";31099
+31046;"Thunderheart Pants";"Druid";"both";31099
+31045;"Thunderheart Legguards";"Druid";"both";31099
+31044;"Thunderheart Leggings";"Druid";"both";31099
+32051;"Merciless Gladiator's Silk Trousers";"Mage";"both";31099
+31058;"Leggings of the Tempest";"Mage";"both";31099
+32000;"Merciless Gladiator's Leather Legguards";"Rogue";"both";31099
+31029;"Slayer's Legguards";"Rogue";"both";31099
+32042;"Merciless Gladiator's Scaled Legguards";"Paladin";"both";31098
+32023;"Merciless Gladiator's Ornamented Legplates";"Paladin";"both";31098
+31995;"Merciless Gladiator's Lamellar Legguards";"Paladin";"both";31098
+30995;"Lightbringer Legguards";"Paladin";"both";31098
+30994;"Lightbringer Leggings";"Paladin";"both";31098
+30993;"Lightbringer Greaves";"Paladin";"both";31098
+32036;"Merciless Gladiator's Satin Leggings";"Priest";"both";31098
+32017;"Merciless Gladiator's Mooncloth Leggings";"Priest";"both";31098
+31068;"Breeches of Absolution";"Priest";"both";31098
+31067;"Leggings of Absolution";"Priest";"both";31098
+31983;"Merciless Gladiator's Felweave Trousers";"Warlock";"both";31098
+31975;"Merciless Gladiator's Dreadweave Leggings";"Warlock";"both";31098
+31053;"Leggings of the Malefic";"Warlock";"both";31098
+32041;"Merciless Gladiator's Scaled Helm";"Paladin";"both";31097
+32022;"Merciless Gladiator's Ornamented Headcover";"Paladin";"both";31097
+31997;"Merciless Gladiator's Lamellar Helm";"Paladin";"both";31097
+30989;"Lightbringer War-Helm";"Paladin";"both";31097
+30988;"Lightbringer Greathelm";"Paladin";"both";31097
+30987;"Lightbringer Faceguard";"Paladin";"both";31097
+32035;"Merciless Gladiator's Satin Hood";"Priest";"both";31097
+32016;"Merciless Gladiator's Mooncloth Hood";"Priest";"both";31097
+31064;"Hood of Absolution";"Priest";"both";31097
+31063;"Cowl of Absolution";"Priest";"both";31097
+31980;"Merciless Gladiator's Felweave Cowl";"Warlock";"both";31097
+31974;"Merciless Gladiator's Dreadweave Hood";"Warlock";"both";31097
+31051;"Hood of the Malefic";"Warlock";"both";31097
+32057;"Merciless Gladiator's Wyrmhide Helm";"Druid";"both";31096
+31988;"Merciless Gladiator's Kodohide Helm";"Druid";"both";31096
+31968;"Merciless Gladiator's Dragonhide Helm";"Druid";"both";31096
+31040;"Thunderheart Headguard";"Druid";"both";31096
+31039;"Thunderheart Cover";"Druid";"both";31096
+31037;"Thunderheart Helmet";"Druid";"both";31096
+32048;"Merciless Gladiator's Silk Cowl";"Mage";"both";31096
+31056;"Cowl of the Tempest";"Mage";"both";31096
+31999;"Merciless Gladiator's Leather Helm";"Rogue";"both";31096
+31027;"Slayer's Helm";"Rogue";"both";31096
+31962;"Merciless Gladiator's Chain Helm";"Hunter";"both";31095
+31003;"Gronnstalker's Helmet";"Hunter";"both";31095
+32031;"Merciless Gladiator's Ringmail Helm";"Shaman";"both";31095
+32011;"Merciless Gladiator's Mail Helm";"Shaman";"both";31095
+32006;"Merciless Gladiator's Linked Helm";"Shaman";"both";31095
+31015;"Skyshatter Cover";"Shaman";"both";31095
+31014;"Skyshatter Headguard";"Shaman";"both";31095
+31012;"Skyshatter Helmet";"Shaman";"both";31095
+30974;"Onslaught Greathelm";"Warrior";"both";31095
+30972;"Onslaught Battle-Helm";"Warrior";"both";31095
+30488;"Merciless Gladiator's Plate Helm";"Warrior";"both";31095
+31961;"Merciless Gladiator's Chain Gauntlets";"Hunter";"both";31094
+31001;"Gronnstalker's Gloves";"Hunter";"both";31094
+32030;"Merciless Gladiator's Ringmail Gauntlets";"Shaman";"both";31094
+32010;"Merciless Gladiator's Mail Gauntlets";"Shaman";"both";31094
+32005;"Merciless Gladiator's Linked Gauntlets";"Shaman";"both";31094
+31011;"Skyshatter Grips";"Shaman";"both";31094
+31008;"Skyshatter Gauntlets";"Shaman";"both";31094
+31007;"Skyshatter Gloves";"Shaman";"both";31094
+30970;"Onslaught Handguards";"Warrior";"both";31094
+30969;"Onslaught Gauntlets";"Warrior";"both";31094
+30487;"Merciless Gladiator's Plate Gauntlets";"Warrior";"both";31094
+32056;"Merciless Gladiator's Wyrmhide Gloves";"Druid";"both";31093
+31987;"Merciless Gladiator's Kodohide Gloves";"Druid";"both";31093
+31967;"Merciless Gladiator's Dragonhide Gloves";"Druid";"both";31093
+31035;"Thunderheart Handguards";"Druid";"both";31093
+31034;"Thunderheart Gauntlets";"Druid";"both";31093
+31032;"Thunderheart Gloves";"Druid";"both";31093
+32049;"Merciless Gladiator's Silk Handguards";"Mage";"both";31093
+31055;"Gloves of the Tempest";"Mage";"both";31093
+31998;"Merciless Gladiator's Leather Gloves";"Rogue";"both";31093
+31026;"Slayer's Handguards";"Rogue";"both";31093
+32040;"Merciless Gladiator's Scaled Gauntlets";"Paladin";"both";31092
+32021;"Merciless Gladiator's Ornamented Gloves";"Paladin";"both";31092
+31993;"Merciless Gladiator's Lamellar Gauntlets";"Paladin";"both";31092
+30985;"Lightbringer Handguards";"Paladin";"both";31092
+30983;"Lightbringer Gloves";"Paladin";"both";31092
+30982;"Lightbringer Gauntlets";"Paladin";"both";31092
+32034;"Merciless Gladiator's Satin Gloves";"Priest";"both";31092
+32015;"Merciless Gladiator's Mooncloth Gloves";"Priest";"both";31092
+31061;"Handguards of Absolution";"Priest";"both";31092
+31060;"Gloves of Absolution";"Priest";"both";31092
+31981;"Merciless Gladiator's Felweave Handguards";"Warlock";"both";31092
+31973;"Merciless Gladiator's Dreadweave Gloves";"Warlock";"both";31092
+31050;"Gloves of the Malefic";"Warlock";"both";31092
+31960;"Merciless Gladiator's Chain Armor";"Hunter";"both";31091
+31004;"Gronnstalker's Chestguard";"Hunter";"both";31091
+32029;"Merciless Gladiator's Ringmail Armor";"Shaman";"both";31091
+32009;"Merciless Gladiator's Mail Armor";"Shaman";"both";31091
+32004;"Merciless Gladiator's Linked Armor";"Shaman";"both";31091
+31018;"Skyshatter Tunic";"Shaman";"both";31091
+31017;"Skyshatter Breastplate";"Shaman";"both";31091
+31016;"Skyshatter Chestguard";"Shaman";"both";31091
+30976;"Onslaught Chestguard";"Warrior";"both";31091
+30975;"Onslaught Breastplate";"Warrior";"both";31091
+30486;"Merciless Gladiator's Plate Chestpiece";"Warrior";"both";31091
+32060;"Merciless Gladiator's Wyrmhide Tunic";"Druid";"both";31090
+31991;"Merciless Gladiator's Kodohide Tunic";"Druid";"both";31090
+31972;"Merciless Gladiator's Dragonhide Tunic";"Druid";"both";31090
+31043;"Thunderheart Vest";"Druid";"both";31090
+31042;"Thunderheart Chestguard";"Druid";"both";31090
+31041;"Thunderheart Tunic";"Druid";"both";31090
+32050;"Merciless Gladiator's Silk Raiment";"Mage";"both";31090
+31057;"Robes of the Tempest";"Mage";"both";31090
+32002;"Merciless Gladiator's Leather Tunic";"Rogue";"both";31090
+31028;"Slayer's Chestguard";"Rogue";"both";31090
+32039;"Merciless Gladiator's Scaled Chestpiece";"Paladin";"both";31089
+32020;"Merciless Gladiator's Ornamented Chestguard";"Paladin";"both";31089
+31992;"Merciless Gladiator's Lamellar Chestpiece";"Paladin";"both";31089
+30992;"Lightbringer Chestpiece";"Paladin";"both";31089
+30991;"Lightbringer Chestguard";"Paladin";"both";31089
+30990;"Lightbringer Breastplate";"Paladin";"both";31089
+32038;"Merciless Gladiator's Satin Robe";"Priest";"both";31089
+32019;"Merciless Gladiator's Mooncloth Robe";"Priest";"both";31089
+31066;"Vestments of Absolution";"Priest";"both";31089
+31065;"Shroud of Absolution";"Priest";"both";31089
+31982;"Merciless Gladiator's Felweave Raiment";"Warlock";"both";31089
+31977;"Merciless Gladiator's Dreadweave Robe";"Warlock";"both";31089
+31052;"Robe of the Malefic";"Warlock";"both";31089
+31964;"Merciless Gladiator's Chain Spaulders";"Hunter";"both";30250
+30143;"Rift Stalker Mantle";"Hunter";"both";30250
+32047;"Merciless Gladiator's Silk Amice";"Mage";"both";30250
+30210;"Mantle of Tirisfal";"Mage";"both";30250
+31979;"Merciless Gladiator's Felweave Amice";"Warlock";"both";30250
+31976;"Merciless Gladiator's Dreadweave Mantle";"Warlock";"both";30250
+30215;"Mantle of the Corruptor";"Warlock";"both";30250
+32059;"Merciless Gladiator's Wyrmhide Spaulders";"Druid";"both";30249
+31990;"Merciless Gladiator's Kodohide Spaulders";"Druid";"both";30249
+31971;"Merciless Gladiator's Dragonhide Spaulders";"Druid";"both";30249
+30235;"Nordrassil Wrath-Mantle";"Druid";"both";30249
+30230;"Nordrassil Feral-Mantle";"Druid";"both";30249
+30221;"Nordrassil Life-Mantle";"Druid";"both";30249
+32037;"Merciless Gladiator's Satin Mantle";"Priest";"both";30249
+32018;"Merciless Gladiator's Mooncloth Mantle";"Priest";"both";30249
+30163;"Wings of the Avatar";"Priest";"both";30249
+30154;"Mantle of the Avatar";"Priest";"both";30249
+30490;"Merciless Gladiator's Plate Shoulders";"Warrior";"both";30249
+30122;"Destroyer Shoulderblades";"Warrior";"both";30249
+30117;"Destroyer Shoulderguards";"Warrior";"both";30249
+32043;"Merciless Gladiator's Scaled Shoulders";"Paladin";"both";30248
+32024;"Merciless Gladiator's Ornamented Spaulders";"Paladin";"both";30248
+31996;"Merciless Gladiator's Lamellar Shoulders";"Paladin";"both";30248
+30138;"Crystalforge Pauldrons";"Paladin";"both";30248
+30133;"Crystalforge Shoulderbraces";"Paladin";"both";30248
+30127;"Crystalforge Shoulderguards";"Paladin";"both";30248
+32001;"Merciless Gladiator's Leather Spaulders";"Rogue";"both";30248
+30149;"Deathmantle Shoulderpads";"Rogue";"both";30248
+32033;"Merciless Gladiator's Ringmail Spaulders";"Shaman";"both";30248
+32013;"Merciless Gladiator's Mail Spaulders";"Shaman";"both";30248
+32008;"Merciless Gladiator's Linked Spaulders";"Shaman";"both";30248
+30194;"Cataclysm Shoulderplates";"Shaman";"both";30248
+30173;"Cataclysm Shoulderpads";"Shaman";"both";30248
+30168;"Cataclysm Shoulderguards";"Shaman";"both";30248
+31963;"Merciless Gladiator's Chain Leggings";"Hunter";"both";30247
+30142;"Rift Stalker Leggings";"Hunter";"both";30247
+32051;"Merciless Gladiator's Silk Trousers";"Mage";"both";30247
+30207;"Leggings of Tirisfal";"Mage";"both";30247
+31983;"Merciless Gladiator's Felweave Trousers";"Warlock";"both";30247
+31975;"Merciless Gladiator's Dreadweave Leggings";"Warlock";"both";30247
+30213;"Leggings of the Corruptor";"Warlock";"both";30247
+32058;"Merciless Gladiator's Wyrmhide Legguards";"Druid";"both";30246
+31989;"Merciless Gladiator's Kodohide Legguards";"Druid";"both";30246
+31969;"Merciless Gladiator's Dragonhide Legguards";"Druid";"both";30246
+30234;"Nordrassil Wrath-Kilt";"Druid";"both";30246
+30229;"Nordrassil Feral-Kilt";"Druid";"both";30246
+30220;"Nordrassil Life-Kilt";"Druid";"both";30246
+32036;"Merciless Gladiator's Satin Leggings";"Priest";"both";30246
+32017;"Merciless Gladiator's Mooncloth Leggings";"Priest";"both";30246
+30162;"Leggings of the Avatar";"Priest";"both";30246
+30153;"Breeches of the Avatar";"Priest";"both";30246
+30489;"Merciless Gladiator's Plate Legguards";"Warrior";"both";30246
+30121;"Destroyer Greaves";"Warrior";"both";30246
+30116;"Destroyer Legguards";"Warrior";"both";30246
+32042;"Merciless Gladiator's Scaled Legguards";"Paladin";"both";30245
+32023;"Merciless Gladiator's Ornamented Legplates";"Paladin";"both";30245
+31995;"Merciless Gladiator's Lamellar Legguards";"Paladin";"both";30245
+30137;"Crystalforge Leggings";"Paladin";"both";30245
+30132;"Crystalforge Greaves";"Paladin";"both";30245
+30126;"Crystalforge Legguards";"Paladin";"both";30245
+32000;"Merciless Gladiator's Leather Legguards";"Rogue";"both";30245
+30148;"Deathmantle Legguards";"Rogue";"both";30245
+32032;"Merciless Gladiator's Ringmail Leggings";"Shaman";"both";30245
+32012;"Merciless Gladiator's Mail Leggings";"Shaman";"both";30245
+32007;"Merciless Gladiator's Linked Leggings";"Shaman";"both";30245
+30192;"Cataclysm Legplates";"Shaman";"both";30245
+30172;"Cataclysm Leggings";"Shaman";"both";30245
+30167;"Cataclysm Legguards";"Shaman";"both";30245
+31962;"Merciless Gladiator's Chain Helm";"Hunter";"both";30244
+30141;"Rift Stalker Helm";"Hunter";"both";30244
+32048;"Merciless Gladiator's Silk Cowl";"Mage";"both";30244
+30206;"Cowl of Tirisfal";"Mage";"both";30244
+31980;"Merciless Gladiator's Felweave Cowl";"Warlock";"both";30244
+31974;"Merciless Gladiator's Dreadweave Hood";"Warlock";"both";30244
+30212;"Hood of the Corruptor";"Warlock";"both";30244
+32057;"Merciless Gladiator's Wyrmhide Helm";"Druid";"both";30243
+31988;"Merciless Gladiator's Kodohide Helm";"Druid";"both";30243
+31968;"Merciless Gladiator's Dragonhide Helm";"Druid";"both";30243
+30233;"Nordrassil Headpiece";"Druid";"both";30243
+30228;"Nordrassil Headdress";"Druid";"both";30243
+30219;"Nordrassil Headguard";"Druid";"both";30243
+32035;"Merciless Gladiator's Satin Hood";"Priest";"both";30243
+32016;"Merciless Gladiator's Mooncloth Hood";"Priest";"both";30243
+30161;"Hood of the Avatar";"Priest";"both";30243
+30152;"Cowl of the Avatar";"Priest";"both";30243
+30488;"Merciless Gladiator's Plate Helm";"Warrior";"both";30243
+30120;"Destroyer Battle-Helm";"Warrior";"both";30243
+30115;"Destroyer Greathelm";"Warrior";"both";30243
+32041;"Merciless Gladiator's Scaled Helm";"Paladin";"both";30242
+32022;"Merciless Gladiator's Ornamented Headcover";"Paladin";"both";30242
+31997;"Merciless Gladiator's Lamellar Helm";"Paladin";"both";30242
+30136;"Crystalforge Greathelm";"Paladin";"both";30242
+30131;"Crystalforge War-Helm";"Paladin";"both";30242
+30125;"Crystalforge Faceguard";"Paladin";"both";30242
+31999;"Merciless Gladiator's Leather Helm";"Rogue";"both";30242
+30146;"Deathmantle Helm";"Rogue";"both";30242
+32031;"Merciless Gladiator's Ringmail Helm";"Shaman";"both";30242
+32011;"Merciless Gladiator's Mail Helm";"Shaman";"both";30242
+32006;"Merciless Gladiator's Linked Helm";"Shaman";"both";30242
+30190;"Cataclysm Helm";"Shaman";"both";30242
+30171;"Cataclysm Headpiece";"Shaman";"both";30242
+30166;"Cataclysm Headguard";"Shaman";"both";30242
+31961;"Merciless Gladiator's Chain Gauntlets";"Hunter";"both";30241
+30140;"Rift Stalker Gauntlets";"Hunter";"both";30241
+32049;"Merciless Gladiator's Silk Handguards";"Mage";"both";30241
+30205;"Gloves of Tirisfal";"Mage";"both";30241
+31981;"Merciless Gladiator's Felweave Handguards";"Warlock";"both";30241
+31973;"Merciless Gladiator's Dreadweave Gloves";"Warlock";"both";30241
+30211;"Gloves of the Corruptor";"Warlock";"both";30241
+32056;"Merciless Gladiator's Wyrmhide Gloves";"Druid";"both";30240
+31987;"Merciless Gladiator's Kodohide Gloves";"Druid";"both";30240
+31967;"Merciless Gladiator's Dragonhide Gloves";"Druid";"both";30240
+30232;"Nordrassil Gauntlets";"Druid";"both";30240
+30223;"Nordrassil Handgrips";"Druid";"both";30240
+30217;"Nordrassil Gloves";"Druid";"both";30240
+32034;"Merciless Gladiator's Satin Gloves";"Priest";"both";30240
+32015;"Merciless Gladiator's Mooncloth Gloves";"Priest";"both";30240
+30160;"Handguards of the Avatar";"Priest";"both";30240
+30151;"Gloves of the Avatar";"Priest";"both";30240
+30487;"Merciless Gladiator's Plate Gauntlets";"Warrior";"both";30240
+30119;"Destroyer Gauntlets";"Warrior";"both";30240
+30114;"Destroyer Handguards";"Warrior";"both";30240
+32040;"Merciless Gladiator's Scaled Gauntlets";"Paladin";"both";30239
+32021;"Merciless Gladiator's Ornamented Gloves";"Paladin";"both";30239
+31993;"Merciless Gladiator's Lamellar Gauntlets";"Paladin";"both";30239
+30135;"Crystalforge Gloves";"Paladin";"both";30239
+30130;"Crystalforge Gauntlets";"Paladin";"both";30239
+30124;"Crystalforge Handguards";"Paladin";"both";30239
+31998;"Merciless Gladiator's Leather Gloves";"Rogue";"both";30239
+30145;"Deathmantle Handguards";"Rogue";"both";30239
+32030;"Merciless Gladiator's Ringmail Gauntlets";"Shaman";"both";30239
+32010;"Merciless Gladiator's Mail Gauntlets";"Shaman";"both";30239
+32005;"Merciless Gladiator's Linked Gauntlets";"Shaman";"both";30239
+30189;"Cataclysm Gauntlets";"Shaman";"both";30239
+30170;"Cataclysm Handgrips";"Shaman";"both";30239
+30165;"Cataclysm Gloves";"Shaman";"both";30239
+31960;"Merciless Gladiator's Chain Armor";"Hunter";"both";30238
+30139;"Rift Stalker Hauberk";"Hunter";"both";30238
+32050;"Merciless Gladiator's Silk Raiment";"Mage";"both";30238
+30196;"Robes of Tirisfal";"Mage";"both";30238
+31982;"Merciless Gladiator's Felweave Raiment";"Warlock";"both";30238
+31977;"Merciless Gladiator's Dreadweave Robe";"Warlock";"both";30238
+30214;"Robe of the Corruptor";"Warlock";"both";30238
+32060;"Merciless Gladiator's Wyrmhide Tunic";"Druid";"both";30237
+31991;"Merciless Gladiator's Kodohide Tunic";"Druid";"both";30237
+31972;"Merciless Gladiator's Dragonhide Tunic";"Druid";"both";30237
+30231;"Nordrassil Chestpiece";"Druid";"both";30237
+30222;"Nordrassil Chestplate";"Druid";"both";30237
+30216;"Nordrassil Chestguard";"Druid";"both";30237
+32038;"Merciless Gladiator's Satin Robe";"Priest";"both";30237
+32019;"Merciless Gladiator's Mooncloth Robe";"Priest";"both";30237
+30159;"Shroud of the Avatar";"Priest";"both";30237
+30150;"Vestments of the Avatar";"Priest";"both";30237
+30486;"Merciless Gladiator's Plate Chestpiece";"Warrior";"both";30237
+30118;"Destroyer Breastplate";"Warrior";"both";30237
+30113;"Destroyer Chestguard";"Warrior";"both";30237
+32039;"Merciless Gladiator's Scaled Chestpiece";"Paladin";"both";30236
+32020;"Merciless Gladiator's Ornamented Chestguard";"Paladin";"both";30236
+31992;"Merciless Gladiator's Lamellar Chestpiece";"Paladin";"both";30236
+30134;"Crystalforge Chestpiece";"Paladin";"both";30236
+30129;"Crystalforge Breastplate";"Paladin";"both";30236
+30123;"Crystalforge Chestguard";"Paladin";"both";30236
+32002;"Merciless Gladiator's Leather Tunic";"Rogue";"both";30236
+30144;"Deathmantle Chestguard";"Rogue";"both";30236
+32029;"Merciless Gladiator's Ringmail Armor";"Shaman";"both";30236
+32009;"Merciless Gladiator's Mail Armor";"Shaman";"both";30236
+32004;"Merciless Gladiator's Linked Armor";"Shaman";"both";30236
+30185;"Cataclysm Chestplate";"Shaman";"both";30236
+30169;"Cataclysm Chestpiece";"Shaman";"both";30236
+30164;"Cataclysm Chestguard";"Shaman";"both";30236
+31377;"Gladiator's Kodohide Legguards";"Druid";"both";29767
+29099;"Greaves of Malorne";"Druid";"both";29767
+29094;"Britches of Malorne";"Druid";"both";29767
+29088;"Legguards of Malorne";"Druid";"both";29767
+28138;"Gladiator's Wyrmhide Legguards";"Druid";"both";29767
+28128;"Gladiator's Dragonhide Legguards";"Druid";"both";29767
+31411;"Gladiator's Mooncloth Leggings";"Priest";"both";29767
+29059;"Leggings of the Incarnate";"Priest";"both";29767
+29053;"Trousers of the Incarnate";"Priest";"both";29767
+27709;"Gladiator's Satin Leggings";"Priest";"both";29767
+29022;"Warbringer Greaves";"Warrior";"both";29767
+29015;"Warbringer Legguards";"Warrior";"both";29767
+24547;"Gladiator's Plate Legguards";"Warrior";"both";29767
+31618;"Gladiator's Ornamented Legplates";"Paladin";"both";29766
+29074;"Justicar Greaves";"Paladin";"both";29766
+29069;"Justicar Legguards";"Paladin";"both";29766
+29063;"Justicar Leggings";"Paladin";"both";29766
+27882;"Gladiator's Scaled Legguards";"Paladin";"both";29766
+27705;"Gladiator's Lamellar Legguards";"Paladin";"both";29766
+29046;"Netherblade Breeches";"Rogue";"both";29766
+25833;"Gladiator's Leather Legguards";"Rogue";"both";29766
+31406;"Gladiator's Ringmail Leggings";"Shaman";"both";29766
+29042;"Cyclone War-Kilt";"Shaman";"both";29766
+29036;"Cyclone Legguards";"Shaman";"both";29766
+29030;"Cyclone Kilt";"Shaman";"both";29766
+27472;"Gladiator's Mail Leggings";"Shaman";"both";29766
+26001;"Gladiator's Linked Leggings";"Shaman";"both";29766
+29083;"Demon Stalker Greaves";"Hunter";"both";29765
+28332;"Gladiator's Chain Leggings";"Hunter";"both";29765
+29078;"Legwraps of the Aldor";"Mage";"both";29765
+25858;"Gladiator's Silk Trousers";"Mage";"both";29765
+30201;"Gladiator's Felweave Trousers";"Warlock";"both";29765
+28966;"Voidheart Leggings";"Warlock";"both";29765
+24555;"Gladiator's Dreadweave Leggings";"Warlock";"both";29765
+31378;"Gladiator's Kodohide Spaulders";"Druid";"both";29764
+29100;"Mantle of Malorne";"Druid";"both";29764
+29095;"Pauldrons of Malorne";"Druid";"both";29764
+29089;"Shoulderguards of Malorne";"Druid";"both";29764
+28139;"Gladiator's Wyrmhide Spaulders";"Druid";"both";29764
+28129;"Gladiator's Dragonhide Spaulders";"Druid";"both";29764
+31412;"Gladiator's Mooncloth Mantle";"Priest";"both";29764
+29060;"Soul-Mantle of the Incarnate";"Priest";"both";29764
+29054;"Light-Mantle of the Incarnate";"Priest";"both";29764
+27710;"Gladiator's Satin Mantle";"Priest";"both";29764
+29023;"Warbringer Shoulderplates";"Warrior";"both";29764
+29016;"Warbringer Shoulderguards";"Warrior";"both";29764
+24546;"Gladiator's Plate Shoulders";"Warrior";"both";29764
+31619;"Gladiator's Ornamented Spaulders";"Paladin";"both";29763
+29075;"Justicar Shoulderplates";"Paladin";"both";29763
+29070;"Justicar Shoulderguards";"Paladin";"both";29763
+29064;"Justicar Pauldrons";"Paladin";"both";29763
+27883;"Gladiator's Scaled Shoulders";"Paladin";"both";29763
+27706;"Gladiator's Lamellar Shoulders";"Paladin";"both";29763
+29047;"Netherblade Shoulderpads";"Rogue";"both";29763
+25832;"Gladiator's Leather Spaulders";"Rogue";"both";29763
+31407;"Gladiator's Ringmail Spaulders";"Shaman";"both";29763
+29043;"Cyclone Shoulderplates";"Shaman";"both";29763
+29037;"Cyclone Shoulderguards";"Shaman";"both";29763
+29031;"Cyclone Shoulderpads";"Shaman";"both";29763
+27473;"Gladiator's Mail Spaulders";"Shaman";"both";29763
+25999;"Gladiator's Linked Spaulders";"Shaman";"both";29763
+29084;"Demon Stalker Shoulderguards";"Hunter";"both";29762
+28333;"Gladiator's Chain Spaulders";"Hunter";"both";29762
+29079;"Pauldrons of the Aldor";"Mage";"both";29762
+25854;"Gladiator's Silk Amice";"Mage";"both";29762
+30186;"Gladiator's Felweave Amice";"Warlock";"both";29762
+28967;"Voidheart Mantle";"Warlock";"both";29762
+24554;"Gladiator's Dreadweave Mantle";"Warlock";"both";29762
+31376;"Gladiator's Kodohide Helm";"Druid";"both";29761
+29098;"Stag-Helm of Malorne";"Druid";"both";29761
+29093;"Antlers of Malorne";"Druid";"both";29761
+29086;"Crown of Malorne";"Druid";"both";29761
+28137;"Gladiator's Wyrmhide Helm";"Druid";"both";29761
+28127;"Gladiator's Dragonhide Helm";"Druid";"both";29761
+31410;"Gladiator's Mooncloth Hood";"Priest";"both";29761
+29058;"Soul-Collar of the Incarnate";"Priest";"both";29761
+29049;"Light-Collar of the Incarnate";"Priest";"both";29761
+27708;"Gladiator's Satin Hood";"Priest";"both";29761
+29021;"Warbringer Battle-Helm";"Warrior";"both";29761
+29011;"Warbringer Greathelm";"Warrior";"both";29761
+24545;"Gladiator's Plate Helm";"Warrior";"both";29761
+31616;"Gladiator's Ornamented Headcover";"Paladin";"both";29760
+29073;"Justicar Crown";"Paladin";"both";29760
+29068;"Justicar Faceguard";"Paladin";"both";29760
+29061;"Justicar Diadem";"Paladin";"both";29760
+27881;"Gladiator's Scaled Helm";"Paladin";"both";29760
+27704;"Gladiator's Lamellar Helm";"Paladin";"both";29760
+29044;"Netherblade Facemask";"Rogue";"both";29760
+25830;"Gladiator's Leather Helm";"Rogue";"both";29760
+31400;"Gladiator's Ringmail Helm";"Shaman";"both";29760
+29040;"Cyclone Helm";"Shaman";"both";29760
+29035;"Cyclone Faceguard";"Shaman";"both";29760
+29028;"Cyclone Headdress";"Shaman";"both";29760
+27471;"Gladiator's Mail Helm";"Shaman";"both";29760
+25998;"Gladiator's Linked Helm";"Shaman";"both";29760
+29081;"Demon Stalker Greathelm";"Hunter";"both";29759
+28331;"Gladiator's Chain Helm";"Hunter";"both";29759
+29076;"Collar of the Aldor";"Mage";"both";29759
+25855;"Gladiator's Silk Cowl";"Mage";"both";29759
+30187;"Gladiator's Felweave Cowl";"Warlock";"both";29759
+28963;"Voidheart Crown";"Warlock";"both";29759
+24553;"Gladiator's Dreadweave Hood";"Warlock";"both";29759
+31375;"Gladiator's Kodohide Gloves";"Druid";"both";29758
+29097;"Gauntlets of Malorne";"Druid";"both";29758
+29092;"Gloves of Malorne";"Druid";"both";29758
+29090;"Handguards of Malorne";"Druid";"both";29758
+28136;"Gladiator's Wyrmhide Gloves";"Druid";"both";29758
+28126;"Gladiator's Dragonhide Gloves";"Druid";"both";29758
+31409;"Gladiator's Mooncloth Gloves";"Priest";"both";29758
+29057;"Gloves of the Incarnate";"Priest";"both";29758
+29055;"Handwraps of the Incarnate";"Priest";"both";29758
+27707;"Gladiator's Satin Gloves";"Priest";"both";29758
+29020;"Warbringer Gauntlets";"Warrior";"both";29758
+29017;"Warbringer Handguards";"Warrior";"both";29758
+24549;"Gladiator's Plate Gauntlets";"Warrior";"both";29758
+31614;"Gladiator's Ornamented Gloves";"Paladin";"both";29757
+29072;"Justicar Gauntlets";"Paladin";"both";29757
+29067;"Justicar Handguards";"Paladin";"both";29757
+29065;"Justicar Gloves";"Paladin";"both";29757
+27880;"Gladiator's Scaled Gauntlets";"Paladin";"both";29757
+27703;"Gladiator's Lamellar Gauntlets";"Paladin";"both";29757
+29048;"Netherblade Gloves";"Rogue";"both";29757
+25834;"Gladiator's Leather Gloves";"Rogue";"both";29757
+31397;"Gladiator's Ringmail Gauntlets";"Shaman";"both";29757
+29039;"Cyclone Gauntlets";"Shaman";"both";29757
+29034;"Cyclone Handguards";"Shaman";"both";29757
+29032;"Cyclone Gloves";"Shaman";"both";29757
+27470;"Gladiator's Mail Gauntlets";"Shaman";"both";29757
+26000;"Gladiator's Linked Gauntlets";"Shaman";"both";29757
+29085;"Demon Stalker Gauntlets";"Hunter";"both";29756
+28335;"Gladiator's Chain Gauntlets";"Hunter";"both";29756
+29080;"Gloves of the Aldor";"Mage";"both";29756
+25857;"Gladiator's Silk Handguards";"Mage";"both";29756
+30188;"Gladiator's Felweave Handguards";"Warlock";"both";29756
+28968;"Voidheart Gloves";"Warlock";"both";29756
+24556;"Gladiator's Dreadweave Gloves";"Warlock";"both";29756
+29082;"Demon Stalker Harness";"Hunter";"both";29755
+28334;"Gladiator's Chain Armor";"Hunter";"both";29755
+29077;"Vestments of the Aldor";"Mage";"both";29755
+25856;"Gladiator's Silk Raiment";"Mage";"both";29755
+30200;"Gladiator's Felweave Raiment";"Warlock";"both";29755
+28964;"Voidheart Robe";"Warlock";"both";29755
+24552;"Gladiator's Dreadweave Robe";"Warlock";"both";29755
+31613;"Gladiator's Ornamented Chestguard";"Paladin";"both";29754
+29071;"Justicar Breastplate";"Paladin";"both";29754
+29066;"Justicar Chestguard";"Paladin";"both";29754
+29062;"Justicar Chestpiece";"Paladin";"both";29754
+27879;"Gladiator's Scaled Chestpiece";"Paladin";"both";29754
+27702;"Gladiator's Lamellar Chestpiece";"Paladin";"both";29754
+29045;"Netherblade Chestpiece";"Rogue";"both";29754
+25831;"Gladiator's Leather Tunic";"Rogue";"both";29754
+31396;"Gladiator's Ringmail Armor";"Shaman";"both";29754
+29038;"Cyclone Breastplate";"Shaman";"both";29754
+29033;"Cyclone Chestguard";"Shaman";"both";29754
+29029;"Cyclone Hauberk";"Shaman";"both";29754
+27469;"Gladiator's Mail Armor";"Shaman";"both";29754
+25997;"Gladiator's Linked Armor";"Shaman";"both";29754
+31379;"Gladiator's Kodohide Tunic";"Druid";"both";29753
+29096;"Breastplate of Malorne";"Druid";"both";29753
+29091;"Chestpiece of Malorne";"Druid";"both";29753
+29087;"Chestguard of Malorne";"Druid";"both";29753
+28140;"Gladiator's Wyrmhide Tunic";"Druid";"both";29753
+28130;"Gladiator's Dragonhide Tunic";"Druid";"both";29753
+31413;"Gladiator's Mooncloth Robe";"Priest";"both";29753
+29056;"Shroud of the Incarnate";"Priest";"both";29753
+29050;"Robes of the Incarnate";"Priest";"both";29753
+27711;"Gladiator's Satin Robe";"Priest";"both";29753
+29019;"Warbringer Breastplate";"Warrior";"both";29753
+29012;"Warbringer Chestguard";"Warrior";"both";29753
+24544;"Gladiator's Plate Chestpiece";"Warrior";"both";29753
+21357;"Genesis Vest";"Druid";"both";20933
+21343;"Enigma Robes";"Mage";"both";20933
+21351;"Vestments of the Oracle";"Priest";"both";20933
+21334;"Doomcaller's Robes";"Warlock";"both";20933
+21355;"Genesis Boots";"Druid";"both";20932
+21354;"Genesis Shoulderpads";"Druid";"both";20932
+21345;"Enigma Shoulderpads";"Mage";"both";20932
+21344;"Enigma Boots";"Mage";"both";20932
+21391;"Avenger's Pauldrons";"Paladin";"both";20932
+21388;"Avenger's Greaves";"Paladin";"both";20932
+21376;"Stormcaller's Pauldrons";"Shaman";"both";20932
+21373;"Stormcaller's Footguards";"Shaman";"both";20932
+21338;"Doomcaller's Footwraps";"Warlock";"both";20932
+21335;"Doomcaller's Mantle";"Warlock";"both";20932
+21356;"Genesis Trousers";"Druid";"both";20931
+21368;"Striker's Leggings";"Hunter";"both";20931
+21390;"Avenger's Legguards";"Paladin";"both";20931
+21375;"Stormcaller's Leggings";"Shaman";"both";20931
+21336;"Doomcaller's Trousers";"Warlock";"both";20931
+21353;"Genesis Helm";"Druid";"both";20930
+21366;"Striker's Diadem";"Hunter";"both";20930
+21387;"Avenger's Crown";"Paladin";"both";20930
+21360;"Deathdealer's Helm";"Rogue";"both";20930
+21372;"Stormcaller's Diadem";"Shaman";"both";20930
+21370;"Striker's Hauberk";"Hunter";"both";20929
+21389;"Avenger's Breastplate";"Paladin";"both";20929
+21364;"Deathdealer's Vest";"Rogue";"both";20929
+21374;"Stormcaller's Hauberk";"Shaman";"both";20929
+21331;"Conqueror's Breastplate";"Warrior";"both";20929
+21367;"Striker's Pauldrons";"Hunter";"both";20928
+21365;"Striker's Footguards";"Hunter";"both";20928
+21350;"Mantle of the Oracle";"Priest";"both";20928
+21349;"Footwraps of the Oracle";"Priest";"both";20928
+21361;"Deathdealer's Spaulders";"Rogue";"both";20928
+21359;"Deathdealer's Boots";"Rogue";"both";20928
+21333;"Conqueror's Greaves";"Warrior";"both";20928
+21330;"Conqueror's Spaulders";"Warrior";"both";20928
+21346;"Enigma Leggings";"Mage";"both";20927
+21352;"Trousers of the Oracle";"Priest";"both";20927
+21362;"Deathdealer's Leggings";"Rogue";"both";20927
+21332;"Conqueror's Legguards";"Warrior";"both";20927
+21347;"Enigma Circlet";"Mage";"both";20926
+21348;"Tiara of the Oracle";"Priest";"both";20926
+21337;"Doomcaller's Circlet";"Warlock";"both";20926
+21329;"Conqueror's Crown";"Warrior";"both";20926
+21407;"Mace of Unending Life";"Druid";"both";20890
+21413;"Blade of Vaulted Secrets";"Mage";"both";20890
+21410;"Gavel of Infinite Wisdom";"Priest";"both";20890
+21416;"Kris of Unspoken Names";"Warlock";"both";20890
+21409;"Cloak of Unending Life";"Druid";"both";20889
+21403;"Cloak of the Unseen Path";"Hunter";"both";20889
+21397;"Cape of Eternal Justice";"Paladin";"both";20889
+21400;"Cloak of the Gathering Storm";"Shaman";"both";20889
+21418;"Shroud of Unspoken Names";"Warlock";"both";20889
+21402;"Signet of the Unseen Path";"Hunter";"both";20888
+21411;"Ring of Infinite Wisdom";"Priest";"both";20888
+21405;"Band of Veiled Shadows";"Rogue";"both";20888
+21417;"Ring of Unspoken Names";"Warlock";"both";20888
+21401;"Scythe of the Unseen Path";"Hunter";"both";20886
+21395;"Blade of Eternal Justice";"Paladin";"both";20886
+21404;"Dagger of Veiled Shadows";"Rogue";"both";20886
+21398;"Hammer of the Gathering Storm";"Shaman";"both";20886
+21392;"Sickle of Unyielding Strength";"Warrior";"both";20886
+21415;"Drape of Vaulted Secrets";"Mage";"both";20885
+21412;"Shroud of Infinite Wisdom";"Priest";"both";20885
+21406;"Cloak of Veiled Shadows";"Rogue";"both";20885
+21394;"Drape of Unyielding Strength";"Warrior";"both";20885
+21408;"Band of Unending Life";"Druid";"both";20884
+21414;"Band of Vaulted Secrets";"Mage";"both";20884
+21396;"Ring of Eternal Justice";"Paladin";"both";20884
+21399;"Ring of the Gathering Storm";"Shaman";"both";20884
+21393;"Signet of Unyielding Strength";"Warrior";"both";20884
+19831;"Zandalar Predator's Mantle";"Hunter";"both";19724
+19841;"Zandalar Confessor's Mantle";"Priest";"both";19724
+19834;"Zandalar Madcap's Tunic";"Rogue";"both";19724
+20034;"Zandalar Illusionist's Robe";"Mage";"both";19723
+20033;"Zandalar Demoniac's Robe";"Warlock";"both";19723
+19822;"Zandalar Vindicator's Breastplate";"Warrior";"both";19723
+19838;"Zandalar Haruspex's Tunic";"Druid";"both";19722
+19825;"Zandalar Freethinker's Breastplate";"Paladin";"both";19722
+19828;"Zandalar Augur's Hauberk";"Shaman";"both";19722
+19832;"Zandalar Predator's Belt";"Hunter";"both";19721
+19845;"Zandalar Illusionist's Mantle";"Mage";"both";19721
+19826;"Zandalar Freethinker's Belt";"Paladin";"both";19721
+19839;"Zandalar Haruspex's Belt";"Druid";"both";19720
+19842;"Zandalar Confessor's Bindings";"Priest";"both";19720
+19849;"Zandalar Demoniac's Mantle";"Warlock";"both";19720
+19835;"Zandalar Madcap's Mantle";"Rogue";"both";19719
+19829;"Zandalar Augur's Belt";"Shaman";"both";19719
+19823;"Zandalar Vindicator's Belt";"Warrior";"both";19719
+19840;"Zandalar Haruspex's Bracers";"Druid";"both";19718
+19843;"Zandalar Confessor's Wraps";"Priest";"both";19718
+19848;"Zandalar Demoniac's Wraps";"Warlock";"both";19718
+19836;"Zandalar Madcap's Bracers";"Rogue";"both";19717
+19830;"Zandalar Augur's Bracers";"Shaman";"both";19717
+19824;"Zandalar Vindicator's Armguards";"Warrior";"both";19717
+19833;"Zandalar Predator's Bracers";"Hunter";"both";19716
+19846;"Zandalar Illusionist's Wraps";"Mage";"both";19716
+19827;"Zandalar Freethinker's Armguards";"Paladin";"both";19716
+;;;;
