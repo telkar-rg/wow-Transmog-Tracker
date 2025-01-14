@@ -678,11 +678,19 @@ TMT_OnShowTooltip = function(tooltip) -- has been declared local
 		end
 		sort(knownPurchases)
 		
+		for k,v in pairs(knownPurchases) do
+			if k%2==1 then
+				knownPurchases[k] = "|cFFffff80" .. tostring(v) .. "|r"
+			else
+				knownPurchases[k] = "|cFF80ff80" .. tostring(v) .. "|r"
+			end
+		end
+		
 		if #knownPurchases > 0 then
-			tooltipText = format("%d |4item:items; tracked: ", #knownPurchases) .. "|cFFFFBB00" .. strjoin(", ", tostringall( unpack(knownPurchases) ) ) .. "|r"
+			tooltipText = format("%d |4item:items; tracked: ", #knownPurchases) .. "|cFFFFBB00" .. strjoin(", ", unpack(knownPurchases) ) .. "|r"
 		end
 		if tooltipText then
-			tooltipText = format("|cFF66BBFFTMT|r: %s", tooltipText)
+			tooltipText = format("\n|cFF66BBFFTMT|r: %s", tooltipText)
 			tooltip:AddLine(tooltipText,1,1,1,1)	-- turned on line wrap
 		end
 	end
