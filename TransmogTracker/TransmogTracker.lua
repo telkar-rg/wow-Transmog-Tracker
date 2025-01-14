@@ -23,6 +23,7 @@ local DB_Version = 2
 local db, dbOptions, dbGlobal
 
 local UniqueDisplay = ADDON_TABLE["UniqueDisplay"]
+local TokenInfo = ADDON_TABLE["TokenInfo"]
 
 local pattern_item = "(\124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r)"
 local pattern_link = "(\124c%x+\124H.-\124h\124r)"
@@ -37,6 +38,7 @@ local scan_table_slots = {}
 local scan_table_slots_template = { L["SLOT_NAME_HEAD"], L["SLOT_NAME_SHOULDERS"], L["SLOT_NAME_SHIRT"], L["SLOT_NAME_CHEST"], L["SLOT_NAME_WAIST"], L["SLOT_NAME_LEGS"], L["SLOT_NAME_FEET"], L["SLOT_NAME_WRISTS"], L["SLOT_NAME_HANDS"], L["SLOT_NAME_BACK"], L["SLOT_NAME_MAIN_HAND"], L["SLOT_NAME_OFF_HAND"], L["SLOT_NAME_RANGED"], L["SLOT_NAME_TABARD"] }
 
 local TMT_OnShowTooltip -- forward-declaration
+local PlayerFaction, PlayerClass
 
 local function DPrint(...)
 	-- DEFAULT_CHAT_FRAME:AddMessage( chatprefix..tostring(msg) )
@@ -66,6 +68,9 @@ function addon:OnInitialize()
 	addon:RegisterEvent("CHAT_MSG_SYSTEM")
 	addon:RegisterEvent("GOSSIP_SHOW")
 	addon:RegisterEvent("GOSSIP_CLOSED")
+	
+	PlayerFaction = UnitFactionGroup("player") 	-- get EN PlayerFaction
+	_, PlayerClass = UnitClass("player") 		-- get EN PlayerClass
 end
 
 
@@ -632,6 +637,7 @@ TMT_OnShowTooltip = function(tooltip) -- has been declared local
 
 	_, itemId = strsplit(":", strmatch(itemLink, "item[%-?%d:]+"))
 	itemId = tonumber(itemId)
+	if not itemId then return end
 	_, _, _, _, _, _, _, _, itemEquipLoc = GetItemInfo(itemId)
 
 	if itemEquipLoc and tmog_locations[itemEquipLoc] then
@@ -645,6 +651,35 @@ TMT_OnShowTooltip = function(tooltip) -- has been declared local
 			else
 				-- tooltipText = L["tooltip_item_unknown"] -- dont spam
 			end
+		end
+		if tooltipText then
+			tooltipText = format("|cFF66BBFFTMT|r: %s", tooltipText)
+			tooltip:AddLine(tooltipText,1,1,1,1)	-- turned on line wrap
+		end
+		
+	elseif TokenInfo[itemId] then
+		local tooltipText
+		local TokenEntry = TokenInfo[itemId]
+		
+		if TokenEntry[PlayerFaction] then
+			TokenEntry = TokenEntry[PlayerFaction]
+		end
+		TokenEntry = TokenEntry[PlayerClass]
+		
+		if not TokenEntry then return end
+		
+		-- print("-- DEBUG",itemId)
+		local knownPurchases = {}
+		for k,v in pairs(TokenEntry) do
+			-- print(k,v)
+			if addon:checkItemId(k) then
+				tinsert(knownPurchases, k)
+			end
+		end
+		sort(knownPurchases)
+		
+		if #knownPurchases > 0 then
+			tooltipText = format("%d |4item:items; tracked: ", #knownPurchases) .. "|cFFFFBB00" .. strjoin(", ", tostringall( unpack(knownPurchases) ) ) .. "|r"
 		end
 		if tooltipText then
 			tooltipText = format("|cFF66BBFFTMT|r: %s", tooltipText)
