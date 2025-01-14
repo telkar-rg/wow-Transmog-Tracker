@@ -18288,3 +18288,3084 @@ ADDON_TABLE["UniqueDisplay"] = {
 	[32053]	 = "67267_23", 	-- Merciless Gladiator's Spellblade
 
 }
+
+ADDON_TABLE["TokenInfo"] = {
+	[52030] = { 	-- Conqueror's Mark of Sanctification
+		["PRIEST"] = {
+			[51261] = "Sanctified Crimson Acolyte Hood",
+			[51262] = "Sanctified Crimson Acolyte Leggings",
+			[51255] = "Sanctified Crimson Acolyte Cowl",
+			[51263] = "Sanctified Crimson Acolyte Robe",
+			[51256] = "Sanctified Crimson Acolyte Handwraps",
+			[51264] = "Sanctified Crimson Acolyte Shoulderpads",
+			[51257] = "Sanctified Crimson Acolyte Mantle",
+			[51258] = "Sanctified Crimson Acolyte Pants",
+			[51259] = "Sanctified Crimson Acolyte Raiments",
+			[51260] = "Sanctified Crimson Acolyte Gloves",
+		},
+		["WARLOCK"] = {
+			[51231] = "Sanctified Dark Coven Hood",
+			[51233] = "Sanctified Dark Coven Robe",
+			[51230] = "Sanctified Dark Coven Gloves",
+			[51232] = "Sanctified Dark Coven Leggings",
+			[51234] = "Sanctified Dark Coven Shoulderpads",
+		},
+		["PALADIN"] = {
+			[51268] = "Sanctified Lightsworn Legguards",
+			[51276] = "Sanctified Lightsworn Gauntlets",
+			[51269] = "Sanctified Lightsworn Shoulderguards",
+			[51277] = "Sanctified Lightsworn Helmet",
+			[51270] = "Sanctified Lightsworn Gloves",
+			[51278] = "Sanctified Lightsworn Legplates",
+			[51271] = "Sanctified Lightsworn Greaves",
+			[51279] = "Sanctified Lightsworn Shoulderplates",
+			[51272] = "Sanctified Lightsworn Headpiece",
+			[51265] = "Sanctified Lightsworn Chestguard",
+			[51273] = "Sanctified Lightsworn Spaulders",
+			[51266] = "Sanctified Lightsworn Faceguard",
+			[51274] = "Sanctified Lightsworn Tunic",
+			[51267] = "Sanctified Lightsworn Handguards",
+			[51275] = "Sanctified Lightsworn Battleplate",
+		},
+	},
+	[52029] = { 	-- Protector's Mark of Sanctification
+		["HUNTER"] = {
+			[51287] = "Sanctified Ahn'Kahar Blood Hunter's Legguards",
+			[51289] = "Sanctified Ahn'Kahar Blood Hunter's Tunic",
+			[51286] = "Sanctified Ahn'Kahar Blood Hunter's Headpiece",
+			[51288] = "Sanctified Ahn'Kahar Blood Hunter's Spaulders",
+			[51285] = "Sanctified Ahn'Kahar Blood Hunter's Handguards",
+		},
+		["WARRIOR"] = {
+			[51223] = "Sanctified Ymirjar Lord's Legguards",
+			[51224] = "Sanctified Ymirjar Lord's Pauldrons",
+			[51225] = "Sanctified Ymirjar Lord's Battleplate",
+			[51226] = "Sanctified Ymirjar Lord's Gauntlets",
+			[51227] = "Sanctified Ymirjar Lord's Helmet",
+			[51220] = "Sanctified Ymirjar Lord's Breastplate",
+			[51228] = "Sanctified Ymirjar Lord's Legplates",
+			[51221] = "Sanctified Ymirjar Lord's Greathelm",
+			[51229] = "Sanctified Ymirjar Lord's Shoulderplates",
+			[51222] = "Sanctified Ymirjar Lord's Handguards",
+		},
+		["SHAMAN"] = {
+			[51238] = "Sanctified Frost Witch's Gloves",
+			[51246] = "Sanctified Frost Witch's Legguards",
+			[51239] = "Sanctified Frost Witch's Hauberk",
+			[51247] = "Sanctified Frost Witch's Headpiece",
+			[51240] = "Sanctified Frost Witch's Shoulderguards",
+			[51248] = "Sanctified Frost Witch's Handguards",
+			[51241] = "Sanctified Frost Witch's War-Kilt",
+			[51249] = "Sanctified Frost Witch's Tunic",
+			[51242] = "Sanctified Frost Witch's Faceguard",
+			[51235] = "Sanctified Frost Witch's Shoulderpads",
+			[51243] = "Sanctified Frost Witch's Grips",
+			[51236] = "Sanctified Frost Witch's Kilt",
+			[51244] = "Sanctified Frost Witch's Chestguard",
+			[51237] = "Sanctified Frost Witch's Helm",
+			[51245] = "Sanctified Frost Witch's Spaulders",
+		},
+	},
+	[52028] = { 	-- Vanquisher's Mark of Sanctification
+		["DEATHKNIGHT"] = {
+			[51313] = "Sanctified Scourgelord Legplates",
+			[51306] = "Sanctified Scourgelord Faceguard",
+			[51314] = "Sanctified Scourgelord Shoulderplates",
+			[51307] = "Sanctified Scourgelord Handguards",
+			[51308] = "Sanctified Scourgelord Legguards",
+			[51309] = "Sanctified Scourgelord Pauldrons",
+			[51310] = "Sanctified Scourgelord Battleplate",
+			[51311] = "Sanctified Scourgelord Gauntlets",
+			[51312] = "Sanctified Scourgelord Helmet",
+			[51305] = "Sanctified Scourgelord Chestguard",
+		},
+		["DRUID"] = {
+			[51298] = "Sanctified Lasherweave Raiment",
+			[51291] = "Sanctified Lasherweave Gloves",
+			[51299] = "Sanctified Lasherweave Shoulderpads",
+			[51292] = "Sanctified Lasherweave Mantle",
+			[51300] = "Sanctified Lasherweave Robes",
+			[51293] = "Sanctified Lasherweave Trousers",
+			[51301] = "Sanctified Lasherweave Gauntlets",
+			[51294] = "Sanctified Lasherweave Vestment",
+			[51302] = "Sanctified Lasherweave Helmet",
+			[51295] = "Sanctified Lasherweave Handgrips",
+			[51303] = "Sanctified Lasherweave Legplates",
+			[51296] = "Sanctified Lasherweave Headguard",
+			[51304] = "Sanctified Lasherweave Pauldrons",
+			[51297] = "Sanctified Lasherweave Legguards",
+			[51290] = "Sanctified Lasherweave Cover",
+		},
+		["MAGE"] = {
+			[51280] = "Sanctified Bloodmage Gloves",
+			[51282] = "Sanctified Bloodmage Leggings",
+			[51284] = "Sanctified Bloodmage Shoulderpads",
+			[51281] = "Sanctified Bloodmage Hood",
+			[51283] = "Sanctified Bloodmage Robe",
+		},
+		["ROGUE"] = {
+			[51252] = "Sanctified Shadowblade Helmet",
+			[51254] = "Sanctified Shadowblade Pauldrons",
+			[51251] = "Sanctified Shadowblade Gauntlets",
+			[51253] = "Sanctified Shadowblade Legplates",
+			[51250] = "Sanctified Shadowblade Breastplate",
+		},
+	},
+	[52027] = { 	-- Conqueror's Mark of Sanctification
+		["PRIEST"] = {
+			[51178] = "Sanctified Crimson Acolyte Hood",
+			[51179] = "Sanctified Crimson Acolyte Gloves",
+			[51180] = "Sanctified Crimson Acolyte Raiments",
+			[51181] = "Sanctified Crimson Acolyte Pants",
+			[51182] = "Sanctified Crimson Acolyte Mantle",
+			[51175] = "Sanctified Crimson Acolyte Shoulderpads",
+			[51183] = "Sanctified Crimson Acolyte Handwraps",
+			[51176] = "Sanctified Crimson Acolyte Robe",
+			[51184] = "Sanctified Crimson Acolyte Cowl",
+			[51177] = "Sanctified Crimson Acolyte Leggings",
+		},
+		["WARLOCK"] = {
+			[51205] = "Sanctified Dark Coven Shoulderpads",
+			[51207] = "Sanctified Dark Coven Leggings",
+			[51209] = "Sanctified Dark Coven Gloves",
+			[51206] = "Sanctified Dark Coven Robe",
+			[51208] = "Sanctified Dark Coven Hood",
+		},
+		["PALADIN"] = {
+			[51163] = "Sanctified Lightsworn Gauntlets",
+			[51171] = "Sanctified Lightsworn Legguards",
+			[51164] = "Sanctified Lightsworn Battleplate",
+			[51172] = "Sanctified Lightsworn Handguards",
+			[51165] = "Sanctified Lightsworn Tunic",
+			[51173] = "Sanctified Lightsworn Faceguard",
+			[51166] = "Sanctified Lightsworn Spaulders",
+			[51174] = "Sanctified Lightsworn Chestguard",
+			[51167] = "Sanctified Lightsworn Headpiece",
+			[51160] = "Sanctified Lightsworn Shoulderplates",
+			[51168] = "Sanctified Lightsworn Greaves",
+			[51161] = "Sanctified Lightsworn Legplates",
+			[51169] = "Sanctified Lightsworn Gloves",
+			[51162] = "Sanctified Lightsworn Helmet",
+			[51170] = "Sanctified Lightsworn Shoulderguards",
+		},
+	},
+	[52026] = { 	-- Protector's Mark of Sanctification
+		["HUNTER"] = {
+			[51154] = "Sanctified Ahn'Kahar Blood Hunter's Handguards",
+			[51151] = "Sanctified Ahn'Kahar Blood Hunter's Spaulders",
+			[51153] = "Sanctified Ahn'Kahar Blood Hunter's Headpiece",
+			[51150] = "Sanctified Ahn'Kahar Blood Hunter's Tunic",
+			[51152] = "Sanctified Ahn'Kahar Blood Hunter's Legguards",
+		},
+		["WARRIOR"] = {
+			[51216] = "Sanctified Ymirjar Lord's Legguards",
+			[51217] = "Sanctified Ymirjar Lord's Handguards",
+			[51210] = "Sanctified Ymirjar Lord's Shoulderplates",
+			[51218] = "Sanctified Ymirjar Lord's Greathelm",
+			[51211] = "Sanctified Ymirjar Lord's Legplates",
+			[51219] = "Sanctified Ymirjar Lord's Breastplate",
+			[51212] = "Sanctified Ymirjar Lord's Helmet",
+			[51213] = "Sanctified Ymirjar Lord's Gauntlets",
+			[51214] = "Sanctified Ymirjar Lord's Battleplate",
+			[51215] = "Sanctified Ymirjar Lord's Pauldrons",
+		},
+		["SHAMAN"] = {
+			[51193] = "Sanctified Frost Witch's Legguards",
+			[51201] = "Sanctified Frost Witch's Gloves",
+			[51194] = "Sanctified Frost Witch's Spaulders",
+			[51202] = "Sanctified Frost Witch's Helm",
+			[51195] = "Sanctified Frost Witch's Chestguard",
+			[51203] = "Sanctified Frost Witch's Kilt",
+			[51196] = "Sanctified Frost Witch's Grips",
+			[51204] = "Sanctified Frost Witch's Shoulderpads",
+			[51197] = "Sanctified Frost Witch's Faceguard",
+			[51190] = "Sanctified Frost Witch's Tunic",
+			[51198] = "Sanctified Frost Witch's War-Kilt",
+			[51191] = "Sanctified Frost Witch's Handguards",
+			[51199] = "Sanctified Frost Witch's Shoulderguards",
+			[51192] = "Sanctified Frost Witch's Headpiece",
+			[51200] = "Sanctified Frost Witch's Hauberk",
+		},
+	},
+	[52025] = { 	-- Vanquisher's Mark of Sanctification
+		["DEATHKNIGHT"] = {
+			[51133] = "Sanctified Scourgelord Faceguard",
+			[51126] = "Sanctified Scourgelord Legplates",
+			[51134] = "Sanctified Scourgelord Chestguard",
+			[51127] = "Sanctified Scourgelord Helmet",
+			[51128] = "Sanctified Scourgelord Gauntlets",
+			[51129] = "Sanctified Scourgelord Battleplate",
+			[51130] = "Sanctified Scourgelord Pauldrons",
+			[51131] = "Sanctified Scourgelord Legguards",
+			[51132] = "Sanctified Scourgelord Handguards",
+			[51125] = "Sanctified Scourgelord Shoulderplates",
+		},
+		["DRUID"] = {
+			[51148] = "Sanctified Lasherweave Gloves",
+			[51141] = "Sanctified Lasherweave Raiment",
+			[51149] = "Sanctified Lasherweave Cover",
+			[51142] = "Sanctified Lasherweave Legguards",
+			[51135] = "Sanctified Lasherweave Pauldrons",
+			[51143] = "Sanctified Lasherweave Headguard",
+			[51136] = "Sanctified Lasherweave Legplates",
+			[51144] = "Sanctified Lasherweave Handgrips",
+			[51137] = "Sanctified Lasherweave Helmet",
+			[51145] = "Sanctified Lasherweave Vestment",
+			[51138] = "Sanctified Lasherweave Gauntlets",
+			[51146] = "Sanctified Lasherweave Trousers",
+			[51139] = "Sanctified Lasherweave Robes",
+			[51147] = "Sanctified Lasherweave Mantle",
+			[51140] = "Sanctified Lasherweave Shoulderpads",
+		},
+		["MAGE"] = {
+			[51156] = "Sanctified Bloodmage Robe",
+			[51158] = "Sanctified Bloodmage Hood",
+			[51155] = "Sanctified Bloodmage Shoulderpads",
+			[51157] = "Sanctified Bloodmage Leggings",
+			[51159] = "Sanctified Bloodmage Gloves",
+		},
+		["ROGUE"] = {
+			[51189] = "Sanctified Shadowblade Breastplate",
+			[51186] = "Sanctified Shadowblade Legplates",
+			[51188] = "Sanctified Shadowblade Gauntlets",
+			[51185] = "Sanctified Shadowblade Pauldrons",
+			[51187] = "Sanctified Shadowblade Helmet",
+		},
+	},
+	[47559] = { 	-- Regalia of the Grand Vanquisher
+		["Horde"] = {
+			["DEATHKNIGHT"] = {
+				[48493] = "Koltira's Helmet of Triumph",
+				[48494] = "Koltira's Legplates of Triumph",
+				[48495] = "Koltira's Shoulderplates of Triumph",
+				[48548] = "Koltira's Chestguard of Triumph",
+				[48549] = "Koltira's Handguards of Triumph",
+				[48550] = "Koltira's Faceguard of Triumph",
+				[48551] = "Koltira's Legguards of Triumph",
+				[48552] = "Koltira's Pauldrons of Triumph",
+				[48491] = "Koltira's Battleplate of Triumph",
+				[48492] = "Koltira's Gauntlets of Triumph",
+			},
+			["DRUID"] = {
+				[48201] = "Runetotem's Headguard of Triumph",
+				[48143] = "Runetotem's Handguards of Triumph",
+				[48202] = "Runetotem's Handgrips of Triumph",
+				[48144] = "Runetotem's Headpiece of Triumph",
+				[48173] = "Runetotem's Gloves of Triumph",
+				[48145] = "Runetotem's Leggings of Triumph",
+				[48174] = "Runetotem's Cover of Triumph",
+				[48146] = "Runetotem's Robe of Triumph",
+				[48175] = "Runetotem's Trousers of Triumph",
+				[48198] = "Runetotem's Shoulderpads of Triumph",
+				[48176] = "Runetotem's Vestments of Triumph",
+				[48199] = "Runetotem's Raiments of Triumph",
+				[48177] = "Runetotem's Mantle of Triumph",
+				[48200] = "Runetotem's Legguards of Triumph",
+				[48147] = "Runetotem's Spaulders of Triumph",
+			},
+			["MAGE"] = {
+				[47766] = "Sunstrider's Robe of Triumph",
+				[47763] = "Sunstrider's Gauntlets of Triumph",
+				[47765] = "Sunstrider's Leggings of Triumph",
+				[47767] = "Sunstrider's Shoulderpads of Triumph",
+				[47764] = "Sunstrider's Hood of Triumph",
+			},
+			["ROGUE"] = {
+				[48235] = "Garona's Helmet of Triumph",
+				[48237] = "Garona's Pauldrons of Triumph",
+				[48234] = "Garona's Gauntlets of Triumph",
+				[48236] = "Garona's Legplates of Triumph",
+				[48233] = "Garona's Breastplate of Triumph",
+			},
+		},
+		["Alliance"] = {
+			["DEATHKNIGHT"] = {
+				[48546] = "Thassarian's Handguards of Triumph",
+				[48547] = "Thassarian's Chestguard of Triumph",
+				[48488] = "Thassarian's Helmet of Triumph",
+				[48489] = "Thassarian's Gauntlets of Triumph",
+				[48490] = "Thassarian's Battleplate of Triumph",
+				[48543] = "Thassarian's Pauldrons of Triumph",
+				[48544] = "Thassarian's Legguards of Triumph",
+				[48486] = "Thassarian's Shoulderplates of Triumph",
+				[48545] = "Thassarian's Faceguard of Triumph",
+				[48487] = "Thassarian's Legplates of Triumph",
+			},
+			["DRUID"] = {
+				[48171] = "Malfurion's Cover of Triumph",
+				[48138] = "Malfurion's Spaulders of Triumph",
+				[48172] = "Malfurion's Gloves of Triumph",
+				[48139] = "Malfurion's Robe of Triumph",
+				[48203] = "Malfurion's Handgrips of Triumph",
+				[48140] = "Malfurion's Leggings of Triumph",
+				[48204] = "Malfurion's Headguard of Triumph",
+				[48141] = "Malfurion's Headpiece of Triumph",
+				[48205] = "Malfurion's Legguards of Triumph",
+				[48168] = "Malfurion's Mantle of Triumph",
+				[48206] = "Malfurion's Raiments of Triumph",
+				[48169] = "Malfurion's Vestments of Triumph",
+				[48207] = "Malfurion's Shoulderpads of Triumph",
+				[48170] = "Malfurion's Trousers of Triumph",
+				[48142] = "Malfurion's Handguards of Triumph",
+			},
+			["MAGE"] = {
+				[47759] = "Khadgar's Robe of Triumph",
+				[47761] = "Khadgar's Hood of Triumph",
+				[47758] = "Khadgar's Shoulderpads of Triumph",
+				[47760] = "Khadgar's Leggings of Triumph",
+				[47762] = "Khadgar's Gauntlets of Triumph",
+			},
+			["ROGUE"] = {
+				[48228] = "VanCleef's Pauldrons of Triumph",
+				[48230] = "VanCleef's Helmet of Triumph",
+				[48232] = "VanCleef's Breastplate of Triumph",
+				[48229] = "VanCleef's Legplates of Triumph",
+				[48231] = "VanCleef's Gauntlets of Triumph",
+			},
+		},
+	},
+	[47558] = { 	-- Regalia of the Grand Protector
+		["Horde"] = {
+			["HUNTER"] = {
+				[48265] = "Windrunner's Tunic of Triumph",
+				[48267] = "Windrunner's Headpiece of Triumph",
+				[48269] = "Windrunner's Spaulders of Triumph",
+				[48266] = "Windrunner's Handguards of Triumph",
+				[48268] = "Windrunner's Legguards of Triumph",
+			},
+			["WARRIOR"] = {
+				[48396] = "Hellscream's Battleplate of Triumph",
+				[48397] = "Hellscream's Gauntlets of Triumph",
+				[48398] = "Hellscream's Helmet of Triumph",
+				[48466] = "Hellscream's Breastplate of Triumph",
+				[48399] = "Hellscream's Legplates of Triumph",
+				[48467] = "Hellscream's Handguards of Triumph",
+				[48400] = "Hellscream's Shoulderplates of Triumph",
+				[48468] = "Hellscream's Greathelm of Triumph",
+				[48469] = "Hellscream's Legguards of Triumph",
+				[48470] = "Hellscream's Pauldrons of Triumph",
+			},
+			["SHAMAN"] = {
+				[48358] = "Thrall's Faceguard of Triumph",
+				[48306] = "Thrall's Handguards of Triumph",
+				[48359] = "Thrall's War-Kilt of Triumph",
+				[48307] = "Thrall's Headpiece of Triumph",
+				[48330] = "Thrall's Shoulderpads of Triumph",
+				[48308] = "Thrall's Legguards of Triumph",
+				[48309] = "Thrall's Spaulders of Triumph",
+				[48360] = "Thrall's Shoulderguards of Triumph",
+				[48326] = "Thrall's Hauberk of Triumph",
+				[48327] = "Thrall's Gloves of Triumph",
+				[48356] = "Thrall's Chestguard of Triumph",
+				[48328] = "Thrall's Helm of Triumph",
+				[48357] = "Thrall's Grips of Triumph",
+				[48305] = "Thrall's Tunic of Triumph",
+				[48329] = "Thrall's Kilt of Triumph",
+			},
+		},
+		["Alliance"] = {
+			["HUNTER"] = {
+				[48263] = "Windrunner's Handguards of Triumph",
+				[48260] = "Windrunner's Spaulders of Triumph",
+				[48262] = "Windrunner's Headpiece of Triumph",
+				[48264] = "Windrunner's Tunic of Triumph",
+				[48261] = "Windrunner's Legguards of Triumph",
+			},
+			["WARRIOR"] = {
+				[48433] = "Wrynn's Greathelm of Triumph",
+				[48381] = "Wrynn's Shoulderplates of Triumph",
+				[48382] = "Wrynn's Legplates of Triumph",
+				[48383] = "Wrynn's Helmet of Triumph",
+				[48451] = "Wrynn's Breastplate of Triumph",
+				[48384] = "Wrynn's Gauntlets of Triumph",
+				[48385] = "Wrynn's Battleplate of Triumph",
+				[48453] = "Wrynn's Handguards of Triumph",
+				[48447] = "Wrynn's Legguards of Triumph",
+				[48455] = "Wrynn's Pauldrons of Triumph",
+			},
+			["SHAMAN"] = {
+				[48351] = "Nobundo's Shoulderguards of Triumph",
+				[48323] = "Nobundo's Helm of Triumph",
+				[48352] = "Nobundo's War-Kilt of Triumph",
+				[48291] = "Nobundo's Legguards of Triumph",
+				[48353] = "Nobundo's Faceguard of Triumph",
+				[48292] = "Nobundo's Headpiece of Triumph",
+				[48324] = "Nobundo's Gloves of Triumph",
+				[48293] = "Nobundo's Handguards of Triumph",
+				[48325] = "Nobundo's Hauberk of Triumph",
+				[48294] = "Nobundo's Tunic of Triumph",
+				[48321] = "Nobundo's Shoulderpads of Triumph",
+				[48322] = "Nobundo's Kilt of Triumph",
+				[48354] = "Nobundo's Grips of Triumph",
+				[48290] = "Nobundo's Spaulders of Triumph",
+				[48355] = "Nobundo's Chestguard of Triumph",
+			},
+		},
+	},
+	[47557] = { 	-- Regalia of the Grand Conqueror
+		["Horde"] = {
+			["PRIEST"] = {
+				[48088] = "Zabra's Circlet of Triumph",
+				[48089] = "Zabra's Pants of Triumph",
+				[48060] = "Zabra's Robe of Triumph",
+				[48061] = "Zabra's Shoulderpads of Triumph",
+				[48057] = "Zabra's Gloves of Triumph",
+				[48058] = "Zabra's Cowl of Triumph",
+				[48090] = "Zabra's Raiments of Triumph",
+				[48087] = "Zabra's Handwraps of Triumph",
+				[48059] = "Zabra's Leggings of Triumph",
+				[48091] = "Zabra's Mantle of Triumph",
+			},
+			["WARLOCK"] = {
+				[47794] = "Gul'dan's Robe of Triumph",
+				[47796] = "Gul'dan's Hood of Triumph",
+				[47793] = "Gul'dan's Shoulderpads of Triumph",
+				[47795] = "Gul'dan's Leggings of Triumph",
+				[47797] = "Gul'dan's Gloves of Triumph",
+			},
+			["PALADIN"] = {
+				[48621] = "Liadrin's Shoulderplates of Triumph",
+				[48587] = "Liadrin's Headpiece of Triumph",
+				[48589] = "Liadrin's Tunic of Triumph",
+				[48585] = "Liadrin's Spaulders of Triumph",
+				[48588] = "Liadrin's Gloves of Triumph",
+				[48586] = "Liadrin's Greaves of Triumph",
+				[48617] = "Liadrin's Battleplate of Triumph",
+				[48647] = "Liadrin's Shoulderguards of Triumph",
+				[48618] = "Liadrin's Gauntlets of Triumph",
+				[48648] = "Liadrin's Legguards of Triumph",
+				[48650] = "Liadrin's Handguards of Triumph",
+				[48649] = "Liadrin's Faceguard of Triumph",
+				[48619] = "Liadrin's Helm of Triumph",
+				[48620] = "Liadrin's Legplates of Triumph",
+				[48651] = "Liadrin's Breastplate of Triumph",
+			},
+		},
+		["Alliance"] = {
+			["PRIEST"] = {
+				[48029] = "Velen's Shoulderpads of Triumph",
+				[48037] = "Velen's Gloves of Triumph",
+				[48083] = "Velen's Raiments of Triumph",
+				[48031] = "Velen's Robe of Triumph",
+				[48084] = "Velen's Pants of Triumph",
+				[48085] = "Velen's Circlet of Triumph",
+				[48033] = "Velen's Leggings of Triumph",
+				[48086] = "Velen's Handwraps of Triumph",
+				[48035] = "Velen's Cowl of Triumph",
+				[48082] = "Velen's Mantle of Triumph",
+			},
+			["WARLOCK"] = {
+				[47789] = "Kel'Thuzad's Hood of Triumph",
+				[47791] = "Kel'Thuzad's Robe of Triumph",
+				[47788] = "Kel'Thuzad's Gloves of Triumph",
+				[47790] = "Kel'Thuzad's Leggings of Triumph",
+				[47792] = "Kel'Thuzad's Shoulderpads of Triumph",
+			},
+			["PALADIN"] = {
+				[48643] = "Turalyon's Handguards of Triumph",
+				[48644] = "Turalyon's Faceguard of Triumph",
+				[48584] = "Turalyon's Tunic of Triumph",
+				[48615] = "Turalyon's Gauntlets of Triumph",
+				[48613] = "Turalyon's Legplates of Triumph",
+				[48616] = "Turalyon's Battleplate of Triumph",
+				[48582] = "Turalyon's Headpiece of Triumph",
+				[48583] = "Turalyon's Gloves of Triumph",
+				[48580] = "Turalyon's Spaulders of Triumph",
+				[48612] = "Turalyon's Shoulderplates of Triumph",
+				[48581] = "Turalyon's Greaves of Triumph",
+				[48614] = "Turalyon's Helm of Triumph",
+				[48642] = "Turalyon's Breastplate of Triumph",
+				[48645] = "Turalyon's Legguards of Triumph",
+				[48646] = "Turalyon's Shoulderguards of Triumph",
+			},
+		},
+	},
+	[47242] = { 	-- Trophy of the Crusade
+		["Horde"] = {
+			["DEATHKNIGHT"] = {
+				[48553] = "Koltira's Pauldrons of Triumph",
+				[48554] = "Koltira's Legguards of Triumph",
+				[48555] = "Koltira's Faceguard of Triumph",
+				[48556] = "Koltira's Handguards of Triumph",
+				[48557] = "Koltira's Chestguard of Triumph",
+				[48498] = "Koltira's Helmet of Triumph",
+				[48499] = "Koltira's Gauntlets of Triumph",
+				[48496] = "Koltira's Shoulderplates of Triumph",
+				[48500] = "Koltira's Battleplate of Triumph",
+				[48497] = "Koltira's Legplates of Triumph",
+			},
+			["WARRIOR"] = {
+				[48463] = "Hellscream's Greathelm of Triumph",
+				[48464] = "Hellscream's Legguards of Triumph",
+				[48465] = "Hellscream's Pauldrons of Triumph",
+				[48391] = "Hellscream's Battleplate of Triumph",
+				[48392] = "Hellscream's Gauntlets of Triumph",
+				[48393] = "Hellscream's Helmet of Triumph",
+				[48461] = "Hellscream's Breastplate of Triumph",
+				[48394] = "Hellscream's Legplates of Triumph",
+				[48462] = "Hellscream's Handguards of Triumph",
+				[48395] = "Hellscream's Shoulderplates of Triumph",
+			},
+			["PALADIN"] = {
+				[48658] = "Liadrin's Handguards of Triumph",
+				[48591] = "Liadrin's Greaves of Triumph",
+				[48659] = "Liadrin's Faceguard of Triumph",
+				[48622] = "Liadrin's Shoulderplates of Triumph",
+				[48660] = "Liadrin's Legguards of Triumph",
+				[48623] = "Liadrin's Legplates of Triumph",
+				[48661] = "Liadrin's Shoulderguards of Triumph",
+				[48624] = "Liadrin's Helm of Triumph",
+				[48625] = "Liadrin's Gauntlets of Triumph",
+				[48593] = "Liadrin's Gloves of Triumph",
+				[48626] = "Liadrin's Battleplate of Triumph",
+				[48592] = "Liadrin's Headpiece of Triumph",
+				[48657] = "Liadrin's Breastplate of Triumph",
+				[48590] = "Liadrin's Spaulders of Triumph",
+				[48594] = "Liadrin's Tunic of Triumph",
+			},
+			["MAGE"] = {
+				[47768] = "Sunstrider's Shoulderpads of Triumph",
+				[47770] = "Sunstrider's Leggings of Triumph",
+				[47772] = "Sunstrider's Gauntlets of Triumph",
+				[47769] = "Sunstrider's Robe of Triumph",
+				[47771] = "Sunstrider's Hood of Triumph",
+			},
+			["PRIEST"] = {
+				[48066] = "Zabra's Gloves of Triumph",
+				[48062] = "Zabra's Shoulderpads of Triumph",
+				[48092] = "Zabra's Mantle of Triumph",
+				[48063] = "Zabra's Robe of Triumph",
+				[48093] = "Zabra's Raiments of Triumph",
+				[48095] = "Zabra's Circlet of Triumph",
+				[48094] = "Zabra's Pants of Triumph",
+				[48064] = "Zabra's Leggings of Triumph",
+				[48065] = "Zabra's Cowl of Triumph",
+				[48096] = "Zabra's Handwraps of Triumph",
+			},
+			["WARLOCK"] = {
+				[47803] = "Gul'dan's Gloves of Triumph",
+				[47805] = "Gul'dan's Leggings of Triumph",
+				[47807] = "Gul'dan's Shoulderpads of Triumph",
+				[47804] = "Gul'dan's Hood of Triumph",
+				[47806] = "Gul'dan's Robe of Triumph",
+			},
+			["HUNTER"] = {
+				[48270] = "Windrunner's Spaulders of Triumph",
+				[48272] = "Windrunner's Headpiece of Triumph",
+				[48274] = "Windrunner's Tunic of Triumph",
+				[48271] = "Windrunner's Legguards of Triumph",
+				[48273] = "Windrunner's Handguards of Triumph",
+			},
+			["DRUID"] = {
+				[48193] = "Runetotem's Handgrips of Triumph",
+				[48194] = "Runetotem's Headguard of Triumph",
+				[48148] = "Runetotem's Spaulders of Triumph",
+				[48180] = "Runetotem's Trousers of Triumph",
+				[48149] = "Runetotem's Robe of Triumph",
+				[48181] = "Runetotem's Cover of Triumph",
+				[48150] = "Runetotem's Leggings of Triumph",
+				[48182] = "Runetotem's Gloves of Triumph",
+				[48151] = "Runetotem's Headpiece of Triumph",
+				[48152] = "Runetotem's Handguards of Triumph",
+				[48178] = "Runetotem's Mantle of Triumph",
+				[48179] = "Runetotem's Vestments of Triumph",
+				[48195] = "Runetotem's Legguards of Triumph",
+				[48197] = "Runetotem's Shoulderpads of Triumph",
+				[48196] = "Runetotem's Raiments of Triumph",
+			},
+			["SHAMAN"] = {
+				[48303] = "Thrall's Legguards of Triumph",
+				[48301] = "Thrall's Handguards of Triumph",
+				[48302] = "Thrall's Headpiece of Triumph",
+				[48300] = "Thrall's Tunic of Triumph",
+				[48304] = "Thrall's Spaulders of Triumph",
+				[48361] = "Thrall's Shoulderguards of Triumph",
+				[48331] = "Thrall's Shoulderpads of Triumph",
+				[48362] = "Thrall's War-Kilt of Triumph",
+				[48332] = "Thrall's Kilt of Triumph",
+				[48333] = "Thrall's Helm of Triumph",
+				[48363] = "Thrall's Faceguard of Triumph",
+				[48334] = "Thrall's Gloves of Triumph",
+				[48365] = "Thrall's Chestguard of Triumph",
+				[48335] = "Thrall's Hauberk of Triumph",
+				[48364] = "Thrall's Grips of Triumph",
+			},
+			["ROGUE"] = {
+				[48242] = "Garona's Breastplate of Triumph",
+				[48239] = "Garona's Legplates of Triumph",
+				[48241] = "Garona's Gauntlets of Triumph",
+				[48238] = "Garona's Pauldrons of Triumph",
+				[48240] = "Garona's Helmet of Triumph",
+			},
+		},
+		["Alliance"] = {
+			["DEATHKNIGHT"] = {
+				[48538] = "Thassarian's Chestguard of Triumph",
+				[48539] = "Thassarian's Handguards of Triumph",
+				[48540] = "Thassarian's Faceguard of Triumph",
+				[48541] = "Thassarian's Legguards of Triumph",
+				[48542] = "Thassarian's Pauldrons of Triumph",
+				[48483] = "Thassarian's Helmet of Triumph",
+				[48484] = "Thassarian's Legplates of Triumph",
+				[48481] = "Thassarian's Battleplate of Triumph",
+				[48485] = "Thassarian's Shoulderplates of Triumph",
+				[48482] = "Thassarian's Gauntlets of Triumph",
+			},
+			["WARRIOR"] = {
+				[48450] = "Wrynn's Breastplate of Triumph",
+				[48376] = "Wrynn's Battleplate of Triumph",
+				[48452] = "Wrynn's Handguards of Triumph",
+				[48430] = "Wrynn's Greathelm of Triumph",
+				[48378] = "Wrynn's Helmet of Triumph",
+				[48446] = "Wrynn's Legguards of Triumph",
+				[48379] = "Wrynn's Legplates of Triumph",
+				[48377] = "Wrynn's Gauntlets of Triumph",
+				[48380] = "Wrynn's Shoulderplates of Triumph",
+				[48454] = "Wrynn's Pauldrons of Triumph",
+			},
+			["PALADIN"] = {
+				[48576] = "Turalyon's Gloves of Triumph",
+				[48609] = "Turalyon's Helm of Triumph",
+				[48637] = "Turalyon's Shoulderguards of Triumph",
+				[48577] = "Turalyon's Headpiece of Triumph",
+				[48638] = "Turalyon's Legguards of Triumph",
+				[48578] = "Turalyon's Greaves of Triumph",
+				[48639] = "Turalyon's Faceguard of Triumph",
+				[48579] = "Turalyon's Spaulders of Triumph",
+				[48610] = "Turalyon's Legplates of Triumph",
+				[48607] = "Turalyon's Battleplate of Triumph",
+				[48611] = "Turalyon's Shoulderplates of Triumph",
+				[48608] = "Turalyon's Gauntlets of Triumph",
+				[48641] = "Turalyon's Breastplate of Triumph",
+				[48575] = "Turalyon's Tunic of Triumph",
+				[48640] = "Turalyon's Handguards of Triumph",
+			},
+			["MAGE"] = {
+				[47754] = "Khadgar's Hood of Triumph",
+				[47756] = "Khadgar's Robe of Triumph",
+				[47753] = "Khadgar's Gauntlets of Triumph",
+				[47755] = "Khadgar's Leggings of Triumph",
+				[47757] = "Khadgar's Shoulderpads of Triumph",
+			},
+			["PRIEST"] = {
+				[47983] = "Velen's Gloves of Triumph",
+				[48081] = "Velen's Mantle of Triumph",
+				[47984] = "Velen's Cowl of Triumph",
+				[47985] = "Velen's Leggings of Triumph",
+				[47986] = "Velen's Robe of Triumph",
+				[47987] = "Velen's Shoulderpads of Triumph",
+				[48078] = "Velen's Circlet of Triumph",
+				[48079] = "Velen's Pants of Triumph",
+				[48080] = "Velen's Raiments of Triumph",
+				[48077] = "Velen's Handwraps of Triumph",
+			},
+			["WARLOCK"] = {
+				[47780] = "Kel'Thuzad's Leggings of Triumph",
+				[47782] = "Kel'Thuzad's Gloves of Triumph",
+				[47779] = "Kel'Thuzad's Robe of Triumph",
+				[47781] = "Kel'Thuzad's Shoulderpads of Triumph",
+				[47778] = "Kel'Thuzad's Hood of Triumph",
+			},
+			["HUNTER"] = {
+				[48256] = "Windrunner's Handguards of Triumph",
+				[48258] = "Windrunner's Legguards of Triumph",
+				[48255] = "Windrunner's Tunic of Triumph",
+				[48257] = "Windrunner's Headpiece of Triumph",
+				[48259] = "Windrunner's Spaulders of Triumph",
+			},
+			["DRUID"] = {
+				[48208] = "Malfurion's Shoulderpads of Triumph",
+				[48209] = "Malfurion's Raiments of Triumph",
+				[48133] = "Malfurion's Handguards of Triumph",
+				[48210] = "Malfurion's Legguards of Triumph",
+				[48134] = "Malfurion's Headpiece of Triumph",
+				[48166] = "Malfurion's Vestments of Triumph",
+				[48135] = "Malfurion's Leggings of Triumph",
+				[48167] = "Malfurion's Mantle of Triumph",
+				[48136] = "Malfurion's Robe of Triumph",
+				[48137] = "Malfurion's Spaulders of Triumph",
+				[48163] = "Malfurion's Gloves of Triumph",
+				[48164] = "Malfurion's Cover of Triumph",
+				[48165] = "Malfurion's Trousers of Triumph",
+				[48211] = "Malfurion's Headguard of Triumph",
+				[48212] = "Malfurion's Handgrips of Triumph",
+			},
+			["SHAMAN"] = {
+				[48288] = "Nobundo's Legguards of Triumph",
+				[48286] = "Nobundo's Handguards of Triumph",
+				[48287] = "Nobundo's Headpiece of Triumph",
+				[48285] = "Nobundo's Tunic of Triumph",
+				[48289] = "Nobundo's Spaulders of Triumph",
+				[48346] = "Nobundo's Chestguard of Triumph",
+				[48316] = "Nobundo's Hauberk of Triumph",
+				[48347] = "Nobundo's Grips of Triumph",
+				[48317] = "Nobundo's Gloves of Triumph",
+				[48348] = "Nobundo's Faceguard of Triumph",
+				[48349] = "Nobundo's War-Kilt of Triumph",
+				[48319] = "Nobundo's Kilt of Triumph",
+				[48318] = "Nobundo's Helm of Triumph",
+				[48320] = "Nobundo's Shoulderpads of Triumph",
+				[48350] = "Nobundo's Shoulderguards of Triumph",
+			},
+			["ROGUE"] = {
+				[48223] = "VanCleef's Breastplate of Triumph",
+				[48225] = "VanCleef's Helmet of Triumph",
+				[48227] = "VanCleef's Pauldrons of Triumph",
+				[48224] = "VanCleef's Gauntlets of Triumph",
+				[48226] = "VanCleef's Legplates of Triumph",
+			},
+		},
+	},
+	[45661] = { 	-- Spaulders of the Wayward Vanquisher
+		["DEATHKNIGHT"] = {
+			[45344] = "Valorous Darkruned Shoulderplates",
+			[45339] = "Valorous Darkruned Pauldrons",
+		},
+		["DRUID"] = {
+			[45352] = "Valorous Nightsong Mantle",
+			[45359] = "Valorous Nightsong Shoulderpads",
+			[45349] = "Valorous Nightsong Spaulders",
+		},
+		["MAGE"] = {
+			[45369] = "Valorous Kirin Tor Shoulderpads",
+		},
+		["ROGUE"] = {
+			[45400] = "Valorous Terrorblade Pauldrons",
+		},
+	},
+	[45660] = { 	-- Spaulders of the Wayward Protector
+		["HUNTER"] = {
+			[45363] = "Valorous Scourgestalker Spaulders",
+		},
+		["WARRIOR"] = {
+			[45433] = "Valorous Siegebreaker Shoulderplates",
+			[45428] = "Valorous Siegebreaker Pauldrons",
+		},
+		["SHAMAN"] = {
+			[45415] = "Valorous Worldbreaker Shoulderguards",
+			[45410] = "Valorous Worldbreaker Shoulderpads",
+			[45404] = "Valorous Worldbreaker Spaulders",
+		},
+	},
+	[45659] = { 	-- Spaulders of the Wayward Conqueror
+		["PRIEST"] = {
+			[45393] = "Valorous Mantle of Sanctification",
+			[45390] = "Valorous Shoulderpads of Sanctification",
+		},
+		["WARLOCK"] = {
+			[45422] = "Valorous Deathbringer Shoulderpads",
+		},
+		["PALADIN"] = {
+			[45385] = "Valorous Aegis Shoulderguards",
+			[45380] = "Valorous Aegis Shoulderplates",
+			[45373] = "Valorous Aegis Spaulders",
+		},
+	},
+	[45658] = { 	-- Mantle of the Wayward Vanquisher
+		["DEATHKNIGHT"] = {
+			[46122] = "Conqueror's Darkruned Pauldrons",
+			[46117] = "Conqueror's Darkruned Shoulderplates",
+		},
+		["DRUID"] = {
+			[46157] = "Conqueror's Nightsong Shoulderpads",
+			[46187] = "Conqueror's Nightsong Spaulders",
+			[46196] = "Conqueror's Nightsong Mantle",
+		},
+		["MAGE"] = {
+			[46134] = "Conqueror's Kirin Tor Shoulderpads",
+		},
+		["ROGUE"] = {
+			[46127] = "Conqueror's Terrorblade Pauldrons",
+		},
+	},
+	[45657] = { 	-- Mantle of the Wayward Protector
+		["HUNTER"] = {
+			[46145] = "Conqueror's Scourgestalker Spaulders",
+		},
+		["WARRIOR"] = {
+			[46167] = "Conqueror's Siegebreaker Pauldrons",
+			[46149] = "Conqueror's Siegebreaker Shoulderplates",
+		},
+		["SHAMAN"] = {
+			[46204] = "Conqueror's Worldbreaker Spaulders",
+			[46203] = "Conqueror's Worldbreaker Shoulderguards",
+			[46211] = "Conqueror's Worldbreaker Shoulderpads",
+		},
+	},
+	[45656] = { 	-- Mantle of the Wayward Conqueror
+		["PRIEST"] = {
+			[46190] = "Conqueror's Shoulderpads of Sanctification",
+			[46165] = "Conqueror's Mantle of Sanctification",
+		},
+		["WARLOCK"] = {
+			[46136] = "Conqueror's Deathbringer Shoulderpads",
+		},
+		["PALADIN"] = {
+			[46177] = "Conqueror's Aegis Shoulderguards",
+			[46182] = "Conqueror's Aegis Spaulders",
+			[46152] = "Conqueror's Aegis Shoulderplates",
+		},
+	},
+	[45655] = { 	-- Legplates of the Wayward Vanquisher
+		["DEATHKNIGHT"] = {
+			[46121] = "Conqueror's Darkruned Legguards",
+			[46116] = "Conqueror's Darkruned Legplates",
+		},
+		["DRUID"] = {
+			[46192] = "Conqueror's Nightsong Trousers",
+			[46185] = "Conqueror's Nightsong Leggings",
+			[46160] = "Conqueror's Nightsong Legguards",
+		},
+		["MAGE"] = {
+			[46133] = "Conqueror's Kirin Tor Leggings",
+		},
+		["ROGUE"] = {
+			[46126] = "Conqueror's Terrorblade Legplates",
+		},
+	},
+	[45654] = { 	-- Legplates of the Wayward Protector
+		["HUNTER"] = {
+			[46144] = "Conqueror's Scourgestalker Legguards",
+		},
+		["WARRIOR"] = {
+			[46169] = "Conqueror's Siegebreaker Legguards",
+			[46150] = "Conqueror's Siegebreaker Legplates",
+		},
+		["SHAMAN"] = {
+			[46210] = "Conqueror's Worldbreaker Kilt",
+			[46208] = "Conqueror's Worldbreaker War-Kilt",
+			[46202] = "Conqueror's Worldbreaker Legguards",
+		},
+	},
+	[45653] = { 	-- Legplates of the Wayward Conqueror
+		["PRIEST"] = {
+			[46195] = "Conqueror's Leggings of Sanctification",
+			[46170] = "Conqueror's Pants of Sanctification",
+		},
+		["WARLOCK"] = {
+			[46139] = "Conqueror's Deathbringer Leggings",
+		},
+		["PALADIN"] = {
+			[46153] = "Conqueror's Aegis Legplates",
+			[46176] = "Conqueror's Aegis Legguards",
+			[46181] = "Conqueror's Aegis Greaves",
+		},
+	},
+	[45652] = { 	-- Leggings of the Wayward Vanquisher
+		["DEATHKNIGHT"] = {
+			[45343] = "Valorous Darkruned Legplates",
+			[45338] = "Valorous Darkruned Legguards",
+		},
+		["DRUID"] = {
+			[45357] = "Valorous Nightsong Legguards",
+			[45353] = "Valorous Nightsong Trousers",
+			[45347] = "Valorous Nightsong Leggings",
+		},
+		["MAGE"] = {
+			[45367] = "Valorous Kirin Tor Leggings",
+		},
+		["ROGUE"] = {
+			[45399] = "Valorous Terrorblade Legplates",
+		},
+	},
+	[45651] = { 	-- Leggings of the Wayward Protector
+		["HUNTER"] = {
+			[45362] = "Valorous Scourgestalker Legguards",
+		},
+		["WARRIOR"] = {
+			[45432] = "Valorous Siegebreaker Legplates",
+			[45427] = "Valorous Siegebreaker Legguards",
+		},
+		["SHAMAN"] = {
+			[45409] = "Valorous Worldbreaker Kilt",
+			[45416] = "Valorous Worldbreaker War-Kilt",
+			[45403] = "Valorous Worldbreaker Legguards",
+		},
+	},
+	[45650] = { 	-- Leggings of the Wayward Conqueror
+		["PRIEST"] = {
+			[45394] = "Valorous Pants of Sanctification",
+			[45388] = "Valorous Leggings of Sanctification",
+		},
+		["WARLOCK"] = {
+			[45420] = "Valorous Deathbringer Leggings",
+		},
+		["PALADIN"] = {
+			[45379] = "Valorous Aegis Legplates",
+			[45384] = "Valorous Aegis Legguards",
+			[45371] = "Valorous Aegis Greaves",
+		},
+	},
+	[45649] = { 	-- Helm of the Wayward Vanquisher
+		["DEATHKNIGHT"] = {
+			[45342] = "Valorous Darkruned Helmet",
+			[45336] = "Valorous Darkruned Faceguard",
+		},
+		["DRUID"] = {
+			[45346] = "Valorous Nightsong Headpiece",
+			[45356] = "Valorous Nightsong Headguard",
+			[46313] = "Valorous Nightsong Cover",
+		},
+		["MAGE"] = {
+			[45365] = "Valorous Kirin Tor Hood",
+		},
+		["ROGUE"] = {
+			[45398] = "Valorous Terrorblade Helmet",
+		},
+	},
+	[45648] = { 	-- Helm of the Wayward Protector
+		["HUNTER"] = {
+			[45361] = "Valorous Scourgestalker Headpiece",
+		},
+		["WARRIOR"] = {
+			[45431] = "Valorous Siegebreaker Helmet",
+			[45425] = "Valorous Siegebreaker Greathelm",
+		},
+		["SHAMAN"] = {
+			[45412] = "Valorous Worldbreaker Faceguard",
+			[45408] = "Valorous Worldbreaker Helm",
+			[45402] = "Valorous Worldbreaker Headpiece",
+		},
+	},
+	[45647] = { 	-- Helm of the Wayward Conqueror
+		["PRIEST"] = {
+			[45391] = "Valorous Circlet of Sanctification",
+			[45386] = "Valorous Cowl of Sanctification",
+		},
+		["WARLOCK"] = {
+			[45417] = "Valorous Deathbringer Hood",
+		},
+		["PALADIN"] = {
+			[45382] = "Valorous Aegis Faceguard",
+			[45372] = "Valorous Aegis Headpiece",
+			[45377] = "Valorous Aegis Helm",
+		},
+	},
+	[45646] = { 	-- Gloves of the Wayward Vanquisher
+		["DEATHKNIGHT"] = {
+			[45341] = "Valorous Darkruned Gauntlets",
+			[45337] = "Valorous Darkruned Handguards",
+		},
+		["DRUID"] = {
+			[45355] = "Valorous Nightsong Handgrips",
+			[45351] = "Valorous Nightsong Gloves",
+			[45345] = "Valorous Nightsong Handguards",
+		},
+		["MAGE"] = {
+			[46131] = "Valorous Kirin Tor Gauntlets",
+		},
+		["ROGUE"] = {
+			[45397] = "Valorous Terrorblade Gauntlets",
+		},
+	},
+	[45645] = { 	-- Gloves of the Wayward Protector
+		["HUNTER"] = {
+			[45360] = "Valorous Scourgestalker Handguards",
+		},
+		["WARRIOR"] = {
+			[45430] = "Valorous Siegebreaker Gauntlets",
+			[45426] = "Valorous Siegebreaker Handguards",
+		},
+		["SHAMAN"] = {
+			[45406] = "Valorous Worldbreaker Gloves",
+			[45414] = "Valorous Worldbreaker Grips",
+			[45401] = "Valorous Worldbreaker Handguards",
+		},
+	},
+	[45644] = { 	-- Gloves of the Wayward Conqueror
+		["PRIEST"] = {
+			[45392] = "Valorous Handwraps of Sanctification",
+			[45387] = "Valorous Gloves of Sanctification",
+		},
+		["WARLOCK"] = {
+			[45419] = "Valorous Deathbringer Gloves",
+		},
+		["PALADIN"] = {
+			[45376] = "Valorous Aegis Gauntlets",
+			[45383] = "Valorous Aegis Handguards",
+			[45370] = "Valorous Aegis Gloves",
+		},
+	},
+	[45643] = { 	-- Gauntlets of the Wayward Vanquisher
+		["DEATHKNIGHT"] = {
+			[46119] = "Conqueror's Darkruned Handguards",
+			[46113] = "Conqueror's Darkruned Gauntlets",
+		},
+		["DRUID"] = {
+			[46183] = "Conqueror's Nightsong Handguards",
+			[46158] = "Conqueror's Nightsong Handgrips",
+			[46189] = "Conqueror's Nightsong Gloves",
+		},
+		["MAGE"] = {
+			[46132] = "Conqueror's Kirin Tor Gauntlets",
+		},
+		["ROGUE"] = {
+			[46124] = "Conqueror's Terrorblade Gauntlets",
+		},
+	},
+	[45642] = { 	-- Gauntlets of the Wayward Protector
+		["HUNTER"] = {
+			[46142] = "Conqueror's Scourgestalker Handguards",
+		},
+		["WARRIOR"] = {
+			[46164] = "Conqueror's Siegebreaker Handguards",
+			[46148] = "Conqueror's Siegebreaker Gauntlets",
+		},
+		["SHAMAN"] = {
+			[46207] = "Conqueror's Worldbreaker Gloves",
+			[46200] = "Conqueror's Worldbreaker Grips",
+			[46199] = "Conqueror's Worldbreaker Handguards",
+		},
+	},
+	[45641] = { 	-- Gauntlets of the Wayward Conqueror
+		["PRIEST"] = {
+			[46188] = "Conqueror's Gloves of Sanctification",
+			[46163] = "Conqueror's Handwraps of Sanctification",
+		},
+		["WARLOCK"] = {
+			[46135] = "Conqueror's Deathbringer Gloves",
+		},
+		["PALADIN"] = {
+			[46174] = "Conqueror's Aegis Handguards",
+			[46179] = "Conqueror's Aegis Gloves",
+			[46155] = "Conqueror's Aegis Gauntlets",
+		},
+	},
+	[45640] = { 	-- Crown of the Wayward Vanquisher
+		["DEATHKNIGHT"] = {
+			[46120] = "Conqueror's Darkruned Faceguard",
+			[46115] = "Conqueror's Darkruned Helmet",
+		},
+		["DRUID"] = {
+			[46191] = "Conqueror's Nightsong Cover",
+			[46184] = "Conqueror's Nightsong Headpiece",
+			[46161] = "Conqueror's Nightsong Headguard",
+		},
+		["MAGE"] = {
+			[46129] = "Conqueror's Kirin Tor Hood",
+		},
+		["ROGUE"] = {
+			[46125] = "Conqueror's Terrorblade Helmet",
+		},
+	},
+	[45639] = { 	-- Crown of the Wayward Protector
+		["HUNTER"] = {
+			[46143] = "Conqueror's Scourgestalker Headpiece",
+		},
+		["WARRIOR"] = {
+			[46166] = "Conqueror's Siegebreaker Greathelm",
+			[46151] = "Conqueror's Siegebreaker Helmet",
+		},
+		["SHAMAN"] = {
+			[46201] = "Conqueror's Worldbreaker Headpiece",
+			[46209] = "Conqueror's Worldbreaker Helm",
+			[46212] = "Conqueror's Worldbreaker Faceguard",
+		},
+	},
+	[45638] = { 	-- Crown of the Wayward Conqueror
+		["PRIEST"] = {
+			[46197] = "Conqueror's Cowl of Sanctification",
+			[46172] = "Conqueror's Circlet of Sanctification",
+		},
+		["WARLOCK"] = {
+			[46140] = "Conqueror's Deathbringer Hood",
+		},
+		["PALADIN"] = {
+			[46180] = "Conqueror's Aegis Headpiece",
+			[46175] = "Conqueror's Aegis Faceguard",
+			[46156] = "Conqueror's Aegis Helm",
+		},
+	},
+	[45637] = { 	-- Chestguard of the Wayward Vanquisher
+		["DEATHKNIGHT"] = {
+			[45340] = "Valorous Darkruned Battleplate",
+			[45335] = "Valorous Darkruned Chestguard",
+		},
+		["DRUID"] = {
+			[45358] = "Valorous Nightsong Raiments",
+			[45354] = "Valorous Nightsong Vestments",
+			[45348] = "Valorous Nightsong Robe",
+		},
+		["MAGE"] = {
+			[45368] = "Valorous Kirin Tor Tunic",
+		},
+		["ROGUE"] = {
+			[45396] = "Valorous Terrorblade Breastplate",
+		},
+	},
+	[45636] = { 	-- Chestguard of the Wayward Protector
+		["HUNTER"] = {
+			[45364] = "Valorous Scourgestalker Tunic",
+		},
+		["WARRIOR"] = {
+			[45429] = "Valorous Siegebreaker Battleplate",
+			[45424] = "Valorous Siegebreaker Breastplate",
+		},
+		["SHAMAN"] = {
+			[45411] = "Valorous Worldbreaker Hauberk",
+			[45413] = "Valorous Worldbreaker Chestguard",
+			[45405] = "Valorous Worldbreaker Tunic",
+		},
+	},
+	[45635] = { 	-- Chestguard of the Wayward Conqueror
+		["PRIEST"] = {
+			[45395] = "Valorous Raiments of Sanctification",
+			[45389] = "Valorous Robe of Sanctification",
+		},
+		["WARLOCK"] = {
+			[45421] = "Valorous Deathbringer Robe",
+		},
+		["PALADIN"] = {
+			[45375] = "Valorous Aegis Battleplate",
+			[45374] = "Valorous Aegis Tunic",
+			[45381] = "Valorous Aegis Breastplate",
+		},
+	},
+	[45634] = { 	-- Breastplate of the Wayward Vanquisher
+		["DEATHKNIGHT"] = {
+			[46118] = "Conqueror's Darkruned Chestguard",
+			[46111] = "Conqueror's Darkruned Battleplate",
+		},
+		["DRUID"] = {
+			[46186] = "Conqueror's Nightsong Robe",
+			[46194] = "Conqueror's Nightsong Vestments",
+			[46159] = "Conqueror's Nightsong Raiments",
+		},
+		["MAGE"] = {
+			[46130] = "Conqueror's Kirin Tor Tunic",
+		},
+		["ROGUE"] = {
+			[46123] = "Conqueror's Terrorblade Breastplate",
+		},
+	},
+	[45633] = { 	-- Breastplate of the Wayward Protector
+		["HUNTER"] = {
+			[46141] = "Conqueror's Scourgestalker Tunic",
+		},
+		["WARRIOR"] = {
+			[46162] = "Conqueror's Siegebreaker Breastplate",
+			[46146] = "Conqueror's Siegebreaker Battleplate",
+		},
+		["SHAMAN"] = {
+			[46198] = "Conqueror's Worldbreaker Tunic",
+			[46206] = "Conqueror's Worldbreaker Hauberk",
+			[46205] = "Conqueror's Worldbreaker Chestguard",
+		},
+	},
+	[45632] = { 	-- Breastplate of the Wayward Conqueror
+		["PRIEST"] = {
+			[46193] = "Conqueror's Robe of Sanctification",
+			[46168] = "Conqueror's Raiments of Sanctification",
+		},
+		["WARLOCK"] = {
+			[46137] = "Conqueror's Deathbringer Robe",
+		},
+		["PALADIN"] = {
+			[46173] = "Conqueror's Aegis Breastplate",
+			[46178] = "Conqueror's Aegis Tunic",
+			[46154] = "Conqueror's Aegis Battleplate",
+		},
+	},
+	[40639] = { 	-- Mantle of the Lost Vanquisher
+		["DEATHKNIGHT"] = {
+			[40568] = "Valorous Scourgeborne Pauldrons",
+			[40557] = "Valorous Scourgeborne Shoulderplates",
+		},
+		["DRUID"] = {
+			[40465] = "Valorous Dreamwalker Spaulders",
+			[40470] = "Valorous Dreamwalker Mantle",
+			[40494] = "Valorous Dreamwalker Shoulderpads",
+		},
+		["MAGE"] = {
+			[40419] = "Valorous Frostfire Shoulderpads",
+		},
+		["ROGUE"] = {
+			[40502] = "Valorous Bonescythe Pauldrons",
+		},
+	},
+	[40638] = { 	-- Mantle of the Lost Protector
+		["HUNTER"] = {
+			[40507] = "Valorous Cryptstalker Spaulders",
+		},
+		["WARRIOR"] = {
+			[40548] = "Valorous Dreadnaught Pauldrons",
+			[40530] = "Valorous Dreadnaught Shoulderplates",
+		},
+		["SHAMAN"] = {
+			[40513] = "Valorous Earthshatter Spaulders",
+			[40518] = "Valorous Earthshatter Shoulderpads",
+			[40524] = "Valorous Earthshatter Shoulderguards",
+		},
+	},
+	[40637] = { 	-- Mantle of the Lost Conqueror
+		["PRIEST"] = {
+			[40459] = "Valorous Mantle of Faith",
+			[40450] = "Valorous Shoulderpads of Faith",
+		},
+		["WARLOCK"] = {
+			[40424] = "Valorous Plagueheart Shoulderpads",
+		},
+		["PALADIN"] = {
+			[40573] = "Valorous Redemption Spaulders",
+			[40578] = "Valorous Redemption Shoulderplates",
+			[40584] = "Valorous Redemption Shoulderguards",
+		},
+	},
+	[40636] = { 	-- Legplates of the Lost Vanquisher
+		["DEATHKNIGHT"] = {
+			[40567] = "Valorous Scourgeborne Legguards",
+			[40556] = "Valorous Scourgeborne Legplates",
+		},
+		["DRUID"] = {
+			[40468] = "Valorous Dreamwalker Trousers",
+			[40493] = "Valorous Dreamwalker Legguards",
+			[40462] = "Valorous Dreamwalker Leggings",
+		},
+		["MAGE"] = {
+			[40417] = "Valorous Frostfire Leggings",
+		},
+		["ROGUE"] = {
+			[40500] = "Valorous Bonescythe Legplates",
+		},
+	},
+	[40635] = { 	-- Legplates of the Lost Protector
+		["HUNTER"] = {
+			[40506] = "Valorous Cryptstalker Legguards",
+		},
+		["WARRIOR"] = {
+			[40547] = "Valorous Dreadnaught Legguards",
+			[40529] = "Valorous Dreadnaught Legplates",
+		},
+		["SHAMAN"] = {
+			[40522] = "Valorous Earthshatter War-Kilt",
+			[40512] = "Valorous Earthshatter Legguards",
+			[40517] = "Valorous Earthshatter Kilt",
+		},
+	},
+	[40634] = { 	-- Legplates of the Lost Conqueror
+		["PRIEST"] = {
+			[40457] = "Valorous Pants of Faith",
+			[40448] = "Valorous Leggings of Faith",
+		},
+		["WARLOCK"] = {
+			[40422] = "Valorous Plagueheart Leggings",
+		},
+		["PALADIN"] = {
+			[40572] = "Valorous Redemption Greaves",
+			[40577] = "Valorous Redemption Legplates",
+			[40583] = "Valorous Redemption Legguards",
+		},
+	},
+	[40633] = { 	-- Crown of the Lost Vanquisher
+		["DEATHKNIGHT"] = {
+			[40565] = "Valorous Scourgeborne Faceguard",
+			[40554] = "Valorous Scourgeborne Helmet",
+		},
+		["DRUID"] = {
+			[40467] = "Valorous Dreamwalker Cover",
+			[40461] = "Valorous Dreamwalker Headpiece",
+			[40473] = "Valorous Dreamwalker Headguard",
+		},
+		["MAGE"] = {
+			[40416] = "Valorous Frostfire Circlet",
+		},
+		["ROGUE"] = {
+			[40499] = "Valorous Bonescythe Helmet",
+		},
+	},
+	[40632] = { 	-- Crown of the Lost Protector
+		["HUNTER"] = {
+			[40505] = "Valorous Cryptstalker Headpiece",
+		},
+		["WARRIOR"] = {
+			[40546] = "Valorous Dreadnaught Greathelm",
+			[40528] = "Valorous Dreadnaught Helmet",
+		},
+		["SHAMAN"] = {
+			[40516] = "Valorous Earthshatter Helm",
+			[40521] = "Valorous Earthshatter Faceguard",
+			[40510] = "Valorous Earthshatter Headpiece",
+		},
+	},
+	[40631] = { 	-- Crown of the Lost Conqueror
+		["PRIEST"] = {
+			[40456] = "Valorous Circlet of Faith",
+			[40447] = "Valorous Crown of Faith",
+		},
+		["WARLOCK"] = {
+			[40421] = "Valorous Plagueheart Circlet",
+		},
+		["PALADIN"] = {
+			[40576] = "Valorous Redemption Helm",
+			[40581] = "Valorous Redemption Faceguard",
+			[40571] = "Valorous Redemption Headpiece",
+		},
+	},
+	[40630] = { 	-- Gauntlets of the Lost Vanquisher
+		["DEATHKNIGHT"] = {
+			[40563] = "Valorous Scourgeborne Handguards",
+			[40552] = "Valorous Scourgeborne Gauntlets",
+		},
+		["DRUID"] = {
+			[40460] = "Valorous Dreamwalker Handguards",
+			[40466] = "Valorous Dreamwalker Gloves",
+			[40472] = "Valorous Dreamwalker Handgrips",
+		},
+		["MAGE"] = {
+			[40415] = "Valorous Frostfire Gloves",
+		},
+		["ROGUE"] = {
+			[40496] = "Valorous Bonescythe Gauntlets",
+		},
+	},
+	[40629] = { 	-- Gauntlets of the Lost Protector
+		["HUNTER"] = {
+			[40504] = "Valorous Cryptstalker Handguards",
+		},
+		["WARRIOR"] = {
+			[40545] = "Valorous Dreadnaught Handguards",
+			[40527] = "Valorous Dreadnaught Gauntlets",
+		},
+		["SHAMAN"] = {
+			[40515] = "Valorous Earthshatter Gloves",
+			[40520] = "Valorous Earthshatter Grips",
+			[40509] = "Valorous Earthshatter Handguards",
+		},
+	},
+	[40628] = { 	-- Gauntlets of the Lost Conqueror
+		["PRIEST"] = {
+			[40454] = "Valorous Handwraps of Faith",
+			[40445] = "Valorous Gloves of Faith",
+		},
+		["WARLOCK"] = {
+			[40420] = "Valorous Plagueheart Gloves",
+		},
+		["PALADIN"] = {
+			[40570] = "Valorous Redemption Gloves",
+			[40575] = "Valorous Redemption Gauntlets",
+			[40580] = "Valorous Redemption Handguards",
+		},
+	},
+	[40627] = { 	-- Breastplate of the Lost Vanquisher
+		["DEATHKNIGHT"] = {
+			[40559] = "Valorous Scourgeborne Chestguard",
+			[40550] = "Valorous Scourgeborne Battleplate",
+		},
+		["DRUID"] = {
+			[40471] = "Valorous Dreamwalker Raiments",
+			[40469] = "Valorous Dreamwalker Vestments",
+			[40463] = "Valorous Dreamwalker Robe",
+		},
+		["MAGE"] = {
+			[40418] = "Valorous Frostfire Robe",
+		},
+		["ROGUE"] = {
+			[40495] = "Valorous Bonescythe Breastplate",
+		},
+	},
+	[40626] = { 	-- Breastplate of the Lost Protector
+		["HUNTER"] = {
+			[40503] = "Valorous Cryptstalker Tunic",
+		},
+		["WARRIOR"] = {
+			[40544] = "Valorous Dreadnaught Breastplate",
+			[40525] = "Valorous Dreadnaught Battleplate",
+		},
+		["SHAMAN"] = {
+			[40508] = "Valorous Earthshatter Tunic",
+			[40514] = "Valorous Earthshatter Hauberk",
+			[40523] = "Valorous Earthshatter Chestguard",
+		},
+	},
+	[40625] = { 	-- Breastplate of the Lost Conqueror
+		["PRIEST"] = {
+			[40458] = "Valorous Raiments of Faith",
+			[40449] = "Valorous Robe of Faith",
+		},
+		["WARLOCK"] = {
+			[40423] = "Valorous Plagueheart Robe",
+		},
+		["PALADIN"] = {
+			[40579] = "Valorous Redemption Breastplate",
+			[40569] = "Valorous Redemption Tunic",
+			[40574] = "Valorous Redemption Chestpiece",
+		},
+	},
+	[40624] = { 	-- Spaulders of the Lost Vanquisher
+		["DEATHKNIGHT"] = {
+			[39627] = "Heroes' Scourgeborne Pauldrons",
+			[39621] = "Heroes' Scourgeborne Shoulderplates",
+		},
+		["DRUID"] = {
+			[39556] = "Heroes' Dreamwalker Shoulderpads",
+			[39548] = "Heroes' Dreamwalker Mantle",
+			[39542] = "Heroes' Dreamwalker Spaulders",
+		},
+		["MAGE"] = {
+			[39494] = "Heroes' Frostfire Shoulderpads",
+		},
+		["ROGUE"] = {
+			[39565] = "Heroes' Bonescythe Pauldrons",
+		},
+	},
+	[40623] = { 	-- Spaulders of the Lost Protector
+		["HUNTER"] = {
+			[39581] = "Heroes' Cryptstalker Spaulders",
+		},
+		["WARRIOR"] = {
+			[39613] = "Heroes' Dreadnaught Pauldrons",
+			[39608] = "Heroes' Dreadnaught Shoulderplates",
+		},
+		["SHAMAN"] = {
+			[39604] = "Heroes' Earthshatter Shoulderguards",
+			[39596] = "Heroes' Earthshatter Shoulderpads",
+			[39590] = "Heroes' Earthshatter Spaulders",
+		},
+	},
+	[40622] = { 	-- Spaulders of the Lost Conqueror
+		["PRIEST"] = {
+			[39529] = "Heroes' Mantle of Faith",
+			[39518] = "Heroes' Shoulderpads of Faith",
+		},
+		["WARLOCK"] = {
+			[39499] = "Heroes' Plagueheart Shoulderpads",
+		},
+		["PALADIN"] = {
+			[39637] = "Heroes' Redemption Shoulderplates",
+			[39642] = "Heroes' Redemption Shoulderguards",
+			[39631] = "Heroes' Redemption Spaulders",
+		},
+	},
+	[40621] = { 	-- Leggings of the Lost Vanquisher
+		["DEATHKNIGHT"] = {
+			[39626] = "Heroes' Scourgeborne Legguards",
+			[39620] = "Heroes' Scourgeborne Legplates",
+		},
+		["DRUID"] = {
+			[39546] = "Heroes' Dreamwalker Trousers",
+			[39539] = "Heroes' Dreamwalker Leggings",
+			[39555] = "Heroes' Dreamwalker Legguards",
+		},
+		["MAGE"] = {
+			[39493] = "Heroes' Frostfire Leggings",
+		},
+		["ROGUE"] = {
+			[39564] = "Heroes' Bonescythe Legplates",
+		},
+	},
+	[40620] = { 	-- Leggings of the Lost Protector
+		["HUNTER"] = {
+			[39580] = "Heroes' Cryptstalker Legguards",
+		},
+		["WARRIOR"] = {
+			[39612] = "Heroes' Dreadnaught Legguards",
+			[39607] = "Heroes' Dreadnaught Legplates",
+		},
+		["SHAMAN"] = {
+			[39595] = "Heroes' Earthshatter Kilt",
+			[39603] = "Heroes' Earthshatter War-Kilt",
+			[39589] = "Heroes' Earthshatter Legguards",
+		},
+	},
+	[40619] = { 	-- Leggings of the Lost Conqueror
+		["PRIEST"] = {
+			[39528] = "Heroes' Pants of Faith",
+			[39517] = "Heroes' Leggings of Faith",
+		},
+		["WARLOCK"] = {
+			[39498] = "Heroes' Plagueheart Leggings",
+		},
+		["PALADIN"] = {
+			[39636] = "Heroes' Redemption Legplates",
+			[39641] = "Heroes' Redemption Legguards",
+			[39630] = "Heroes' Redemption Greaves",
+		},
+	},
+	[40618] = { 	-- Helm of the Lost Vanquisher
+		["DEATHKNIGHT"] = {
+			[39625] = "Heroes' Scourgeborne Faceguard",
+			[39619] = "Heroes' Scourgeborne Helmet",
+		},
+		["DRUID"] = {
+			[39553] = "Heroes' Dreamwalker Headguard",
+			[39531] = "Heroes' Dreamwalker Headpiece",
+			[39545] = "Heroes' Dreamwalker Cover",
+		},
+		["MAGE"] = {
+			[39491] = "Heroes' Frostfire Circlet",
+		},
+		["ROGUE"] = {
+			[39561] = "Heroes' Bonescythe Helmet",
+		},
+	},
+	[40617] = { 	-- Helm of the Lost Protector
+		["HUNTER"] = {
+			[39578] = "Heroes' Cryptstalker Headpiece",
+		},
+		["WARRIOR"] = {
+			[39610] = "Heroes' Dreadnaught Greathelm",
+			[39605] = "Heroes' Dreadnaught Helmet",
+		},
+		["SHAMAN"] = {
+			[39583] = "Heroes' Earthshatter Headpiece",
+			[39594] = "Heroes' Earthshatter Helm",
+			[39602] = "Heroes' Earthshatter Faceguard",
+		},
+	},
+	[40616] = { 	-- Helm of the Lost Conqueror
+		["PRIEST"] = {
+			[39521] = "Heroes' Circlet of Faith",
+			[39514] = "Heroes' Crown of Faith",
+		},
+		["WARLOCK"] = {
+			[39496] = "Heroes' Plagueheart Circlet",
+		},
+		["PALADIN"] = {
+			[39640] = "Heroes' Redemption Faceguard",
+			[39635] = "Heroes' Redemption Helm",
+			[39628] = "Heroes' Redemption Headpiece",
+		},
+	},
+	[40615] = { 	-- Gloves of the Lost Vanquisher
+		["DEATHKNIGHT"] = {
+			[39624] = "Heroes' Scourgeborne Handguards",
+			[39618] = "Heroes' Scourgeborne Gauntlets",
+		},
+		["DRUID"] = {
+			[39544] = "Heroes' Dreamwalker Gloves",
+			[39543] = "Heroes' Dreamwalker Handguards",
+			[39557] = "Heroes' Dreamwalker Handgrips",
+		},
+		["MAGE"] = {
+			[39495] = "Heroes' Frostfire Gloves",
+		},
+		["ROGUE"] = {
+			[39560] = "Heroes' Bonescythe Gauntlets",
+		},
+	},
+	[40614] = { 	-- Gloves of the Lost Protector
+		["HUNTER"] = {
+			[39582] = "Heroes' Cryptstalker Handguards",
+		},
+		["WARRIOR"] = {
+			[39622] = "Heroes' Dreadnaught Handguards",
+			[39609] = "Heroes' Dreadnaught Gauntlets",
+		},
+		["SHAMAN"] = {
+			[39601] = "Heroes' Earthshatter Grips",
+			[39591] = "Heroes' Earthshatter Handguards",
+			[39593] = "Heroes' Earthshatter Gloves",
+		},
+	},
+	[40613] = { 	-- Gloves of the Lost Conqueror
+		["PRIEST"] = {
+			[39530] = "Heroes' Handwraps of Faith",
+			[39519] = "Heroes' Gloves of Faith",
+		},
+		["WARLOCK"] = {
+			[39500] = "Heroes' Plagueheart Gloves",
+		},
+		["PALADIN"] = {
+			[39634] = "Heroes' Redemption Gauntlets",
+			[39639] = "Heroes' Redemption Handguards",
+			[39632] = "Heroes' Redemption Gloves",
+		},
+	},
+	[40612] = { 	-- Chestguard of the Lost Vanquisher
+		["DEATHKNIGHT"] = {
+			[39623] = "Heroes' Scourgeborne Chestguard",
+			[39617] = "Heroes' Scourgeborne Battleplate",
+		},
+		["DRUID"] = {
+			[39547] = "Heroes' Dreamwalker Vestments",
+			[39554] = "Heroes' Dreamwalker Raiments",
+			[39538] = "Heroes' Dreamwalker Robe",
+		},
+		["MAGE"] = {
+			[39492] = "Heroes' Frostfire Robe",
+		},
+		["ROGUE"] = {
+			[39558] = "Heroes' Bonescythe Breastplate",
+		},
+	},
+	[40611] = { 	-- Chestguard of the Lost Protector
+		["HUNTER"] = {
+			[39579] = "Heroes' Cryptstalker Tunic",
+		},
+		["WARRIOR"] = {
+			[39611] = "Heroes' Dreadnaught Breastplate",
+			[39606] = "Heroes' Dreadnaught Battleplate",
+		},
+		["SHAMAN"] = {
+			[39592] = "Heroes' Earthshatter Hauberk",
+			[39597] = "Heroes' Earthshatter Chestguard",
+			[39588] = "Heroes' Earthshatter Tunic",
+		},
+	},
+	[40610] = { 	-- Chestguard of the Lost Conqueror
+		["PRIEST"] = {
+			[39523] = "Heroes' Raiments of Faith",
+			[39515] = "Heroes' Robe of Faith",
+		},
+		["WARLOCK"] = {
+			[39497] = "Heroes' Plagueheart Robe",
+		},
+		["PALADIN"] = {
+			[39633] = "Heroes' Redemption Chestpiece",
+			[39638] = "Heroes' Redemption Breastplate",
+			[39629] = "Heroes' Redemption Tunic",
+		},
+	},
+	[34858] = { 	-- Boots of the Forgotten Vanquisher
+		["WARLOCK"] = {
+			[33914] = "Vindicator's Silk Footguards",
+		},
+		["ROGUE"] = {
+			[33892] = "Vindicator's Leather Boots",
+			[33880] = "Vindicator's Dragonhide Boots",
+			[34575] = "Slayer's Boots",
+			[33886] = "Vindicator's Kodohide Boots",
+			[33916] = "Vindicator's Wyrmhide Boots",
+		},
+		["MAGE"] = {
+			[34574] = "Boots of the Tempest",
+			[33914] = "Vindicator's Silk Footguards",
+		},
+		["DRUID"] = {
+			[34571] = "Thunderheart Boots",
+			[34573] = "Thunderheart Treads",
+			[33880] = "Vindicator's Dragonhide Boots",
+			[34572] = "Thunderheart Footwraps",
+			[33916] = "Vindicator's Wyrmhide Boots",
+			[33886] = "Vindicator's Kodohide Boots",
+			[33892] = "Vindicator's Leather Boots",
+		},
+		["PRIEST"] = {
+			[33914] = "Vindicator's Silk Footguards",
+		},
+	},
+	[34857] = { 	-- Boots of the Forgotten Protector
+		["HUNTER"] = {
+			[33899] = "Vindicator's Mail Sabatons",
+			[33908] = "Vindicator's Ringmail Sabatons",
+			[33896] = "Vindicator's Linked Sabatons",
+			[34570] = "Gronnstalker's Boots",
+			[33878] = "Vindicator's Chain Sabatons",
+		},
+		["WARRIOR"] = {
+			[34569] = "Onslaught Treads",
+			[33812] = "Vindicator's Plate Greaves",
+			[34568] = "Onslaught Boots",
+		},
+		["PALADIN"] = {
+			[33812] = "Vindicator's Plate Greaves",
+		},
+		["SHAMAN"] = {
+			[33899] = "Vindicator's Mail Sabatons",
+			[33908] = "Vindicator's Ringmail Sabatons",
+			[33896] = "Vindicator's Linked Sabatons",
+			[34565] = "Skyshatter Boots",
+			[34567] = "Skyshatter Greaves",
+			[34566] = "Skyshatter Treads",
+			[33878] = "Vindicator's Chain Sabatons",
+		},
+	},
+	[34856] = { 	-- Boots of the Forgotten Conqueror
+		["WARRIOR"] = {
+			[33890] = "Vindicator's Lamellar Greaves",
+			[33905] = "Vindicator's Ornamented Greaves",
+			[33911] = "Vindicator's Scaled Greaves",
+		},
+		["WARLOCK"] = {
+			[34564] = "Boots of the Malefic",
+			[33884] = "Vindicator's Dreadweave Stalkers",
+			[33902] = "Vindicator's Mooncloth Slippers",
+		},
+		["PALADIN"] = {
+			[34559] = "Lightbringer Treads",
+			[34561] = "Lightbringer Boots",
+			[33905] = "Vindicator's Ornamented Greaves",
+			[34560] = "Lightbringer Stompers",
+			[33911] = "Vindicator's Scaled Greaves",
+			[33890] = "Vindicator's Lamellar Greaves",
+		},
+		["MAGE"] = {
+			[33902] = "Vindicator's Mooncloth Slippers",
+			[33884] = "Vindicator's Dreadweave Stalkers",
+		},
+		["PRIEST"] = {
+			[34562] = "Boots of Absolution",
+			[34563] = "Treads of Absolution",
+			[33884] = "Vindicator's Dreadweave Stalkers",
+			[33902] = "Vindicator's Mooncloth Slippers",
+		},
+	},
+	[34855] = { 	-- Belt of the Forgotten Vanquisher
+		["WARLOCK"] = {
+			[33912] = "Vindicator's Silk Belt",
+		},
+		["ROGUE"] = {
+			[33885] = "Vindicator's Kodohide Belt",
+			[33915] = "Vindicator's Wyrmhide Belt",
+			[33891] = "Vindicator's Leather Belt",
+			[33879] = "Vindicator's Dragonhide Belt",
+			[34558] = "Slayer's Belt",
+		},
+		["MAGE"] = {
+			[34557] = "Belt of the Tempest",
+			[33912] = "Vindicator's Silk Belt",
+		},
+		["DRUID"] = {
+			[33885] = "Vindicator's Kodohide Belt",
+			[33915] = "Vindicator's Wyrmhide Belt",
+			[34554] = "Thunderheart Belt",
+			[34556] = "Thunderheart Waistguard",
+			[33879] = "Vindicator's Dragonhide Belt",
+			[34555] = "Thunderheart Cord",
+			[33891] = "Vindicator's Leather Belt",
+		},
+		["PRIEST"] = {
+			[33912] = "Vindicator's Silk Belt",
+		},
+	},
+	[34854] = { 	-- Belt of the Forgotten Protector
+		["HUNTER"] = {
+			[34549] = "Gronnstalker's Belt",
+			[33907] = "Vindicator's Ringmail Girdle",
+			[33895] = "Vindicator's Linked Girdle",
+			[33877] = "Vindicator's Chain Girdle",
+			[33898] = "Vindicator's Mail Girdle",
+		},
+		["WARRIOR"] = {
+			[33811] = "Vindicator's Plate Belt",
+			[34547] = "Onslaught Waistguard",
+			[34546] = "Onslaught Belt",
+		},
+		["PALADIN"] = {
+			[33811] = "Vindicator's Plate Belt",
+		},
+		["SHAMAN"] = {
+			[34543] = "Skyshatter Belt",
+			[34545] = "Skyshatter Girdle",
+			[33877] = "Vindicator's Chain Girdle",
+			[33907] = "Vindicator's Ringmail Girdle",
+			[33895] = "Vindicator's Linked Girdle",
+			[34542] = "Skyshatter Cord",
+			[33898] = "Vindicator's Mail Girdle",
+		},
+	},
+	[34853] = { 	-- Belt of the Forgotten Conqueror
+		["WARRIOR"] = {
+			[33903] = "Vindicator's Ornamented Belt",
+			[33888] = "Vindicator's Lamellar Belt",
+			[33909] = "Vindicator's Scaled Belt",
+		},
+		["WARLOCK"] = {
+			[33882] = "Vindicator's Dreadweave Belt",
+			[34541] = "Belt of the Malefic",
+			[33900] = "Vindicator's Mooncloth Belt",
+		},
+		["PALADIN"] = {
+			[34487] = "Lightbringer Belt",
+			[33903] = "Vindicator's Ornamented Belt",
+			[34488] = "Lightbringer Waistguard",
+			[33909] = "Vindicator's Scaled Belt",
+			[34485] = "Lightbringer Girdle",
+			[33888] = "Vindicator's Lamellar Belt",
+		},
+		["MAGE"] = {
+			[33900] = "Vindicator's Mooncloth Belt",
+			[33882] = "Vindicator's Dreadweave Belt",
+		},
+		["PRIEST"] = {
+			[34528] = "Cord of Absolution",
+			[33882] = "Vindicator's Dreadweave Belt",
+			[34527] = "Belt of Absolution",
+			[33900] = "Vindicator's Mooncloth Belt",
+		},
+	},
+	[34852] = { 	-- Bracers of the Forgotten Vanquisher
+		["WARLOCK"] = {
+			[33913] = "Vindicator's Silk Cuffs",
+		},
+		["ROGUE"] = {
+			[33887] = "Vindicator's Kodohide Bracers",
+			[33917] = "Vindicator's Wyrmhide Bracers",
+			[33893] = "Vindicator's Leather Bracers",
+			[33881] = "Vindicator's Dragonhide Bracers",
+			[34448] = "Slayer's Bracers",
+		},
+		["MAGE"] = {
+			[34447] = "Bracers of the Tempest",
+			[33913] = "Vindicator's Silk Cuffs",
+		},
+		["DRUID"] = {
+			[34445] = "Thunderheart Bracers",
+			[33887] = "Vindicator's Kodohide Bracers",
+			[33917] = "Vindicator's Wyrmhide Bracers",
+			[34444] = "Thunderheart Wristguards",
+			[34446] = "Thunderheart Bands",
+			[33881] = "Vindicator's Dragonhide Bracers",
+			[33893] = "Vindicator's Leather Bracers",
+		},
+		["PRIEST"] = {
+			[33913] = "Vindicator's Silk Cuffs",
+		},
+	},
+	[34851] = { 	-- Bracers of the Forgotten Protector
+		["DEATHKNIGHT"] = {
+			[33876] = "Vindicator's Chain Bracers",
+		},
+		["WARRIOR"] = {
+			[34441] = "Onslaught Bracers",
+			[33813] = "Vindicator's Plate Bracers",
+			[34442] = "Onslaught Wristguards",
+		},
+		["SHAMAN"] = {
+			[33906] = "Vindicator's Ringmail Bracers",
+			[33894] = "Vindicator's Linked Bracers",
+			[34437] = "Skyshatter Bands",
+			[34439] = "Skyshatter Wristguards",
+			[34438] = "Skyshatter Bracers",
+			[33876] = "Vindicator's Chain Bracers",
+			[33897] = "Vindicator's Mail Bracers",
+		},
+		["HUNTER"] = {
+			[33906] = "Vindicator's Ringmail Bracers",
+			[33894] = "Vindicator's Linked Bracers",
+			[33897] = "Vindicator's Mail Bracers",
+			[33876] = "Vindicator's Chain Bracers",
+			[34443] = "Gronnstalker's Bracers",
+		},
+		["PALADIN"] = {
+			[33813] = "Vindicator's Plate Bracers",
+		},
+	},
+	[34848] = { 	-- Bracers of the Forgotten Conqueror
+		["WARRIOR"] = {
+			[33904] = "Vindicator's Ornamented Bracers",
+			[33889] = "Vindicator's Lamellar Bracers",
+			[33910] = "Vindicator's Scaled Bracers",
+		},
+		["WARLOCK"] = {
+			[33883] = "Vindicator's Dreadweave Cuffs",
+			[34436] = "Bracers of the Malefic",
+			[33901] = "Vindicator's Mooncloth Cuffs",
+		},
+		["PALADIN"] = {
+			[34431] = "Lightbringer Bands",
+			[34433] = "Lightbringer Wristguards",
+			[33910] = "Vindicator's Scaled Bracers",
+			[34432] = "Lightbringer Bracers",
+			[33904] = "Vindicator's Ornamented Bracers",
+			[33889] = "Vindicator's Lamellar Bracers",
+		},
+		["MAGE"] = {
+			[33901] = "Vindicator's Mooncloth Cuffs",
+			[33883] = "Vindicator's Dreadweave Cuffs",
+		},
+		["PRIEST"] = {
+			[33883] = "Vindicator's Dreadweave Cuffs",
+			[34434] = "Bracers of Absolution",
+			[34435] = "Cuffs of Absolution",
+			[33901] = "Vindicator's Mooncloth Cuffs",
+		},
+	},
+	[31103] = { 	-- Pauldrons of the Forgotten Protector
+		["HUNTER"] = {
+			[31964] = "Merciless Gladiator's Chain Spaulders",
+			[31006] = "Gronnstalker's Spaulders",
+		},
+		["WARRIOR"] = {
+			[30979] = "Onslaught Shoulderblades",
+			[30980] = "Onslaught Shoulderguards",
+			[30490] = "Merciless Gladiator's Plate Shoulders",
+		},
+		["SHAMAN"] = {
+			[31023] = "Skyshatter Mantle",
+			[31024] = "Skyshatter Pauldrons",
+			[32033] = "Merciless Gladiator's Ringmail Spaulders",
+			[32013] = "Merciless Gladiator's Mail Spaulders",
+			[32008] = "Merciless Gladiator's Linked Spaulders",
+			[31022] = "Skyshatter Shoulderpads",
+		},
+	},
+	[31102] = { 	-- Pauldrons of the Forgotten Vanquisher
+		["MAGE"] = {
+			[32047] = "Merciless Gladiator's Silk Amice",
+			[31059] = "Mantle of the Tempest",
+		},
+		["DRUID"] = {
+			[32059] = "Merciless Gladiator's Wyrmhide Spaulders",
+			[31990] = "Merciless Gladiator's Kodohide Spaulders",
+			[31971] = "Merciless Gladiator's Dragonhide Spaulders",
+			[31048] = "Thunderheart Pauldrons",
+			[31049] = "Thunderheart Shoulderpads",
+			[31047] = "Thunderheart Spaulders",
+		},
+		["ROGUE"] = {
+			[32001] = "Merciless Gladiator's Leather Spaulders",
+			[31030] = "Slayer's Shoulderpads",
+		},
+	},
+	[31101] = { 	-- Pauldrons of the Forgotten Conqueror
+		["PRIEST"] = {
+			[31069] = "Mantle of Absolution",
+			[32018] = "Merciless Gladiator's Mooncloth Mantle",
+			[32037] = "Merciless Gladiator's Satin Mantle",
+			[31070] = "Shoulderpads of Absolution",
+		},
+		["WARLOCK"] = {
+			[31054] = "Mantle of the Malefic",
+			[31976] = "Merciless Gladiator's Dreadweave Mantle",
+			[31979] = "Merciless Gladiator's Felweave Amice",
+		},
+		["PALADIN"] = {
+			[32024] = "Merciless Gladiator's Ornamented Spaulders",
+			[30996] = "Lightbringer Pauldrons",
+			[30997] = "Lightbringer Shoulderbraces",
+			[30998] = "Lightbringer Shoulderguards",
+			[32043] = "Merciless Gladiator's Scaled Shoulders",
+			[31996] = "Merciless Gladiator's Lamellar Shoulders",
+		},
+	},
+	[31100] = { 	-- Leggings of the Forgotten Protector
+		["HUNTER"] = {
+			[31963] = "Merciless Gladiator's Chain Leggings",
+			[31005] = "Gronnstalker's Leggings",
+		},
+		["WARRIOR"] = {
+			[30977] = "Onslaught Greaves",
+			[30978] = "Onslaught Legguards",
+			[30489] = "Merciless Gladiator's Plate Legguards",
+		},
+		["SHAMAN"] = {
+			[32032] = "Merciless Gladiator's Ringmail Leggings",
+			[32012] = "Merciless Gladiator's Mail Leggings",
+			[31019] = "Skyshatter Leggings",
+			[32007] = "Merciless Gladiator's Linked Leggings",
+			[31021] = "Skyshatter Pants",
+			[31020] = "Skyshatter Legguards",
+		},
+	},
+	[31099] = { 	-- Leggings of the Forgotten Vanquisher
+		["MAGE"] = {
+			[32051] = "Merciless Gladiator's Silk Trousers",
+			[31058] = "Leggings of the Tempest",
+		},
+		["DRUID"] = {
+			[31989] = "Merciless Gladiator's Kodohide Legguards",
+			[31969] = "Merciless Gladiator's Dragonhide Legguards",
+			[31046] = "Thunderheart Pants",
+			[31044] = "Thunderheart Leggings",
+			[32058] = "Merciless Gladiator's Wyrmhide Legguards",
+			[31045] = "Thunderheart Legguards",
+		},
+		["ROGUE"] = {
+			[32000] = "Merciless Gladiator's Leather Legguards",
+			[31029] = "Slayer's Legguards",
+		},
+	},
+	[31098] = { 	-- Leggings of the Forgotten Conqueror
+		["PRIEST"] = {
+			[32017] = "Merciless Gladiator's Mooncloth Leggings",
+			[32036] = "Merciless Gladiator's Satin Leggings",
+			[31068] = "Breeches of Absolution",
+			[31067] = "Leggings of Absolution",
+		},
+		["WARLOCK"] = {
+			[31975] = "Merciless Gladiator's Dreadweave Leggings",
+			[31983] = "Merciless Gladiator's Felweave Trousers",
+			[31053] = "Leggings of the Malefic",
+		},
+		["PALADIN"] = {
+			[30995] = "Lightbringer Legguards",
+			[30994] = "Lightbringer Leggings",
+			[32042] = "Merciless Gladiator's Scaled Legguards",
+			[30993] = "Lightbringer Greaves",
+			[31995] = "Merciless Gladiator's Lamellar Legguards",
+			[32023] = "Merciless Gladiator's Ornamented Legplates",
+		},
+	},
+	[31097] = { 	-- Helm of the Forgotten Conqueror
+		["PRIEST"] = {
+			[32035] = "Merciless Gladiator's Satin Hood",
+			[31064] = "Hood of Absolution",
+			[32016] = "Merciless Gladiator's Mooncloth Hood",
+			[31063] = "Cowl of Absolution",
+		},
+		["WARLOCK"] = {
+			[31051] = "Hood of the Malefic",
+			[31974] = "Merciless Gladiator's Dreadweave Hood",
+			[31980] = "Merciless Gladiator's Felweave Cowl",
+		},
+		["PALADIN"] = {
+			[30988] = "Lightbringer Greathelm",
+			[30989] = "Lightbringer War-Helm",
+			[32041] = "Merciless Gladiator's Scaled Helm",
+			[32022] = "Merciless Gladiator's Ornamented Headcover",
+			[30987] = "Lightbringer Faceguard",
+			[31997] = "Merciless Gladiator's Lamellar Helm",
+		},
+	},
+	[31096] = { 	-- Helm of the Forgotten Vanquisher
+		["MAGE"] = {
+			[32048] = "Merciless Gladiator's Silk Cowl",
+			[31056] = "Cowl of the Tempest",
+		},
+		["DRUID"] = {
+			[31968] = "Merciless Gladiator's Dragonhide Helm",
+			[31039] = "Thunderheart Cover",
+			[31040] = "Thunderheart Headguard",
+			[32057] = "Merciless Gladiator's Wyrmhide Helm",
+			[31988] = "Merciless Gladiator's Kodohide Helm",
+			[31037] = "Thunderheart Helmet",
+		},
+		["ROGUE"] = {
+			[31999] = "Merciless Gladiator's Leather Helm",
+			[31027] = "Slayer's Helm",
+		},
+	},
+	[31095] = { 	-- Helm of the Forgotten Protector
+		["HUNTER"] = {
+			[31962] = "Merciless Gladiator's Chain Helm",
+			[31003] = "Gronnstalker's Helmet",
+		},
+		["WARRIOR"] = {
+			[30974] = "Onslaught Greathelm",
+			[30972] = "Onslaught Battle-Helm",
+			[30488] = "Merciless Gladiator's Plate Helm",
+		},
+		["SHAMAN"] = {
+			[32031] = "Merciless Gladiator's Ringmail Helm",
+			[32011] = "Merciless Gladiator's Mail Helm",
+			[32006] = "Merciless Gladiator's Linked Helm",
+			[31014] = "Skyshatter Headguard",
+			[31015] = "Skyshatter Cover",
+			[31012] = "Skyshatter Helmet",
+		},
+	},
+	[31094] = { 	-- Gloves of the Forgotten Protector
+		["HUNTER"] = {
+			[31961] = "Merciless Gladiator's Chain Gauntlets",
+			[31001] = "Gronnstalker's Gloves",
+		},
+		["WARRIOR"] = {
+			[30970] = "Onslaught Handguards",
+			[30969] = "Onslaught Gauntlets",
+			[30487] = "Merciless Gladiator's Plate Gauntlets",
+		},
+		["SHAMAN"] = {
+			[32010] = "Merciless Gladiator's Mail Gauntlets",
+			[31011] = "Skyshatter Grips",
+			[31008] = "Skyshatter Gauntlets",
+			[31007] = "Skyshatter Gloves",
+			[32030] = "Merciless Gladiator's Ringmail Gauntlets",
+			[32005] = "Merciless Gladiator's Linked Gauntlets",
+		},
+	},
+	[31093] = { 	-- Gloves of the Forgotten Vanquisher
+		["MAGE"] = {
+			[32049] = "Merciless Gladiator's Silk Handguards",
+			[31055] = "Gloves of the Tempest",
+		},
+		["DRUID"] = {
+			[31032] = "Thunderheart Gloves",
+			[31034] = "Thunderheart Gauntlets",
+			[32056] = "Merciless Gladiator's Wyrmhide Gloves",
+			[31035] = "Thunderheart Handguards",
+			[31967] = "Merciless Gladiator's Dragonhide Gloves",
+			[31987] = "Merciless Gladiator's Kodohide Gloves",
+		},
+		["ROGUE"] = {
+			[31998] = "Merciless Gladiator's Leather Gloves",
+			[31026] = "Slayer's Handguards",
+		},
+	},
+	[31092] = { 	-- Gloves of the Forgotten Conqueror
+		["PRIEST"] = {
+			[31060] = "Gloves of Absolution",
+			[32015] = "Merciless Gladiator's Mooncloth Gloves",
+			[32034] = "Merciless Gladiator's Satin Gloves",
+			[31061] = "Handguards of Absolution",
+		},
+		["WARLOCK"] = {
+			[31981] = "Merciless Gladiator's Felweave Handguards",
+			[31973] = "Merciless Gladiator's Dreadweave Gloves",
+			[31050] = "Gloves of the Malefic",
+		},
+		["PALADIN"] = {
+			[30982] = "Lightbringer Gauntlets",
+			[32040] = "Merciless Gladiator's Scaled Gauntlets",
+			[30985] = "Lightbringer Handguards",
+			[30983] = "Lightbringer Gloves",
+			[31993] = "Merciless Gladiator's Lamellar Gauntlets",
+			[32021] = "Merciless Gladiator's Ornamented Gloves",
+		},
+	},
+	[31091] = { 	-- Chestguard of the Forgotten Protector
+		["HUNTER"] = {
+			[31960] = "Merciless Gladiator's Chain Armor",
+			[31004] = "Gronnstalker's Chestguard",
+		},
+		["WARRIOR"] = {
+			[30976] = "Onslaught Chestguard",
+			[30975] = "Onslaught Breastplate",
+			[30486] = "Merciless Gladiator's Plate Chestpiece",
+		},
+		["SHAMAN"] = {
+			[31016] = "Skyshatter Chestguard",
+			[32004] = "Merciless Gladiator's Linked Armor",
+			[31018] = "Skyshatter Tunic",
+			[32029] = "Merciless Gladiator's Ringmail Armor",
+			[32009] = "Merciless Gladiator's Mail Armor",
+			[31017] = "Skyshatter Breastplate",
+		},
+	},
+	[31090] = { 	-- Chestguard of the Forgotten Vanquisher
+		["MAGE"] = {
+			[32050] = "Merciless Gladiator's Silk Raiment",
+			[31057] = "Robes of the Tempest",
+		},
+		["DRUID"] = {
+			[32060] = "Merciless Gladiator's Wyrmhide Tunic",
+			[31991] = "Merciless Gladiator's Kodohide Tunic",
+			[31972] = "Merciless Gladiator's Dragonhide Tunic",
+			[31042] = "Thunderheart Chestguard",
+			[31043] = "Thunderheart Vest",
+			[31041] = "Thunderheart Tunic",
+		},
+		["ROGUE"] = {
+			[32002] = "Merciless Gladiator's Leather Tunic",
+			[31028] = "Slayer's Chestguard",
+		},
+	},
+	[31089] = { 	-- Chestguard of the Forgotten Conqueror
+		["PRIEST"] = {
+			[32038] = "Merciless Gladiator's Satin Robe",
+			[31065] = "Shroud of Absolution",
+			[32019] = "Merciless Gladiator's Mooncloth Robe",
+			[31066] = "Vestments of Absolution",
+		},
+		["WARLOCK"] = {
+			[31982] = "Merciless Gladiator's Felweave Raiment",
+			[31977] = "Merciless Gladiator's Dreadweave Robe",
+			[31052] = "Robe of the Malefic",
+		},
+		["PALADIN"] = {
+			[32039] = "Merciless Gladiator's Scaled Chestpiece",
+			[30990] = "Lightbringer Breastplate",
+			[31992] = "Merciless Gladiator's Lamellar Chestpiece",
+			[30992] = "Lightbringer Chestpiece",
+			[30991] = "Lightbringer Chestguard",
+			[32020] = "Merciless Gladiator's Ornamented Chestguard",
+		},
+	},
+	[30250] = { 	-- Pauldrons of the Vanquished Hero
+		["MAGE"] = {
+			[32047] = "Merciless Gladiator's Silk Amice",
+			[30210] = "Mantle of Tirisfal",
+		},
+		["WARLOCK"] = {
+			[31976] = "Merciless Gladiator's Dreadweave Mantle",
+			[30215] = "Mantle of the Corruptor",
+			[31979] = "Merciless Gladiator's Felweave Amice",
+		},
+		["HUNTER"] = {
+			[31964] = "Merciless Gladiator's Chain Spaulders",
+			[30143] = "Rift Stalker Mantle",
+		},
+	},
+	[30249] = { 	-- Pauldrons of the Vanquished Defender
+		["DRUID"] = {
+			[32059] = "Merciless Gladiator's Wyrmhide Spaulders",
+			[31990] = "Merciless Gladiator's Kodohide Spaulders",
+			[31971] = "Merciless Gladiator's Dragonhide Spaulders",
+			[30230] = "Nordrassil Feral-Mantle",
+			[30221] = "Nordrassil Life-Mantle",
+			[30235] = "Nordrassil Wrath-Mantle",
+		},
+		["WARRIOR"] = {
+			[30490] = "Merciless Gladiator's Plate Shoulders",
+			[30122] = "Destroyer Shoulderblades",
+			[30117] = "Destroyer Shoulderguards",
+		},
+		["PRIEST"] = {
+			[30163] = "Wings of the Avatar",
+			[32018] = "Merciless Gladiator's Mooncloth Mantle",
+			[32037] = "Merciless Gladiator's Satin Mantle",
+			[30154] = "Mantle of the Avatar",
+		},
+	},
+	[30248] = { 	-- Pauldrons of the Vanquished Champion
+		["SHAMAN"] = {
+			[32033] = "Merciless Gladiator's Ringmail Spaulders",
+			[32013] = "Merciless Gladiator's Mail Spaulders",
+			[30194] = "Cataclysm Shoulderplates",
+			[32008] = "Merciless Gladiator's Linked Spaulders",
+			[30168] = "Cataclysm Shoulderguards",
+			[30173] = "Cataclysm Shoulderpads",
+		},
+		["ROGUE"] = {
+			[32001] = "Merciless Gladiator's Leather Spaulders",
+			[30149] = "Deathmantle Shoulderpads",
+		},
+		["PALADIN"] = {
+			[32024] = "Merciless Gladiator's Ornamented Spaulders",
+			[30127] = "Crystalforge Shoulderguards",
+			[30138] = "Crystalforge Pauldrons",
+			[32043] = "Merciless Gladiator's Scaled Shoulders",
+			[30133] = "Crystalforge Shoulderbraces",
+			[31996] = "Merciless Gladiator's Lamellar Shoulders",
+		},
+	},
+	[30247] = { 	-- Leggings of the Vanquished Hero
+		["MAGE"] = {
+			[32051] = "Merciless Gladiator's Silk Trousers",
+			[30207] = "Leggings of Tirisfal",
+		},
+		["WARLOCK"] = {
+			[31975] = "Merciless Gladiator's Dreadweave Leggings",
+			[31983] = "Merciless Gladiator's Felweave Trousers",
+			[30213] = "Leggings of the Corruptor",
+		},
+		["HUNTER"] = {
+			[31963] = "Merciless Gladiator's Chain Leggings",
+			[30142] = "Rift Stalker Leggings",
+		},
+	},
+	[30246] = { 	-- Leggings of the Vanquished Defender
+		["DRUID"] = {
+			[31989] = "Merciless Gladiator's Kodohide Legguards",
+			[31969] = "Merciless Gladiator's Dragonhide Legguards",
+			[30234] = "Nordrassil Wrath-Kilt",
+			[30229] = "Nordrassil Feral-Kilt",
+			[32058] = "Merciless Gladiator's Wyrmhide Legguards",
+			[30220] = "Nordrassil Life-Kilt",
+		},
+		["WARRIOR"] = {
+			[30121] = "Destroyer Greaves",
+			[30116] = "Destroyer Legguards",
+			[30489] = "Merciless Gladiator's Plate Legguards",
+		},
+		["PRIEST"] = {
+			[32017] = "Merciless Gladiator's Mooncloth Leggings",
+			[32036] = "Merciless Gladiator's Satin Leggings",
+			[30162] = "Leggings of the Avatar",
+			[30153] = "Breeches of the Avatar",
+		},
+	},
+	[30245] = { 	-- Leggings of the Vanquished Champion
+		["SHAMAN"] = {
+			[32032] = "Merciless Gladiator's Ringmail Leggings",
+			[30192] = "Cataclysm Legplates",
+			[30172] = "Cataclysm Leggings",
+			[32007] = "Merciless Gladiator's Linked Leggings",
+			[30167] = "Cataclysm Legguards",
+			[32012] = "Merciless Gladiator's Mail Leggings",
+		},
+		["ROGUE"] = {
+			[32000] = "Merciless Gladiator's Leather Legguards",
+			[30148] = "Deathmantle Legguards",
+		},
+		["PALADIN"] = {
+			[30126] = "Crystalforge Legguards",
+			[30137] = "Crystalforge Leggings",
+			[32042] = "Merciless Gladiator's Scaled Legguards",
+			[30132] = "Crystalforge Greaves",
+			[31995] = "Merciless Gladiator's Lamellar Legguards",
+			[32023] = "Merciless Gladiator's Ornamented Legplates",
+		},
+	},
+	[30244] = { 	-- Helm of the Vanquished Hero
+		["MAGE"] = {
+			[32048] = "Merciless Gladiator's Silk Cowl",
+			[30206] = "Cowl of Tirisfal",
+		},
+		["WARLOCK"] = {
+			[30212] = "Hood of the Corruptor",
+			[31974] = "Merciless Gladiator's Dreadweave Hood",
+			[31980] = "Merciless Gladiator's Felweave Cowl",
+		},
+		["HUNTER"] = {
+			[31962] = "Merciless Gladiator's Chain Helm",
+			[30141] = "Rift Stalker Helm",
+		},
+	},
+	[30243] = { 	-- Helm of the Vanquished Defender
+		["DRUID"] = {
+			[31968] = "Merciless Gladiator's Dragonhide Helm",
+			[30233] = "Nordrassil Headpiece",
+			[30228] = "Nordrassil Headdress",
+			[32057] = "Merciless Gladiator's Wyrmhide Helm",
+			[31988] = "Merciless Gladiator's Kodohide Helm",
+			[30219] = "Nordrassil Headguard",
+		},
+		["WARRIOR"] = {
+			[30115] = "Destroyer Greathelm",
+			[30488] = "Merciless Gladiator's Plate Helm",
+			[30120] = "Destroyer Battle-Helm",
+		},
+		["PRIEST"] = {
+			[32035] = "Merciless Gladiator's Satin Hood",
+			[30161] = "Hood of the Avatar",
+			[32016] = "Merciless Gladiator's Mooncloth Hood",
+			[30152] = "Cowl of the Avatar",
+		},
+	},
+	[30242] = { 	-- Helm of the Vanquished Champion
+		["SHAMAN"] = {
+			[30190] = "Cataclysm Helm",
+			[32011] = "Merciless Gladiator's Mail Helm",
+			[30171] = "Cataclysm Headpiece",
+			[32006] = "Merciless Gladiator's Linked Helm",
+			[30166] = "Cataclysm Headguard",
+			[32031] = "Merciless Gladiator's Ringmail Helm",
+		},
+		["ROGUE"] = {
+			[31999] = "Merciless Gladiator's Leather Helm",
+			[30146] = "Deathmantle Helm",
+		},
+		["PALADIN"] = {
+			[31997] = "Merciless Gladiator's Lamellar Helm",
+			[30136] = "Crystalforge Greathelm",
+			[32041] = "Merciless Gladiator's Scaled Helm",
+			[30131] = "Crystalforge War-Helm",
+			[32022] = "Merciless Gladiator's Ornamented Headcover",
+			[30125] = "Crystalforge Faceguard",
+		},
+	},
+	[30241] = { 	-- Gloves of the Vanquished Hero
+		["MAGE"] = {
+			[32049] = "Merciless Gladiator's Silk Handguards",
+			[30205] = "Gloves of Tirisfal",
+		},
+		["WARLOCK"] = {
+			[31981] = "Merciless Gladiator's Felweave Handguards",
+			[31973] = "Merciless Gladiator's Dreadweave Gloves",
+			[30211] = "Gloves of the Corruptor",
+		},
+		["HUNTER"] = {
+			[31961] = "Merciless Gladiator's Chain Gauntlets",
+			[30140] = "Rift Stalker Gauntlets",
+		},
+	},
+	[30240] = { 	-- Gloves of the Vanquished Defender
+		["DRUID"] = {
+			[30232] = "Nordrassil Gauntlets",
+			[30217] = "Nordrassil Gloves",
+			[32056] = "Merciless Gladiator's Wyrmhide Gloves",
+			[31987] = "Merciless Gladiator's Kodohide Gloves",
+			[31967] = "Merciless Gladiator's Dragonhide Gloves",
+			[30223] = "Nordrassil Handgrips",
+		},
+		["WARRIOR"] = {
+			[30487] = "Merciless Gladiator's Plate Gauntlets",
+			[30119] = "Destroyer Gauntlets",
+			[30114] = "Destroyer Handguards",
+		},
+		["PRIEST"] = {
+			[30160] = "Handguards of the Avatar",
+			[32015] = "Merciless Gladiator's Mooncloth Gloves",
+			[32034] = "Merciless Gladiator's Satin Gloves",
+			[30151] = "Gloves of the Avatar",
+		},
+	},
+	[30239] = { 	-- Gloves of the Vanquished Champion
+		["SHAMAN"] = {
+			[32010] = "Merciless Gladiator's Mail Gauntlets",
+			[30170] = "Cataclysm Handgrips",
+			[32005] = "Merciless Gladiator's Linked Gauntlets",
+			[30165] = "Cataclysm Gloves",
+			[30189] = "Cataclysm Gauntlets",
+			[32030] = "Merciless Gladiator's Ringmail Gauntlets",
+		},
+		["ROGUE"] = {
+			[31998] = "Merciless Gladiator's Leather Gloves",
+			[30145] = "Deathmantle Handguards",
+		},
+		["PALADIN"] = {
+			[30135] = "Crystalforge Gloves",
+			[32040] = "Merciless Gladiator's Scaled Gauntlets",
+			[30130] = "Crystalforge Gauntlets",
+			[32021] = "Merciless Gladiator's Ornamented Gloves",
+			[30124] = "Crystalforge Handguards",
+			[31993] = "Merciless Gladiator's Lamellar Gauntlets",
+		},
+	},
+	[30238] = { 	-- Chestguard of the Vanquished Hero
+		["MAGE"] = {
+			[32050] = "Merciless Gladiator's Silk Raiment",
+			[30196] = "Robes of Tirisfal",
+		},
+		["WARLOCK"] = {
+			[30214] = "Robe of the Corruptor",
+			[31982] = "Merciless Gladiator's Felweave Raiment",
+			[31977] = "Merciless Gladiator's Dreadweave Robe",
+		},
+		["HUNTER"] = {
+			[31960] = "Merciless Gladiator's Chain Armor",
+			[30139] = "Rift Stalker Hauberk",
+		},
+	},
+	[30237] = { 	-- Chestguard of the Vanquished Defender
+		["DRUID"] = {
+			[32060] = "Merciless Gladiator's Wyrmhide Tunic",
+			[31991] = "Merciless Gladiator's Kodohide Tunic",
+			[31972] = "Merciless Gladiator's Dragonhide Tunic",
+			[30216] = "Nordrassil Chestguard",
+			[30231] = "Nordrassil Chestpiece",
+			[30222] = "Nordrassil Chestplate",
+		},
+		["WARRIOR"] = {
+			[30118] = "Destroyer Breastplate",
+			[30113] = "Destroyer Chestguard",
+			[30486] = "Merciless Gladiator's Plate Chestpiece",
+		},
+		["PRIEST"] = {
+			[32038] = "Merciless Gladiator's Satin Robe",
+			[30150] = "Vestments of the Avatar",
+			[32019] = "Merciless Gladiator's Mooncloth Robe",
+			[30159] = "Shroud of the Avatar",
+		},
+	},
+	[30236] = { 	-- Chestguard of the Vanquished Champion
+		["SHAMAN"] = {
+			[30169] = "Cataclysm Chestpiece",
+			[32004] = "Merciless Gladiator's Linked Armor",
+			[30185] = "Cataclysm Chestplate",
+			[32029] = "Merciless Gladiator's Ringmail Armor",
+			[32009] = "Merciless Gladiator's Mail Armor",
+			[30164] = "Cataclysm Chestguard",
+		},
+		["ROGUE"] = {
+			[32002] = "Merciless Gladiator's Leather Tunic",
+			[30144] = "Deathmantle Chestguard",
+		},
+		["PALADIN"] = {
+			[30134] = "Crystalforge Chestpiece",
+			[32039] = "Merciless Gladiator's Scaled Chestpiece",
+			[30129] = "Crystalforge Breastplate",
+			[31992] = "Merciless Gladiator's Lamellar Chestpiece",
+			[30123] = "Crystalforge Chestguard",
+			[32020] = "Merciless Gladiator's Ornamented Chestguard",
+		},
+	},
+	[29767] = { 	-- Leggings of the Fallen Defender
+		["DRUID"] = {
+			[29099] = "Greaves of Malorne",
+			[29094] = "Britches of Malorne",
+			[31377] = "Gladiator's Kodohide Legguards",
+			[28128] = "Gladiator's Dragonhide Legguards",
+			[28138] = "Gladiator's Wyrmhide Legguards",
+			[29088] = "Legguards of Malorne",
+		},
+		["WARRIOR"] = {
+			[24547] = "Gladiator's Plate Legguards",
+			[29015] = "Warbringer Legguards",
+			[29022] = "Warbringer Greaves",
+		},
+		["PRIEST"] = {
+			[29059] = "Leggings of the Incarnate",
+			[27709] = "Gladiator's Satin Leggings",
+			[29053] = "Trousers of the Incarnate",
+			[31411] = "Gladiator's Mooncloth Leggings",
+		},
+	},
+	[29766] = { 	-- Leggings of the Fallen Champion
+		["SHAMAN"] = {
+			[29042] = "Cyclone War-Kilt",
+			[29036] = "Cyclone Legguards",
+			[29030] = "Cyclone Kilt",
+			[26001] = "Gladiator's Linked Leggings",
+			[31406] = "Gladiator's Ringmail Leggings",
+			[27472] = "Gladiator's Mail Leggings",
+		},
+		["ROGUE"] = {
+			[29046] = "Netherblade Breeches",
+			[25833] = "Gladiator's Leather Legguards",
+		},
+		["PALADIN"] = {
+			[31618] = "Gladiator's Ornamented Legplates",
+			[27882] = "Gladiator's Scaled Legguards",
+			[29074] = "Justicar Greaves",
+			[27705] = "Gladiator's Lamellar Legguards",
+			[29069] = "Justicar Legguards",
+			[29063] = "Justicar Leggings",
+		},
+	},
+	[29765] = { 	-- Leggings of the Fallen Hero
+		["MAGE"] = {
+			[29078] = "Legwraps of the Aldor",
+			[25858] = "Gladiator's Silk Trousers",
+		},
+		["WARLOCK"] = {
+			[28966] = "Voidheart Leggings",
+			[30201] = "Gladiator's Felweave Trousers",
+			[24555] = "Gladiator's Dreadweave Leggings",
+		},
+		["HUNTER"] = {
+			[29083] = "Demon Stalker Greaves",
+			[28332] = "Gladiator's Chain Leggings",
+		},
+	},
+	[29764] = { 	-- Pauldrons of the Fallen Defender
+		["DRUID"] = {
+			[28139] = "Gladiator's Wyrmhide Spaulders",
+			[29100] = "Mantle of Malorne",
+			[29095] = "Pauldrons of Malorne",
+			[29089] = "Shoulderguards of Malorne",
+			[28129] = "Gladiator's Dragonhide Spaulders",
+			[31378] = "Gladiator's Kodohide Spaulders",
+		},
+		["WARRIOR"] = {
+			[29023] = "Warbringer Shoulderplates",
+			[29016] = "Warbringer Shoulderguards",
+			[24546] = "Gladiator's Plate Shoulders",
+		},
+		["PRIEST"] = {
+			[27710] = "Gladiator's Satin Mantle",
+			[29060] = "Soul-Mantle of the Incarnate",
+			[29054] = "Light-Mantle of the Incarnate",
+			[31412] = "Gladiator's Mooncloth Mantle",
+		},
+	},
+	[29763] = { 	-- Pauldrons of the Fallen Champion
+		["SHAMAN"] = {
+			[29043] = "Cyclone Shoulderplates",
+			[29037] = "Cyclone Shoulderguards",
+			[29031] = "Cyclone Shoulderpads",
+			[25999] = "Gladiator's Linked Spaulders",
+			[31407] = "Gladiator's Ringmail Spaulders",
+			[27473] = "Gladiator's Mail Spaulders",
+		},
+		["ROGUE"] = {
+			[29047] = "Netherblade Shoulderpads",
+			[25832] = "Gladiator's Leather Spaulders",
+		},
+		["PALADIN"] = {
+			[29070] = "Justicar Shoulderguards",
+			[31619] = "Gladiator's Ornamented Spaulders",
+			[27883] = "Gladiator's Scaled Shoulders",
+			[29075] = "Justicar Shoulderplates",
+			[27706] = "Gladiator's Lamellar Shoulders",
+			[29064] = "Justicar Pauldrons",
+		},
+	},
+	[29762] = { 	-- Pauldrons of the Fallen Hero
+		["MAGE"] = {
+			[29079] = "Pauldrons of the Aldor",
+			[25854] = "Gladiator's Silk Amice",
+		},
+		["WARLOCK"] = {
+			[28967] = "Voidheart Mantle",
+			[30186] = "Gladiator's Felweave Amice",
+			[24554] = "Gladiator's Dreadweave Mantle",
+		},
+		["HUNTER"] = {
+			[29084] = "Demon Stalker Shoulderguards",
+			[28333] = "Gladiator's Chain Spaulders",
+		},
+	},
+	[29761] = { 	-- Helm of the Fallen Defender
+		["DRUID"] = {
+			[29098] = "Stag-Helm of Malorne",
+			[29093] = "Antlers of Malorne",
+			[31376] = "Gladiator's Kodohide Helm",
+			[28137] = "Gladiator's Wyrmhide Helm",
+			[28127] = "Gladiator's Dragonhide Helm",
+			[29086] = "Crown of Malorne",
+		},
+		["WARRIOR"] = {
+			[29011] = "Warbringer Greathelm",
+			[29021] = "Warbringer Battle-Helm",
+			[24545] = "Gladiator's Plate Helm",
+		},
+		["PRIEST"] = {
+			[27708] = "Gladiator's Satin Hood",
+			[29049] = "Light-Collar of the Incarnate",
+			[29058] = "Soul-Collar of the Incarnate",
+			[31410] = "Gladiator's Mooncloth Hood",
+		},
+	},
+	[29760] = { 	-- Helm of the Fallen Champion
+		["SHAMAN"] = {
+			[29028] = "Cyclone Headdress",
+			[25998] = "Gladiator's Linked Helm",
+			[27471] = "Gladiator's Mail Helm",
+			[29040] = "Cyclone Helm",
+			[31400] = "Gladiator's Ringmail Helm",
+			[29035] = "Cyclone Faceguard",
+		},
+		["ROGUE"] = {
+			[29044] = "Netherblade Facemask",
+			[25830] = "Gladiator's Leather Helm",
+		},
+		["PALADIN"] = {
+			[27881] = "Gladiator's Scaled Helm",
+			[29073] = "Justicar Crown",
+			[29068] = "Justicar Faceguard",
+			[29061] = "Justicar Diadem",
+			[27704] = "Gladiator's Lamellar Helm",
+			[31616] = "Gladiator's Ornamented Headcover",
+		},
+	},
+	[29759] = { 	-- Helm of the Fallen Hero
+		["MAGE"] = {
+			[29076] = "Collar of the Aldor",
+			[25855] = "Gladiator's Silk Cowl",
+		},
+		["WARLOCK"] = {
+			[28963] = "Voidheart Crown",
+			[24553] = "Gladiator's Dreadweave Hood",
+			[30187] = "Gladiator's Felweave Cowl",
+		},
+		["HUNTER"] = {
+			[29081] = "Demon Stalker Greathelm",
+			[28331] = "Gladiator's Chain Helm",
+		},
+	},
+	[29758] = { 	-- Gloves of the Fallen Defender
+		["DRUID"] = {
+			[29092] = "Gloves of Malorne",
+			[31375] = "Gladiator's Kodohide Gloves",
+			[28136] = "Gladiator's Wyrmhide Gloves",
+			[28126] = "Gladiator's Dragonhide Gloves",
+			[29097] = "Gauntlets of Malorne",
+			[29090] = "Handguards of Malorne",
+		},
+		["WARRIOR"] = {
+			[29017] = "Warbringer Handguards",
+			[24549] = "Gladiator's Plate Gauntlets",
+			[29020] = "Warbringer Gauntlets",
+		},
+		["PRIEST"] = {
+			[27707] = "Gladiator's Satin Gloves",
+			[29057] = "Gloves of the Incarnate",
+			[29055] = "Handwraps of the Incarnate",
+			[31409] = "Gladiator's Mooncloth Gloves",
+		},
+	},
+	[29757] = { 	-- Gloves of the Fallen Champion
+		["SHAMAN"] = {
+			[26000] = "Gladiator's Linked Gauntlets",
+			[31397] = "Gladiator's Ringmail Gauntlets",
+			[29039] = "Cyclone Gauntlets",
+			[27470] = "Gladiator's Mail Gauntlets",
+			[29034] = "Cyclone Handguards",
+			[29032] = "Cyclone Gloves",
+		},
+		["ROGUE"] = {
+			[29048] = "Netherblade Gloves",
+			[25834] = "Gladiator's Leather Gloves",
+		},
+		["PALADIN"] = {
+			[27880] = "Gladiator's Scaled Gauntlets",
+			[29072] = "Justicar Gauntlets",
+			[31614] = "Gladiator's Ornamented Gloves",
+			[29067] = "Justicar Handguards",
+			[27703] = "Gladiator's Lamellar Gauntlets",
+			[29065] = "Justicar Gloves",
+		},
+	},
+	[29756] = { 	-- Gloves of the Fallen Hero
+		["MAGE"] = {
+			[29080] = "Gloves of the Aldor",
+			[25857] = "Gladiator's Silk Handguards",
+		},
+		["WARLOCK"] = {
+			[24556] = "Gladiator's Dreadweave Gloves",
+			[30188] = "Gladiator's Felweave Handguards",
+			[28968] = "Voidheart Gloves",
+		},
+		["HUNTER"] = {
+			[29085] = "Demon Stalker Gauntlets",
+			[28335] = "Gladiator's Chain Gauntlets",
+		},
+	},
+	[29755] = { 	-- Chestguard of the Fallen Hero
+		["MAGE"] = {
+			[29077] = "Vestments of the Aldor",
+			[25856] = "Gladiator's Silk Raiment",
+		},
+		["WARLOCK"] = {
+			[28964] = "Voidheart Robe",
+			[24552] = "Gladiator's Dreadweave Robe",
+			[30200] = "Gladiator's Felweave Raiment",
+		},
+		["HUNTER"] = {
+			[29082] = "Demon Stalker Harness",
+			[28334] = "Gladiator's Chain Armor",
+		},
+	},
+	[29754] = { 	-- Chestguard of the Fallen Champion
+		["SHAMAN"] = {
+			[25997] = "Gladiator's Linked Armor",
+			[29029] = "Cyclone Hauberk",
+			[31396] = "Gladiator's Ringmail Armor",
+			[29038] = "Cyclone Breastplate",
+			[29033] = "Cyclone Chestguard",
+			[27469] = "Gladiator's Mail Armor",
+		},
+		["ROGUE"] = {
+			[29045] = "Netherblade Chestpiece",
+			[25831] = "Gladiator's Leather Tunic",
+		},
+		["PALADIN"] = {
+			[29071] = "Justicar Breastplate",
+			[31613] = "Gladiator's Ornamented Chestguard",
+			[29066] = "Justicar Chestguard",
+			[27702] = "Gladiator's Lamellar Chestpiece",
+			[29062] = "Justicar Chestpiece",
+			[27879] = "Gladiator's Scaled Chestpiece",
+		},
+	},
+	[29753] = { 	-- Chestguard of the Fallen Defender
+		["DRUID"] = {
+			[29091] = "Chestpiece of Malorne",
+			[28140] = "Gladiator's Wyrmhide Tunic",
+			[29087] = "Chestguard of Malorne",
+			[29096] = "Breastplate of Malorne",
+			[31379] = "Gladiator's Kodohide Tunic",
+			[28130] = "Gladiator's Dragonhide Tunic",
+		},
+		["WARRIOR"] = {
+			[24544] = "Gladiator's Plate Chestpiece",
+			[29012] = "Warbringer Chestguard",
+			[29019] = "Warbringer Breastplate",
+		},
+		["PRIEST"] = {
+			[29056] = "Shroud of the Incarnate",
+			[27711] = "Gladiator's Satin Robe",
+			[31413] = "Gladiator's Mooncloth Robe",
+			[29050] = "Robes of the Incarnate",
+		},
+	},
+	[20933] = { 	-- Husk of the Old God
+		["MAGE"] = {
+			[21343] = "Enigma Robes",
+		},
+		["DRUID"] = {
+			[21357] = "Genesis Vest",
+		},
+		["WARLOCK"] = {
+			[21334] = "Doomcaller's Robes",
+		},
+		["PRIEST"] = {
+			[21351] = "Vestments of the Oracle",
+		},
+	},
+	[20932] = { 	-- Qiraji Bindings of Dominance
+		["WARLOCK"] = {
+			[21338] = "Doomcaller's Footwraps",
+			[21335] = "Doomcaller's Mantle",
+		},
+		["PALADIN"] = {
+			[21391] = "Avenger's Pauldrons",
+			[21388] = "Avenger's Greaves",
+		},
+		["MAGE"] = {
+			[21345] = "Enigma Shoulderpads",
+			[21344] = "Enigma Boots",
+		},
+		["DRUID"] = {
+			[21355] = "Genesis Boots",
+			[21354] = "Genesis Shoulderpads",
+		},
+		["SHAMAN"] = {
+			[21376] = "Stormcaller's Pauldrons",
+			[21373] = "Stormcaller's Footguards",
+		},
+	},
+	[20931] = { 	-- Skin of the Great Sandworm
+		["HUNTER"] = {
+			[21368] = "Striker's Leggings",
+		},
+		["WARLOCK"] = {
+			[21336] = "Doomcaller's Trousers",
+		},
+		["PALADIN"] = {
+			[21390] = "Avenger's Legguards",
+		},
+		["DRUID"] = {
+			[21356] = "Genesis Trousers",
+		},
+		["SHAMAN"] = {
+			[21375] = "Stormcaller's Leggings",
+		},
+	},
+	[20930] = { 	-- Vek'lor's Diadem
+		["HUNTER"] = {
+			[21366] = "Striker's Diadem",
+		},
+		["PALADIN"] = {
+			[21387] = "Avenger's Crown",
+		},
+		["DRUID"] = {
+			[21353] = "Genesis Helm",
+		},
+		["SHAMAN"] = {
+			[21372] = "Stormcaller's Diadem",
+		},
+		["ROGUE"] = {
+			[21360] = "Deathdealer's Helm",
+		},
+	},
+	[20929] = { 	-- Carapace of the Old God
+		["HUNTER"] = {
+			[21370] = "Striker's Hauberk",
+		},
+		["WARRIOR"] = {
+			[21331] = "Conqueror's Breastplate",
+		},
+		["PALADIN"] = {
+			[21389] = "Avenger's Breastplate",
+		},
+		["SHAMAN"] = {
+			[21374] = "Stormcaller's Hauberk",
+		},
+		["ROGUE"] = {
+			[21364] = "Deathdealer's Vest",
+		},
+	},
+	[20928] = { 	-- Qiraji Bindings of Command
+		["HUNTER"] = {
+			[21367] = "Striker's Pauldrons",
+			[21365] = "Striker's Footguards",
+		},
+		["WARRIOR"] = {
+			[21333] = "Conqueror's Greaves",
+			[21330] = "Conqueror's Spaulders",
+		},
+		["ROGUE"] = {
+			[21361] = "Deathdealer's Spaulders",
+			[21359] = "Deathdealer's Boots",
+		},
+		["PRIEST"] = {
+			[21350] = "Mantle of the Oracle",
+			[21349] = "Footwraps of the Oracle",
+		},
+	},
+	[20927] = { 	-- Ouro's Intact Hide
+		["MAGE"] = {
+			[21346] = "Enigma Leggings",
+		},
+		["WARRIOR"] = {
+			[21332] = "Conqueror's Legguards",
+		},
+		["ROGUE"] = {
+			[21362] = "Deathdealer's Leggings",
+		},
+		["PRIEST"] = {
+			[21352] = "Trousers of the Oracle",
+		},
+	},
+	[20926] = { 	-- Vek'nilash's Circlet
+		["MAGE"] = {
+			[21347] = "Enigma Circlet",
+		},
+		["WARRIOR"] = {
+			[21329] = "Conqueror's Crown",
+		},
+		["WARLOCK"] = {
+			[21337] = "Doomcaller's Circlet",
+		},
+		["PRIEST"] = {
+			[21348] = "Tiara of the Oracle",
+		},
+	},
+	[20890] = { 	-- Qiraji Ornate Hilt
+		["MAGE"] = {
+			[21413] = "Blade of Vaulted Secrets",
+		},
+		["DRUID"] = {
+			[21407] = "Mace of Unending Life",
+		},
+		["WARLOCK"] = {
+			[21416] = "Kris of Unspoken Names",
+		},
+		["PRIEST"] = {
+			[21410] = "Gavel of Infinite Wisdom",
+		},
+	},
+	[20889] = { 	-- Qiraji Regal Drape
+		["HUNTER"] = {
+			[21403] = "Cloak of the Unseen Path",
+		},
+		["WARLOCK"] = {
+			[21418] = "Shroud of Unspoken Names",
+		},
+		["PALADIN"] = {
+			[21397] = "Cape of Eternal Justice",
+		},
+		["DRUID"] = {
+			[21409] = "Cloak of Unending Life",
+		},
+		["SHAMAN"] = {
+			[21400] = "Cloak of the Gathering Storm",
+		},
+	},
+	[20888] = { 	-- Qiraji Ceremonial Ring
+		["HUNTER"] = {
+			[21402] = "Signet of the Unseen Path",
+		},
+		["ROGUE"] = {
+			[21405] = "Band of Veiled Shadows",
+		},
+		["WARLOCK"] = {
+			[21417] = "Ring of Unspoken Names",
+		},
+		["PRIEST"] = {
+			[21411] = "Ring of Infinite Wisdom",
+		},
+	},
+	[20886] = { 	-- Qiraji Spiked Hilt
+		["HUNTER"] = {
+			[21401] = "Scythe of the Unseen Path",
+		},
+		["WARRIOR"] = {
+			[21392] = "Sickle of Unyielding Strength",
+		},
+		["PALADIN"] = {
+			[21395] = "Blade of Eternal Justice",
+		},
+		["SHAMAN"] = {
+			[21398] = "Hammer of the Gathering Storm",
+		},
+		["ROGUE"] = {
+			[21404] = "Dagger of Veiled Shadows",
+		},
+	},
+	[20885] = { 	-- Qiraji Martial Drape
+		["MAGE"] = {
+			[21415] = "Drape of Vaulted Secrets",
+		},
+		["WARRIOR"] = {
+			[21394] = "Drape of Unyielding Strength",
+		},
+		["ROGUE"] = {
+			[21406] = "Cloak of Veiled Shadows",
+		},
+		["PRIEST"] = {
+			[21412] = "Shroud of Infinite Wisdom",
+		},
+	},
+	[20884] = { 	-- Qiraji Magisterial Ring
+		["WARRIOR"] = {
+			[21393] = "Signet of Unyielding Strength",
+		},
+		["PALADIN"] = {
+			[21396] = "Ring of Eternal Justice",
+		},
+		["MAGE"] = {
+			[21414] = "Band of Vaulted Secrets",
+		},
+		["DRUID"] = {
+			[21408] = "Band of Unending Life",
+		},
+		["SHAMAN"] = {
+			[21399] = "Ring of the Gathering Storm",
+		},
+	},
+	[19724] = { 	-- Primal Hakkari Aegis
+		["HUNTER"] = {
+			[19831] = "Zandalar Predator's Mantle",
+		},
+		["ROGUE"] = {
+			[19834] = "Zandalar Madcap's Tunic",
+		},
+		["PRIEST"] = {
+			[19841] = "Zandalar Confessor's Mantle",
+		},
+	},
+	[19723] = { 	-- Primal Hakkari Kossack
+		["MAGE"] = {
+			[20034] = "Zandalar Illusionist's Robe",
+		},
+		["WARRIOR"] = {
+			[19822] = "Zandalar Vindicator's Breastplate",
+		},
+		["WARLOCK"] = {
+			[20033] = "Zandalar Demoniac's Robe",
+		},
+	},
+	[19722] = { 	-- Primal Hakkari Tabard
+		["DRUID"] = {
+			[19838] = "Zandalar Haruspex's Tunic",
+		},
+		["SHAMAN"] = {
+			[19828] = "Zandalar Augur's Hauberk",
+		},
+		["PALADIN"] = {
+			[19825] = "Zandalar Freethinker's Breastplate",
+		},
+	},
+	[19721] = { 	-- Primal Hakkari Shawl
+		["MAGE"] = {
+			[19845] = "Zandalar Illusionist's Mantle",
+		},
+		["HUNTER"] = {
+			[19832] = "Zandalar Predator's Belt",
+		},
+		["PALADIN"] = {
+			[19826] = "Zandalar Freethinker's Belt",
+		},
+	},
+	[19720] = { 	-- Primal Hakkari Sash
+		["DRUID"] = {
+			[19839] = "Zandalar Haruspex's Belt",
+		},
+		["WARLOCK"] = {
+			[19849] = "Zandalar Demoniac's Mantle",
+		},
+		["PRIEST"] = {
+			[19842] = "Zandalar Confessor's Bindings",
+		},
+	},
+	[19719] = { 	-- Primal Hakkari Girdle
+		["WARRIOR"] = {
+			[19823] = "Zandalar Vindicator's Belt",
+		},
+		["SHAMAN"] = {
+			[19829] = "Zandalar Augur's Belt",
+		},
+		["ROGUE"] = {
+			[19835] = "Zandalar Madcap's Mantle",
+		},
+	},
+	[19718] = { 	-- Primal Hakkari Stanchion
+		["DRUID"] = {
+			[19840] = "Zandalar Haruspex's Bracers",
+		},
+		["WARLOCK"] = {
+			[19848] = "Zandalar Demoniac's Wraps",
+		},
+		["PRIEST"] = {
+			[19843] = "Zandalar Confessor's Wraps",
+		},
+	},
+	[19717] = { 	-- Primal Hakkari Armsplint
+		["WARRIOR"] = {
+			[19824] = "Zandalar Vindicator's Armguards",
+		},
+		["SHAMAN"] = {
+			[19830] = "Zandalar Augur's Bracers",
+		},
+		["ROGUE"] = {
+			[19836] = "Zandalar Madcap's Bracers",
+		},
+	},
+	[19716] = { 	-- Primal Hakkari Bindings
+		["MAGE"] = {
+			[19846] = "Zandalar Illusionist's Wraps",
+		},
+		["HUNTER"] = {
+			[19833] = "Zandalar Predator's Bracers",
+		},
+		["PALADIN"] = {
+			[19827] = "Zandalar Freethinker's Armguards",
+		},
+	},
+}
+
+
