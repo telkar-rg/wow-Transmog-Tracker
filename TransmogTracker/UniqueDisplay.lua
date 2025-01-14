@@ -21041,6 +21041,21 @@ ADDON_TABLE["TokenInfo"] = {
 			[29050] = "Robes of the Incarnate",
 		},
 	},
+	[21237] = { 	-- Imperial Qiraji Regalia
+		["ALL"] = {
+			[21268] = "Blessed Qiraji War Hammer",
+			[21273] = "Blessed Qiraji Acolyte Staff",
+			[21275] = "Blessed Qiraji Augur Staff",
+		},
+	},
+	[21232] = { 	-- Imperial Qiraji Armaments
+		["ALL"] = {
+			[21242] = "Blessed Qiraji War Axe",
+			[21244] = "Blessed Qiraji Pugio",
+			[21269] = "Blessed Qiraji Bulwark",
+			[21272] = "Blessed Qiraji Musket",
+		},
+	},
 	[20933] = { 	-- Husk of the Old God
 		["MAGE"] = {
 			[21343] = "Enigma Robes",

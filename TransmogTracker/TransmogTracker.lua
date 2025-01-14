@@ -661,10 +661,19 @@ TMT_OnShowTooltip = function(tooltip) -- has been declared local
 		local tooltipText
 		local TokenEntry = TokenInfo[itemId]
 		
+		-- try faction
 		if TokenEntry[PlayerFaction] then
 			TokenEntry = TokenEntry[PlayerFaction]
 		end
-		TokenEntry = TokenEntry[PlayerClass]
+		
+		-- try player class
+		if TokenEntry[PlayerClass] then
+			TokenEntry = TokenEntry[PlayerClass]
+		
+		-- try ALL category
+		elseif TokenEntry["ALL"] then
+			TokenEntry = TokenEntry["ALL"]
+		end
 		
 		if not TokenEntry then return end
 		
