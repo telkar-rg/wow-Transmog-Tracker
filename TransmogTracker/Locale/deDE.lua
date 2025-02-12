@@ -3,6 +3,13 @@
 local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "deDE")
 if not L then return end
 
+local RED    = "|cFFff8000"
+local ORANGE = "|cFFffb000"
+local YELLOW = "|cFFffff20"
+local BLUE   = "|cFF66bbff"
+local GREEN  = GREEN_FONT_COLOR_CODE
+local TXT_ILLUSIONIST = BLUE.."Erhabener Illusionist|r"
+
 L["SHARDS_NAME"] = "Splitter der Illusion"
 L["CHAT_MSG_SYSTEM_PATTERN"] = "^Freigeschaltetes Aussehen zur Transmogrifizierung: (\124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r)$"
 L["CHAT_MSG_SYSTEM_PATTERN_SOON"] = "^Freigeschaltetes Aussehen zur Transmogrifizierung, sobald die entsprechende Stufe erreicht wurde: (\124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r)$"
@@ -11,35 +18,38 @@ L["MSG_PATTERN_TRACKING"] = "Erfasse %s"
 L["NOTIFY_DB_RESET_CMD"] = "Die Addon-Datenbank wurde zurückgesetzt."
 L["NOTIFY_DB_RESET_FIRST_TIME"] = "Die Addon-Datenbank ist leer, weil dieses Addon zum ersten Mal geladen wurde oder weil der WTF-Ordner gelöscht wurde."
 L["NOTIFY_DB_RESET_VERSION_MISMATCH"] = "Die Addon-Datenbank wurde zurückgesetzt, weil die DB-Version nicht mit dieser Version des Addons übereinstimmte."
-L["NOTIFY_DB_EMPTY"] = "Um bereits freigeschaltete Transmog-Aussehen zu erfassen, besuche den |cff66bbffErhabener Illusionist|r NPC und blättere durch alle bekannte Aussehen."
+L["NOTIFY_DB_EMPTY"] = "Um bereits freigeschaltete Transmog-Aussehen zu erfassen, besuche den "..TXT_ILLUSIONIST.." NPC und blättere durch alle bekannte Aussehen."
 
-L["cmd_help_commands"]	= format("|c%s%s|r\n", "FFffff00", "/tmt help") .. "-- Zeigt Liste der Befehle."
-L["cmd_help_howto"]	= format("|c%s%s|r\n", "FFffff00", "/tmt howto") .. "-- Erklärt wie man dieses Addon benutzt."
-L["cmd_help_item_id"]	= format("|c%s%s |c%s%s|r\n", "FFffff00", "/tmt item", "ff66bbff", "ITEMID") .. "-- Überprüft via Item-ID, ob dieses Item freigeschaltet ist."
-L["cmd_help_item_link"]	= format("|c%s%s |c%s%s|r\n", "FFffff00", "/tmt item", "ff1eff00", "[Itemlink]") .. "-- Überprüft via Item-Link, ob dieses Item freigeschaltet ist."
-L["cmd_help_tooltip"]	= format("|c%s%s|r\n", "FFffff00", "/tmt tooltip") .. "-- Schaltet Tooltip-Anzeige ein/aus."
-L["cmd_help_reset"]	= format("|c%s%s|r\n", "FFffff00", "/tmt reset") .. "-- Setzt die Datenbank der erfassten Transmog-Aussehen zurück."
-L["cmd_help_scan"]	= format("|c%s%s|r\n", "FFffff00", "/tmt scan") .. "-- Zeichnet alle freigeschalteten Transmog-Aussehen beim |cff66bbffErhabener Illusionist|r NPC auf. " .. format("Du musst im |c%s%s|r des NPCs sein.", "ff66bbff", "Hauptmenü")
+L["cmd_help_commands"]  = YELLOW .. "/tmt help"    .. "|r\n" .. "-- Zeigt Liste der Befehle."
+L["cmd_help_howto"]	    = YELLOW .. "/tmt howto"   .. "|r\n" .. "-- Erklärt wie man dieses Addon benutzt."
+L["cmd_help_item_id"]   = YELLOW .. "/tmt item " .. BLUE .. "ITEMID"     .. "|r\n" .. "-- Überprüft via Item-ID, ob dieses Item freigeschaltet ist."
+L["cmd_help_item_link"] = YELLOW .. "/tmt item " .. GREEN .. "[Itemlink]" .. "|r\n" .. "-- Überprüft via Item-Link, ob dieses Item freigeschaltet ist."
+L["cmd_help_tooltip"]   = YELLOW .. "/tmt tooltip" .. "|r\n" .. "-- Schaltet Tooltip-Anzeige ein/aus."
+L["cmd_help_reset"]	    = YELLOW .. "/tmt reset"   .. "|r\n" ..  "-- Setzt die Datenbank der erfassten Transmog-Aussehen zurück."
+L["cmd_help_scan"]      = YELLOW .. "/tmt scan"    .. "|r\n" .. "-- Zeichnet alle freigeschalteten Transmog-Aussehen beim " .. TXT_ILLUSIONIST .. " NPC auf.\nDu musst im " .. BLUE .. "Hauptmenü|r des NPCs sein."
 
-L["cmd_howto"]	= "Das Addon zeichnet freigeschaltete Transmog-Aussehen auf.\n    Besuche den |cff66bbffErhabener Illusionist|r NPC und blättere durch alle Seiten, um bereits bekannte Aussehen zu erfassen."
+L["cmd_howto"] 	= "Das Addon zeichnet freigeschaltete Transmog-Aussehen auf.\nBesuche den " .. TXT_ILLUSIONIST .. " NPC und blättere durch alle Seiten, um bereits bekannte Aussehen zu erfassen."
 
-L["cmd_item_error_input"]	= "Eingabe <|cFFffff00%s|r> ist nicht kompatibel für ".. format("|c%s%s|r", "FFffff00", "/tmt item")
-L["cmd_item_known_item"]	= "%s ist |cFF00dd00freigeschaltet|r."
-L["cmd_item_known_visual"]	= "%s ist |cFFffff00unbekannt|r, ist jedoch für %d |4Item:Items des gleichen Aussehens freigeschaltet."
-L["cmd_item_unknown"]	= "Das Transmog-Aussehen von %s ist |cFFffff00unbekannt|r."
+L["cmd_item_error_input"]	= "Eingabe <"..YELLOW.."%s|r> ist nicht kompatibel für ".. YELLOW .. "/tmt item" .. "|r"
+L["cmd_item_known_item"]	= "%s ist " .. GREEN .. "freigeschaltet|r."
+L["cmd_item_known_visual"]	= "%s ist " .. ORANGE .. "unbekannt|r, ist jedoch für %d |4Item:Items; des gleichen Aussehens freigeschaltet."
+L["cmd_item_unknown"]	= "Das Transmog-Aussehen von %s ist " .. RED .. "unbekannt|r."
 
 L["cmd_clear_db"]	= "Datenbank dieses Charakters wurde zurückgesetzt."
 
-L["cmd_unknown_none"]	= "FEHLER: Eingabe <|cFFffff00%s|r> ist kein bekannter Befehl."
-L["cmd_unknown_multiple"]	= "FEHLER: Eingabe <|cFFffff00%s|r> entspricht mehreren Befehlen: |cFFffff00%s|r"
+L["cmd_unknown_none"]	= "FEHLER: Eingabe <" .. YELLOW .. "%s|r> ist kein bekannter Befehl."
+L["cmd_unknown_multiple"]	= "FEHLER: Eingabe <" .. YELLOW .. "%s|r> entspricht mehreren Befehlen: " .. YELLOW .. "%s|r"
 
-L["cmd_scan_err_gossip_open"]	= "FEHLER: "..format("|c%s%s|r\n", "FFffff00", "/tmt scan") .. "-- Zeichnet alle freigeschalteten Transmog-Aussehen beim |cff66bbffErhabener Illusionist|r NPC auf. " .. format("Du musst im |c%s%s|r des NPCs sein.", "ff66bbff", "Hauptmenü")
+L["cmd_scan_err_gossip_open"]	= "FEHLER: " .. YELLOW .. "/tmt scan"    .. "|r\n" .. "-- Zeichnet alle freigeschalteten Transmog-Aussehen beim " .. TXT_ILLUSIONIST .. " NPC auf.\nDu musst im " .. BLUE .. "Hauptmenü|r des NPCs sein."
 L["cmd_scan_err_timeout"]	= "FEHLER: Scan nach %s Zeitüberschreitung abgebrochen."
-L["cmd_scan_finish"]	= "Scan abgeschlossen.  " .. "Für verlässlichere Scan-Resultate, führe folgende Schritte vor dem Scan aus:" .. "\n1) DB zurücksetzen (" .. format("|c%s%s|r", "FFffff00", "/tmt reset") .. ")" .. "\n2) Ziehe alle Items aus, welche " .. format("|c%s%s|r", "FFffff00", "derzeit transmogrifiziert sind") .. "\n3) Entferne alle " .. format("|c%s%s|r", "FFffff00", "BoE Items") .. " (" .. ITEM_BIND_ON_EQUIP .. ") von den Taschen (z.B. in die Bank)"
+L["cmd_scan_finish"]	= "Scan abgeschlossen.  Für verlässliche Scan-Resultate, führe folgende Schritte vor dem Scan aus:"
+L["cmd_scan_finish_1"]	= "1) DB zurücksetzen (" .. YELLOW .. "/tmt reset" .. "|r)"
+L["cmd_scan_finish_2"]	= "2) Ziehe alle Items aus, welche " .. BLUE .. "derzeit transmogrifiziert sind" .. "|r"
+L["cmd_scan_finish_2"]	= "3) Entferne alle " .. YELLOW .. "BoE Items" .. "|r (" .. ITEM_BIND_ON_EQUIP .. ") von den Taschen (z.B. in die Bank)"
 
-L["tooltip_item_known_item"]	= "|cff1eff00freigeschaltet|r"
-L["tooltip_item_known_visual"]	= "|c0cffd200für Item(s) gleichen Aussehens freigeschaltet|r"
-L["tooltip_item_unknown"]	= "|cffff2020unbekannt|r"
+L["tooltip_item_known_item"]	= GREEN .. "freigeschaltet|r"
+L["tooltip_item_known_visual"]	= ORANGE .. "für Item(s) gleichen Aussehens freigeschaltet|r"
+L["tooltip_item_unknown"]	= RED .. "unbekannt|r"
 L["tooltip_cmd_show"]	= "Tooltip-Info wird nun angezeigt."
 L["tooltip_cmd_hide"]	= "Tooltip-Info wird nicht mehr angezeigt."
 L["tooltip_token_known"]	= "%d |4Item:Items; freigeschaltet: "
