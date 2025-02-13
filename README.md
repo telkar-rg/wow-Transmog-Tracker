@@ -11,6 +11,9 @@ WotLK 3.3.5 Addon to track known Transmog appearances on the Rising-Gods server.
 > `/transmogtracker`
 
 ## Changes
+### [Transmog-Tracker 0.6](https://github.com/telkar-rg/wow-Transmog-Tracker/releases/tag/v0.6)
+- Made addon title easier to search ("TMT")
+- Added Unlock Counter to Scan command
 ### [Transmog-Tracker 0.5](https://github.com/telkar-rg/wow-Transmog-Tracker/releases/tag/v0.5)
 - Added tooltip info for Armor Token items
 ### [Transmog-Tracker 0.4](https://github.com/telkar-rg/wow-Transmog-Tracker/releases/tag/v0.4)
