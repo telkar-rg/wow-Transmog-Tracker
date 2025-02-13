@@ -45,7 +45,7 @@ L["cmd_scan_err_timeout"]	= "FEHLER: Scan nach %s Zeitüberschreitung abgebroche
 L["cmd_scan_finish"]	= "Scan abgeschlossen.  Für verlässliche Scan-Resultate, führe folgende Schritte vor dem Scan aus:"
 L["cmd_scan_finish_1"]	= "1) DB zurücksetzen (" .. YELLOW .. "/tmt reset" .. "|r)"
 L["cmd_scan_finish_2"]	= "2) Ziehe alle Items aus, welche " .. BLUE .. "derzeit transmogrifiziert sind" .. "|r"
-L["cmd_scan_finish_2"]	= "3) Entferne alle " .. YELLOW .. "BoE Items" .. "|r (" .. ITEM_BIND_ON_EQUIP .. ") von den Taschen (z.B. in die Bank)"
+L["cmd_scan_finish_3"]	= "3) Entferne alle " .. YELLOW .. "BoE Items" .. "|r (" .. ITEM_BIND_ON_EQUIP .. ") von den Taschen (z.B. in die Bank)"
 
 L["tooltip_item_known_item"]	= GREEN .. "freigeschaltet|r"
 L["tooltip_item_known_visual"]	= ORANGE .. "für Item(s) gleichen Aussehens freigeschaltet|r"
