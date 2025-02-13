@@ -25,7 +25,7 @@ local db, dbOptions, dbGlobal
 local UniqueDisplay = ADDON_TABLE["UniqueDisplay"]
 local TokenInfo = ADDON_TABLE["TokenInfo"]
 
-local pattern_item = "(\124c%x+\124Hitem:(%d+):[:%d]+\124h%[(.-)%]\124h\124r)"
+local pattern_item = "(\124c%x+\124Hitem:(%d+):[-:%d]+\124h%[(.-)%]\124h\124r)"
 local pattern_link = "(\124c%x+\124H.-\124h\124r)"
 local pattern_icon = "\124T.-\124t(.+)"
 -- local check_gear_flag = true
@@ -38,8 +38,6 @@ local scan_table_slots = {}
 local scan_table_slots_template = { L["SLOT_NAME_HEAD"], L["SLOT_NAME_SHOULDERS"], L["SLOT_NAME_SHIRT"], L["SLOT_NAME_CHEST"], L["SLOT_NAME_WAIST"], L["SLOT_NAME_LEGS"], L["SLOT_NAME_FEET"], L["SLOT_NAME_WRISTS"], L["SLOT_NAME_HANDS"], L["SLOT_NAME_BACK"], L["SLOT_NAME_MAIN_HAND"], L["SLOT_NAME_OFF_HAND"], L["SLOT_NAME_RANGED"], L["SLOT_NAME_TABARD"] }
 
 local TMT_OnShowTooltip -- forward-declaration
-local TMT_GroupLootFrame_OpenNewFrame
-local TMT_GroupLootFrame_OnShow
 
 local PlayerFaction, PlayerClass
 
@@ -76,11 +74,6 @@ function addon:OnInitialize()
 	PlayerFaction = UnitFactionGroup("player") 	-- get EN PlayerFaction
 	_, PlayerClass = UnitClass("player") 		-- get EN PlayerClass
 	
-
--- hooksecurefunc("GroupLootFrame_OnShow", TMT_GroupLootFrame_OnShow); -- Hooks the global CastSpellByName
-hooksecurefunc("GroupLootFrame_OpenNewFrame", TMT_GroupLootFrame_OpenNewFrame);
--- hooksecurefunc("GroupLootFrame_OnShow", function() print('x') end )
-hooksecurefunc("GroupLootFrame_OnHide", TMT_GroupLootFrame_OnHide);
 end
 
 
@@ -262,6 +255,9 @@ end
 
 function addon:cmdScanStopNormal()
 	print( L["cmd_scan_finish"] )
+	print( L["cmd_scan_finish_1"] )
+	print( L["cmd_scan_finish_2"] )
+	print( L["cmd_scan_finish_3"] )
 	addon:cmdScanStop()
 end
 
@@ -713,66 +709,4 @@ TMT_OnShowTooltip = function(tooltip) -- has been declared local
 			tooltip:AddLine(tooltipText,1,1,1,1)	-- turned on line wrap
 		end
 	end
-end
-
-function TMT_GroupLootFrame_OpenNewFrame(rollID, rollTime)
-	-- local texture, name, count, quality = GetLootRollItemInfo(this.rollID);
-	print("-- TMT_GroupLootFrame_OpenNewFrame", rollID)
-	-- getglobal("TMT_GroupLootFrame"..id.."Texture"):Show();
-	
-	local frame, idx;
-	for i=1, NUM_GROUP_LOOT_FRAMES do
-		frame = _G["GroupLootFrame"..i];
-		if ( frame:IsShown() and frame.rollID == rollID) then
-			idx = i
-			break;
-		end
-	end
-	if not idx then return end
-	if idx ~= 1 then return end
-	
-	TMT_GroupLootFrame1:Show()
-	
-	
-	-- local texture = frame.TMT_Icon 
-	-- if not texture then 
-		-- frame.TMT_Icon = frame:CreateTexture(nil, 'HIGHLIGHT')
-		-- texture = frame.TMT_Icon
-		
-		-- texture:SetTexture("Interface\Icons\INV_Box_01")
-		-- texture:SetSize(48, 48)
-		-- texture:SetPoint("TOPLEFT", -24, 24);
-	-- end
-	-- frame:SetTexture("Interface\Icons\INV_Box_01")
-	-- frame:Show()
-	-- _G["GroupLootFrame" .. i]:Show()
-	-- texture:Show()
-
-end
-function TMT_GroupLootFrame_OnHide(self)
-	print("-- TMT_GroupLootFrame_OnHide", "rollID", self.rollID, "id", self:GetID())
-
-end
-
-function TMT_GroupLootFrame_OnShow(self)
-	local rollID = self.rollID
-	
-	local id = self:GetID();
-	-- _G["GroupLootFrame"..id.."IconFrameIcon"]:SetTexture(texture);
-	-- _G["GroupLootFrame"..id.."Name"]:SetText(name);
-	-- local color = ITEM_QUALITY_COLORS[quality];
-	-- _G["GroupLootFrame"..id.."Name"]:SetVertexColor(color.r, color.g, color.b);
-	-- if ( count > 1 ) then
-		-- _G["GroupLootFrame"..id.."IconFrameCount"]:SetText(count);
-		-- _G["GroupLootFrame"..id.."IconFrameCount"]:Show();
-	-- else
-		-- _G["GroupLootFrame"..id.."IconFrameCount"]:Hide();
-	-- end
-	
-	
-	
-	print("-- TMT_GroupLootFrame_OnShow","rollID", rollID, "id", id)
-	-- getglobal("TMT_GroupLootFrame"..id.."Texture"):Show();
-	
-
 end

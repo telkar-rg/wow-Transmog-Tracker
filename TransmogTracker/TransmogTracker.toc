@@ -15,4 +15,3 @@ Locale\deDE.lua
 UniqueDisplay.lua
 
 TransmogTracker.lua
-TransmogTracker.xml
