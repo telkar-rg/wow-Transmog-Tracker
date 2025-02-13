@@ -42,10 +42,10 @@ L["cmd_unknown_multiple"]	= "FEHLER: Eingabe <" .. YELLOW .. "%s|r> entspricht m
 
 L["cmd_scan_err_gossip_open"]	= "FEHLER: " .. YELLOW .. "/tmt scan"    .. "|r\n" .. "-- Zeichnet alle freigeschalteten Transmog-Aussehen beim " .. TXT_ILLUSIONIST .. " NPC auf.\nDu musst im " .. BLUE .. "Hauptmenü|r des NPCs sein."
 L["cmd_scan_err_timeout"]	= "FEHLER: Scan nach %s Zeitüberschreitung abgebrochen."
-L["cmd_scan_finish"]	= "Scan abgeschlossen.  Für verlässliche Scan-Resultate, führe folgende Schritte vor dem Scan aus:"
+L["cmd_scan_finish"]	= "Scan abgeschlossen: %d |4Item:Items; erfasst.\nFür verlässliche Scan-Resultate, folgende Schritte vor dem Scan ausführen:"
 L["cmd_scan_finish_1"]	= "1) DB zurücksetzen (" .. YELLOW .. "/tmt reset" .. "|r)"
-L["cmd_scan_finish_2"]	= "2) Ziehe alle Items aus, welche " .. BLUE .. "derzeit transmogrifiziert sind" .. "|r"
-L["cmd_scan_finish_3"]	= "3) Entferne alle " .. YELLOW .. "BoE Items" .. "|r (" .. ITEM_BIND_ON_EQUIP .. ") von den Taschen (z.B. in die Bank)"
+L["cmd_scan_finish_2"]	= "2) Alle Items ausziehen, welche " .. BLUE .. "derzeit transmogrifiziert sind" .. "|r"
+L["cmd_scan_finish_3"]	= "3) Alle " .. YELLOW .. "BoE Items" .. "|r (" .. ITEM_BIND_ON_EQUIP .. ") von den Taschen entfernen (z.B. in die Bank)"
 
 L["tooltip_item_known_item"]	= GREEN .. "freigeschaltet|r"
 L["tooltip_item_known_visual"]	= ORANGE .. "für Item(s) gleichen Aussehens freigeschaltet|r"

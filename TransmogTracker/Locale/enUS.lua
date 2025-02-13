@@ -42,7 +42,7 @@ L["cmd_unknown_multiple"]	= "ERROR: Input <" .. YELLOW .. "%s|r> matches multipl
 
 L["cmd_scan_err_gossip_open"]	= "ERROR: " .. YELLOW .. "/tmt scan"    .. "|r\n" .. "-- Scans all known appearances at the " .. TXT_ILLUSIONIST .. " NPC.\nYou must be in the " .. BLUE .. "Main Menu|r of the NPC."
 L["cmd_scan_err_timeout"]	= "ERROR: Scan cancelled after %s timeout."
-L["cmd_scan_finish"]	= "Scan completed. For reliable scan results, follow these steps before scanning:"
+L["cmd_scan_finish"]	= "Scan completed: %d |4Item:Items; tracked.\nFor reliable scan results, follow these steps before scanning:"
 L["cmd_scan_finish_1"]	= "1) reset the DB (" .. YELLOW .. "/tmt reset" .. "|r)"
 L["cmd_scan_finish_2"]	= "2) unequip all items that are " .. BLUE .. "currently transmogrified" .. "|r"
 L["cmd_scan_finish_3"]	= "3) remove all " .. YELLOW .. "BoE items" .. "|r (" .. ITEM_BIND_ON_EQUIP .. ") from bags (e.g. to bank)"

@@ -29,6 +29,8 @@ local pattern_item = "(\124c%x+\124Hitem:(%d+):[-:%d]+\124h%[(.-)%]\124h\124r)"
 local pattern_link = "(\124c%x+\124H.-\124h\124r)"
 local pattern_icon = "\124T.-\124t(.+)"
 -- local check_gear_flag = true
+local unlockCounter = 0
+
 local GossipOpen = false
 local scan_in_progress = false
 local TIMER_SCAN_TIMEOUT
@@ -45,7 +47,7 @@ local function DPrint(...)
 	-- DEFAULT_CHAT_FRAME:AddMessage( chatprefix..tostring(msg) )
 	-- ChatFrame3:AddMessage( head.." "..tostring(table.concat(tmp," !! ",1,n)) )
 	DEFAULT_CHAT_FRAME:AddMessage( "|cff66bbff"..ADDON_NAME_SHORT.."|r: " .. strjoin("|r; ", tostringall(...) ) )
-	ChatFrame3:AddMessage( "|cff66bbff"..ADDON_NAME_SHORT.."|r: " .. strjoin("|r; ", tostringall(...) ) )
+	-- ChatFrame3:AddMessage( "|cff66bbff"..ADDON_NAME_SHORT.."|r: " .. strjoin("|r; ", tostringall(...) ) )
 end
 local print=DPrint
 
@@ -254,7 +256,7 @@ end
 
 
 function addon:cmdScanStopNormal()
-	print( L["cmd_scan_finish"] )
+	print( format(L["cmd_scan_finish"], unlockCounter) )
 	print( L["cmd_scan_finish_1"] )
 	print( L["cmd_scan_finish_2"] )
 	print( L["cmd_scan_finish_3"] )
@@ -263,6 +265,8 @@ end
 
 
 function addon:cmdScanStop()
+	unlockCounter = 0
+	
 	scan_in_progress = nil
 	scan_last = nil
 	self:CancelTimer( TIMER_SCAN_TIMEOUT ) 	-- Cancel timeout timer
@@ -283,6 +287,8 @@ function addon:cmdScanStart()
 		print(L["cmd_scan_err_gossip_open"])
 		return
 	else
+		unlockCounter = 0
+		
 		-- check if in main menu
 		local GossipText = GetGossipText()
 		local isMain = strfind(GossipText,  L["GOSSIP_TEXT_MAINMENU"])
@@ -598,6 +604,8 @@ end
 
 function addon:setDisplayId(itemId, itemLink, delay)
 	if not db.ItemIds[itemId] then
+		unlockCounter = unlockCounter + 1
+		
 		if not itemLink then
 			local _, itemLink = GetItemInfo(itemId)
 		end
